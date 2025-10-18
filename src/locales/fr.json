@@ -136,7 +136,29 @@
     "subtitle": "Ce que nos clients disent de leur expérience avec Las Galeras Divers",
     "ctaTitle": "Rejoignez des centaines de plongeurs satisfaits !",
     "ctaText": "Vivez vous aussi une expérience de plongée inoubliable à Las Galeras",
-    "ctaButton": "Réservez Votre Plongée"
+    "ctaButton": "Réservez Votre Plongée",
+    "items": {
+      "1": {
+        "name": "Marie & Thomas",
+        "location": "France",
+        "text": "Une expérience inoubliable ! L'équipe de Las Galeras Divers est incroyablement professionnelle et chaleureuse. Nous avons pu observer des tortues, des raies et une multitude de poissons colorés. Les sites de plongée sont magnifiques et bien préservés."
+      },
+      "2": {
+        "name": "Sophie Laurent",
+        "location": "Belgique",
+        "text": "J'ai fait mon baptême de plongée avec eux et c'était parfait ! Les instructeurs sont très pédagogues et rassurants. Je me suis sentie en sécurité du début à la fin. Je recommande vivement pour une première expérience sous-marine !"
+      },
+      "3": {
+        "name": "Jean-Pierre Dubois",
+        "location": "Canada",
+        "text": "En tant que plongeur expérimenté, j'ai été impressionné par la qualité des sites et le professionnalisme de l'équipe. Le spot de Piedra Bonita est tout simplement extraordinaire ! Des groupes de petite taille qui permettent une vraie exploration."
+      },
+      "4": {
+        "name": "Famille Moreau",
+        "location": "Suisse",
+        "text": "Nos enfants de 10 et 12 ans ont adoré leur baptême de plongée ! L'équipe a été très attentive et patient avec eux. C'est devenu le moment fort de nos vacances à Las Galeras. Merci pour ces souvenirs mémorables !"
+      }
+    }
   },
   "contact": {
     "title": "Contactez-nous",

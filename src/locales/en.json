@@ -136,7 +136,29 @@
     "subtitle": "What our clients say about their experience with Las Galeras Divers",
     "ctaTitle": "Join hundreds of satisfied divers!",
     "ctaText": "Experience an unforgettable diving adventure in Las Galeras",
-    "ctaButton": "Book Your Dive"
+    "ctaButton": "Book Your Dive",
+    "items": {
+      "1": {
+        "name": "Marie & Thomas",
+        "location": "France",
+        "text": "An unforgettable experience! The Las Galeras Divers team is incredibly professional and warm. We were able to observe turtles, rays and a multitude of colorful fish. The dive sites are magnificent and well preserved."
+      },
+      "2": {
+        "name": "Sophie Laurent",
+        "location": "Belgium",
+        "text": "I did my discovery dive with them and it was perfect! The instructors are very educational and reassuring. I felt safe from start to finish. I highly recommend for a first underwater experience!"
+      },
+      "3": {
+        "name": "Jean-Pierre Dubois",
+        "location": "Canada",
+        "text": "As an experienced diver, I was impressed by the quality of the sites and the professionalism of the team. The Piedra Bonita spot is simply extraordinary! Small groups that allow real exploration."
+      },
+      "4": {
+        "name": "Moreau Family",
+        "location": "Switzerland",
+        "text": "Our 10 and 12 year old children loved their discovery dive! The team was very attentive and patient with them. It became the highlight of our vacation in Las Galeras. Thank you for these memorable moments!"
+      }
+    }
   },
   "contact": {
     "title": "Contact Us",

@@ -136,7 +136,29 @@
     "subtitle": "Lo que nuestros clientes dicen sobre su experiencia con Las Galeras Divers",
     "ctaTitle": "¡Únete a cientos de buceadores satisfechos!",
     "ctaText": "Vive tú también una experiencia de buceo inolvidable en Las Galeras",
-    "ctaButton": "Reserva Tu Buceo"
+    "ctaButton": "Reserva Tu Buceo",
+    "items": {
+      "1": {
+        "name": "Marie & Thomas",
+        "location": "Francia",
+        "text": "¡Una experiencia inolvidable! El equipo de Las Galeras Divers es increíblemente profesional y cálido. Pudimos observar tortugas, rayas y una multitud de peces coloridos. Los sitios de buceo son magníficos y están bien conservados."
+      },
+      "2": {
+        "name": "Sophie Laurent",
+        "location": "Bélgica",
+        "text": "¡Hice mi bautismo de buceo con ellos y fue perfecto! Los instructores son muy pedagógicos y tranquilizadores. Me sentí segura de principio a fin. ¡Recomiendo encarecidamente para una primera experiencia submarina!"
+      },
+      "3": {
+        "name": "Jean-Pierre Dubois",
+        "location": "Canadá",
+        "text": "Como buceador experimentado, quedé impresionado por la calidad de los sitios y el profesionalismo del equipo. ¡El lugar de Piedra Bonita es simplemente extraordinario! Grupos pequeños que permiten una exploración real."
+      },
+      "4": {
+        "name": "Familia Moreau",
+        "location": "Suiza",
+        "text": "¡Nuestros hijos de 10 y 12 años adoraron su bautismo de buceo! El equipo fue muy atento y paciente con ellos. Se convirtió en el momento más destacado de nuestras vacaciones en Las Galeras. ¡Gracias por estos recuerdos memorables!"
+      }
+    }
   },
   "contact": {
     "title": "Contáctenos",
