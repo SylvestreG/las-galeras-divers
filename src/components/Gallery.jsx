@@ -72,13 +72,13 @@ const Gallery = () => {
 
       {selectedImage && (
         <div className="lightbox" onClick={closeLightbox}>
-          <button className="lightbox-close" onClick={closeLightbox} aria-label="Fermer">
+          <button className="lightbox-close" onClick={closeLightbox} aria-label={t('accessibility.closeModal')}>
             ×
           </button>
           <button 
             className="lightbox-nav lightbox-prev" 
             onClick={(e) => { e.stopPropagation(); navigateImage('prev'); }}
-            aria-label={t('gallery.previousImage') || 'Previous image'}
+            aria-label={t('accessibility.previousImage')}
           >
             ‹
           </button>
@@ -89,7 +89,7 @@ const Gallery = () => {
           <button 
             className="lightbox-nav lightbox-next" 
             onClick={(e) => { e.stopPropagation(); navigateImage('next'); }}
-            aria-label={t('gallery.nextImage') || 'Next image'}
+            aria-label={t('accessibility.nextImage')}
           >
             ›
           </button>

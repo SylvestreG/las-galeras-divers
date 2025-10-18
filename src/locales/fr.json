@@ -195,6 +195,16 @@
   },
   "common": {
     "logoAlt": "Logo Las Galeras Divers"
+  },
+  "accessibility": {
+    "toggleMenu": "Basculer le menu",
+    "closeModal": "Fermer",
+    "changeLanguage": "Changer de langue",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "whatsapp": "WhatsApp",
+    "previousImage": "Image précédente",
+    "nextImage": "Image suivante"
   }
 }
 

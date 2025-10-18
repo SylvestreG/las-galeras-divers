@@ -3,7 +3,7 @@ import { useLanguage } from '../contexts/LanguageContext'
 import './LanguageSwitcher.css'
 
 const LanguageSwitcher = () => {
-  const { language, changeLanguage } = useLanguage()
+  const { language, changeLanguage, t } = useLanguage()
   const [isOpen, setIsOpen] = useState(false)
 
   const languages = [
@@ -24,7 +24,7 @@ const LanguageSwitcher = () => {
       <button 
         className="lang-button"
         onClick={() => setIsOpen(!isOpen)}
-        aria-label="Change language"
+        aria-label={t('accessibility.changeLanguage')}
       >
         <span className="lang-flag">{currentLang.flag}</span>
         <span className="lang-code">{currentLang.code.toUpperCase()}</span>

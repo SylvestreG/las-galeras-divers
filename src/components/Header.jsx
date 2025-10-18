@@ -41,7 +41,7 @@ const Header = () => {
         <button 
           className={`mobile-menu-toggle ${isMobileMenuOpen ? 'open' : ''}`}
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-          aria-label="Toggle menu"
+          aria-label={t('accessibility.toggleMenu')}
         >
           <span></span>
           <span></span>
