@@ -1,5 +1,6 @@
 import React from 'react'
 import { useLanguage } from '../contexts/LanguageContext'
+import { getAssetPath } from '../utils/assets'
 import './About.css'
 
 const About = () => {
@@ -17,9 +18,9 @@ const About = () => {
 
         <div className="about-content">
           <div className="about-image">
-            <img src="/assets/about-main.jpg" alt="Las Galeras Divers équipe" className="img-cover" />
+            <img src={getAssetPath('/assets/about-main.jpg')} alt="Las Galeras Divers équipe" className="img-cover" />
             <div className="about-badge">
-              <img src="/assets/padi-logo.png" alt="PADI Certified" className="padi-logo" />
+              <img src={getAssetPath('/assets/padi-logo.png')} alt="PADI Certified" className="padi-logo" />
             </div>
           </div>
 

@@ -1,5 +1,6 @@
 import React from 'react'
 import { useLanguage } from '../contexts/LanguageContext'
+import { getAssetPath } from '../utils/assets'
 import config from '../config.json'
 import './Contact.css'
 
@@ -87,7 +88,7 @@ const Contact = () => {
 
           <div className="contact-map">
             <div className="map-placeholder">
-              <img src="/assets/map-location.jpg" alt="Las Galeras Divers location map" className="map-image" />
+              <img src={getAssetPath('/assets/map-location.jpg')} alt="Las Galeras Divers location map" className="map-image" />
               <div className="map-overlay">
                 <div className="map-marker">📍</div>
                 <p className="map-text">{t('contact.mapMarker')}</p>

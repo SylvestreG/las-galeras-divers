@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { useLanguage } from '../contexts/LanguageContext'
+import { getAssetPath } from '../utils/assets'
 import './Gallery.css'
 
 const Gallery = () => {
@@ -7,15 +8,15 @@ const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState(null)
 
   const images = [
-    { id: 1, src: '/assets/gallery-1.jpg', alt: 'Plongée corail Las Galeras', category: 'coral' },
-    { id: 2, src: '/assets/gallery-2.jpg', alt: 'Tortue marine', category: 'fauna' },
-    { id: 3, src: '/assets/gallery-3.jpg', alt: 'Poisson tropical', category: 'fauna' },
-    { id: 4, src: '/assets/gallery-4.jpg', alt: 'Jardin de corail', category: 'coral' },
-    { id: 5, src: '/assets/gallery-5.jpg', alt: 'Plage Las Galeras', category: 'beach' },
-    { id: 6, src: '/assets/gallery-6.jpg', alt: 'Groupe de plongeurs', category: 'diving' },
-    { id: 7, src: '/assets/gallery-7.jpg', alt: 'Raie manta', category: 'fauna' },
-    { id: 8, src: '/assets/gallery-8.jpg', alt: 'Cascade Samaná', category: 'landscape' },
-    { id: 9, src: '/assets/gallery-9.jpg', alt: 'Barracuda', category: 'fauna' },
+    { id: 1, src: getAssetPath('/assets/gallery-1.jpg'), alt: 'Plongée corail Las Galeras', category: 'coral' },
+    { id: 2, src: getAssetPath('/assets/gallery-2.jpg'), alt: 'Tortue marine', category: 'fauna' },
+    { id: 3, src: getAssetPath('/assets/gallery-3.jpg'), alt: 'Poisson tropical', category: 'fauna' },
+    { id: 4, src: getAssetPath('/assets/gallery-4.jpg'), alt: 'Jardin de corail', category: 'coral' },
+    { id: 5, src: getAssetPath('/assets/gallery-5.jpg'), alt: 'Plage Las Galeras', category: 'beach' },
+    { id: 6, src: getAssetPath('/assets/gallery-6.jpg'), alt: 'Groupe de plongeurs', category: 'diving' },
+    { id: 7, src: getAssetPath('/assets/gallery-7.jpg'), alt: 'Raie manta', category: 'fauna' },
+    { id: 8, src: getAssetPath('/assets/gallery-8.jpg'), alt: 'Cascade Samaná', category: 'landscape' },
+    { id: 9, src: getAssetPath('/assets/gallery-9.jpg'), alt: 'Barracuda', category: 'fauna' },
   ]
 
   const openLightbox = (image) => {

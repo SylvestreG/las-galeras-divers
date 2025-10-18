@@ -1,5 +1,6 @@
 import React from 'react'
 import { useLanguage } from '../contexts/LanguageContext'
+import { getAssetPath } from '../utils/assets'
 import config from '../config.json'
 import './Hero.css'
 
@@ -19,8 +20,12 @@ const Hero = () => {
     }
   }
 
+  const heroStyle = {
+    backgroundImage: `linear-gradient(135deg, rgba(78, 205, 196, 0.9) 0%, rgba(58, 159, 199, 0.9) 100%), url(${getAssetPath('/assets/hero-bg.jpg')})`
+  }
+
   return (
-    <section id="hero" className="hero">
+    <section id="hero" className="hero" style={heroStyle}>
       <div className="hero-overlay"></div>
       <div className="hero-content">
         <div className="container">

@@ -1,5 +1,6 @@
 import React from 'react'
 import { useLanguage } from '../contexts/LanguageContext'
+import { getAssetPath } from '../utils/assets'
 import './Services.css'
 
 const Services = () => {
@@ -12,7 +13,7 @@ const Services = () => {
       subtitleKey: 'services.baptism.subtitle',
       descriptionKey: 'services.baptism.description',
       icon: "🤿",
-      image: "/assets/bapteme.jpg",
+      image: getAssetPath("/assets/bapteme.jpg"),
       featuresKeys: [
         'services.baptism.feature1',
         'services.baptism.feature2',
@@ -25,7 +26,7 @@ const Services = () => {
       subtitleKey: 'services.training.subtitle',
       descriptionKey: 'services.training.description',
       icon: "📚",
-      image: "/assets/formation.jpg",
+      image: getAssetPath("/assets/formation.jpg"),
       featuresKeys: [
         'services.training.feature1',
         'services.training.feature2',
@@ -38,7 +39,7 @@ const Services = () => {
       subtitleKey: 'services.funDive.subtitle',
       descriptionKey: 'services.funDive.description',
       icon: "🌊",
-      image: "/assets/fundive.jpg",
+      image: getAssetPath("/assets/fundive.jpg"),
       featuresKeys: [
         'services.funDive.feature1',
         'services.funDive.feature2',
@@ -51,7 +52,7 @@ const Services = () => {
       subtitleKey: 'services.nightDive.subtitle',
       descriptionKey: 'services.nightDive.description',
       icon: "🌙",
-      image: "/assets/night-dive.jpg",
+      image: getAssetPath("/assets/night-dive.jpg"),
       featuresKeys: [
         'services.nightDive.feature1',
         'services.nightDive.feature2',
