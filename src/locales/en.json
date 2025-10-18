@@ -86,7 +86,37 @@
     "info2Title": "Group Rates",
     "info2Text": "Discounts available for groups of 4 or more. Contact us!",
     "info3Title": "Included in Price",
-    "info3Text": "All necessary equipment, boat transportation, and PADI professional supervision"
+    "info3Text": "All necessary equipment, boat transportation, and PADI professional supervision",
+    "services": {
+      "discovery": {
+        "name": "Discovery Dive",
+        "description": "First pool immersion to familiarize with equipment. From 8 years old."
+      },
+      "single-dive": {
+        "name": "Single Dive",
+        "description": "One dive exploring the magnificent sites of Las Galeras."
+      },
+      "double-dive": {
+        "name": "Double Dive",
+        "description": "Two dives to explore different sites in one day."
+      },
+      "night-dive": {
+        "name": "Night Dive",
+        "description": "Discover the magic of nocturnal marine life."
+      },
+      "padi-scuba-diver": {
+        "name": "PADI Scuba Diver",
+        "description": "PADI certification to dive up to 12 meters with a professional."
+      },
+      "open-water": {
+        "name": "Open Water Diver",
+        "description": "Complete PADI certification to dive up to 18 meters independently."
+      },
+      "advanced-open-water": {
+        "name": "Advanced Open Water",
+        "description": "Advanced PADI level to perfect your skills and dive up to 30 meters."
+      }
+    }
   },
   "gallery": {
     "title": "Photo Gallery",

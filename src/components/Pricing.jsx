@@ -56,13 +56,13 @@ const Pricing = () => {
                 <div className="pricing-badge">{t('pricing.popular')}</div>
               )}
               <div className="pricing-header">
-                <h3 className="pricing-title">{service.name}</h3>
+                <h3 className="pricing-title">{t(`pricing.services.${service.id}.name`)}</h3>
                 <div className="pricing-price">
                   <span className="price-amount">{formatPrice(service.price)}</span>
                   <span className="price-currency">{config.pricing.currency}</span>
                 </div>
               </div>
-              <p className="pricing-description">{service.description}</p>
+              <p className="pricing-description">{t(`pricing.services.${service.id}.description`)}</p>
               <button 
                 className="btn btn-secondary"
                 onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}

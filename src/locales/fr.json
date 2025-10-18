@@ -86,7 +86,37 @@
     "info2Title": "Tarifs Groupe",
     "info2Text": "Réductions disponibles pour les groupes de 4 personnes et plus. Contactez-nous !",
     "info3Title": "Inclus dans le Prix",
-    "info3Text": "Tout l'équipement nécessaire, transport en bateau, et encadrement professionnel PADI"
+    "info3Text": "Tout l'équipement nécessaire, transport en bateau, et encadrement professionnel PADI",
+    "services": {
+      "discovery": {
+        "name": "Discovery / Baptême",
+        "description": "Première immersion en piscine pour se familiariser avec l'équipement. Dès 8 ans."
+      },
+      "single-dive": {
+        "name": "Single Dive",
+        "description": "Une plongée explorée sur les magnifiques sites de Las Galeras."
+      },
+      "double-dive": {
+        "name": "Double Dive",
+        "description": "Deux plongées pour explorer différents sites en une journée."
+      },
+      "night-dive": {
+        "name": "Night Dive",
+        "description": "Découvrez la magie de la vie marine nocturne."
+      },
+      "padi-scuba-diver": {
+        "name": "PADI Scuba Diver",
+        "description": "Certification PADI pour plonger jusqu'à 12 mètres avec un professionnel."
+      },
+      "open-water": {
+        "name": "Open Water Diver",
+        "description": "Certification PADI complète pour plonger jusqu'à 18 mètres en autonomie."
+      },
+      "advanced-open-water": {
+        "name": "Advanced Open Water",
+        "description": "Niveau avancé PADI pour perfectionner vos compétences et plonger jusqu'à 30 mètres."
+      }
+    }
   },
   "gallery": {
     "title": "Galerie Photos",

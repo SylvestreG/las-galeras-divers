@@ -86,7 +86,37 @@
     "info2Title": "Tarifas de Grupo",
     "info2Text": "Descuentos disponibles para grupos de 4 personas o más. ¡Contáctenos!",
     "info3Title": "Incluido en el Precio",
-    "info3Text": "Todo el equipo necesario, transporte en barco y supervisión profesional PADI"
+    "info3Text": "Todo el equipo necesario, transporte en barco y supervisión profesional PADI",
+    "services": {
+      "discovery": {
+        "name": "Discovery / Bautismo",
+        "description": "Primera inmersión en piscina para familiarizarse con el equipo. Desde 8 años."
+      },
+      "single-dive": {
+        "name": "Single Dive",
+        "description": "Un buceo explorando los magníficos sitios de Las Galeras."
+      },
+      "double-dive": {
+        "name": "Double Dive",
+        "description": "Dos buceos para explorar diferentes sitios en un día."
+      },
+      "night-dive": {
+        "name": "Night Dive",
+        "description": "Descubre la magia de la vida marina nocturna."
+      },
+      "padi-scuba-diver": {
+        "name": "PADI Scuba Diver",
+        "description": "Certificación PADI para bucear hasta 12 metros con un profesional."
+      },
+      "open-water": {
+        "name": "Open Water Diver",
+        "description": "Certificación PADI completa para bucear hasta 18 metros de forma autónoma."
+      },
+      "advanced-open-water": {
+        "name": "Advanced Open Water",
+        "description": "Nivel avanzado PADI para perfeccionar tus habilidades y bucear hasta 30 metros."
+      }
+    }
   },
   "gallery": {
     "title": "Galería de Fotos",
