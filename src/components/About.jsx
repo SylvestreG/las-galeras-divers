@@ -18,9 +18,9 @@ const About = () => {
 
         <div className="about-content">
           <div className="about-image">
-            <img src={getAssetPath('/assets/about-main.jpg')} alt="Las Galeras Divers équipe" className="img-cover" />
+            <img src={getAssetPath('/assets/about-main.jpg')} alt={t('about.imageAlt')} className="img-cover" />
             <div className="about-badge">
-              <img src={getAssetPath('/assets/padi-logo.png')} alt="PADI Certified" className="padi-logo" />
+              <img src={getAssetPath('/assets/padi-logo.png')} alt={t('about.padiLogoAlt')} className="padi-logo" />
             </div>
           </div>
 

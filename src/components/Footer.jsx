@@ -29,7 +29,7 @@ const Footer = () => {
           <div className="footer-grid">
             <div className="footer-column footer-about">
               <div className="footer-logo">
-                <img src={getAssetPath('/assets/logo.png')} alt="Las Galeras Divers Logo" className="footer-logo-img" />
+                <img src={getAssetPath('/assets/logo.png')} alt={t('footer.logoAlt')} className="footer-logo-img" />
                 <span className="footer-logo-text">Las Galeras Divers</span>
               </div>
               <p className="footer-description">
@@ -39,7 +39,7 @@ const Footer = () => {
                 📍 {siteInfo.location}
               </p>
               <div className="footer-certifications">
-                <img src={getAssetPath('/assets/padi-logo.png')} alt="PADI Certified" className="cert-logo" />
+                <img src={getAssetPath('/assets/padi-logo.png')} alt={t('footer.padiLogoAlt')} className="cert-logo" />
               </div>
             </div>
 

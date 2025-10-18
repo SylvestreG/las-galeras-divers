@@ -8,15 +8,15 @@ const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState(null)
 
   const images = [
-    { id: 1, src: getAssetPath('/assets/gallery-1.jpg'), alt: 'Plongée corail Las Galeras', category: 'coral' },
-    { id: 2, src: getAssetPath('/assets/gallery-2.jpg'), alt: 'Tortue marine', category: 'fauna' },
-    { id: 3, src: getAssetPath('/assets/gallery-3.jpg'), alt: 'Poisson tropical', category: 'fauna' },
-    { id: 4, src: getAssetPath('/assets/gallery-4.jpg'), alt: 'Jardin de corail', category: 'coral' },
-    { id: 5, src: getAssetPath('/assets/gallery-5.jpg'), alt: 'Plage Las Galeras', category: 'beach' },
-    { id: 6, src: getAssetPath('/assets/gallery-6.jpg'), alt: 'Groupe de plongeurs', category: 'diving' },
-    { id: 7, src: getAssetPath('/assets/gallery-7.jpg'), alt: 'Raie manta', category: 'fauna' },
-    { id: 8, src: getAssetPath('/assets/gallery-8.jpg'), alt: 'Cascade Samaná', category: 'landscape' },
-    { id: 9, src: getAssetPath('/assets/gallery-9.jpg'), alt: 'Barracuda', category: 'fauna' },
+    { id: 1, src: getAssetPath('/assets/gallery-1.jpg'), altKey: 'gallery.image1', category: 'coral' },
+    { id: 2, src: getAssetPath('/assets/gallery-2.jpg'), altKey: 'gallery.image2', category: 'fauna' },
+    { id: 3, src: getAssetPath('/assets/gallery-3.jpg'), altKey: 'gallery.image3', category: 'fauna' },
+    { id: 4, src: getAssetPath('/assets/gallery-4.jpg'), altKey: 'gallery.image4', category: 'coral' },
+    { id: 5, src: getAssetPath('/assets/gallery-5.jpg'), altKey: 'gallery.image5', category: 'beach' },
+    { id: 6, src: getAssetPath('/assets/gallery-6.jpg'), altKey: 'gallery.image6', category: 'diving' },
+    { id: 7, src: getAssetPath('/assets/gallery-7.jpg'), altKey: 'gallery.image7', category: 'fauna' },
+    { id: 8, src: getAssetPath('/assets/gallery-8.jpg'), altKey: 'gallery.image8', category: 'landscape' },
+    { id: 9, src: getAssetPath('/assets/gallery-9.jpg'), altKey: 'gallery.image9', category: 'fauna' },
   ]
 
   const openLightbox = (image) => {
@@ -60,10 +60,10 @@ const Gallery = () => {
               style={{ animationDelay: `${index * 0.05}s` }}
               onClick={() => openLightbox(image)}
             >
-              <img src={image.src} alt={image.alt} className="gallery-image" />
+              <img src={image.src} alt={t(image.altKey)} className="gallery-image" />
               <div className="gallery-overlay">
                 <span className="gallery-icon">🔍</span>
-                <p className="gallery-caption">{image.alt}</p>
+                <p className="gallery-caption">{t(image.altKey)}</p>
               </div>
             </div>
           ))}
@@ -78,18 +78,18 @@ const Gallery = () => {
           <button 
             className="lightbox-nav lightbox-prev" 
             onClick={(e) => { e.stopPropagation(); navigateImage('prev'); }}
-            aria-label="Image précédente"
+            aria-label={t('gallery.previousImage') || 'Previous image'}
           >
             ‹
           </button>
           <div className="lightbox-content" onClick={(e) => e.stopPropagation()}>
-            <img src={selectedImage.src} alt={selectedImage.alt} />
-            <p className="lightbox-caption">{selectedImage.alt}</p>
+            <img src={selectedImage.src} alt={t(selectedImage.altKey)} />
+            <p className="lightbox-caption">{t(selectedImage.altKey)}</p>
           </div>
           <button 
             className="lightbox-nav lightbox-next" 
             onClick={(e) => { e.stopPropagation(); navigateImage('next'); }}
-            aria-label="Image suivante"
+            aria-label={t('gallery.nextImage') || 'Next image'}
           >
             ›
           </button>

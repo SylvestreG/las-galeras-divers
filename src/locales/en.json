@@ -19,6 +19,8 @@
   "about": {
     "title": "A Unique and Personalized Experience",
     "subtitle": "Dive from the charming village of Las Galeras, a peaceful haven at the end of the world",
+    "imageAlt": "Las Galeras Divers Team",
+    "padiLogoAlt": "PADI Certified Center",
     "feature1Title": "Personalized Service",
     "feature1Text": "We are a human-sized center that emphasizes personalized and warm service. Groups of maximum 6 divers for optimal safety, always supervised by our PADI certified instructors.",
     "feature2Title": "Exceptional Sites",
@@ -88,7 +90,16 @@
   },
   "gallery": {
     "title": "Photo Gallery",
-    "subtitle": "Discover in images the wonders that await you underwater and around Las Galeras"
+    "subtitle": "Discover in images the wonders that await you underwater and around Las Galeras",
+    "image1": "Coral diving Las Galeras",
+    "image2": "Sea turtle",
+    "image3": "Tropical fish",
+    "image4": "Coral garden",
+    "image5": "Las Galeras beach",
+    "image6": "Group of divers",
+    "image7": "Manta ray",
+    "image8": "Samaná waterfall",
+    "image9": "Barracuda"
   },
   "testimonials": {
     "title": "Testimonials",
@@ -112,7 +123,8 @@
     "sunday": "Sunday",
     "hoursNote": "⚠️ Reservation recommended • We adapt our hours according to weather conditions",
     "mapMarker": "Las Galeras Divers",
-    "mapSubtext": "Your Diving Base"
+    "mapSubtext": "Your Diving Base",
+    "mapAlt": "Las Galeras Divers location map"
   },
   "footer": {
     "navigation": "Navigation",
@@ -125,7 +137,12 @@
     "funDive": "Fun Dives",
     "nightDive": "Night Dive",
     "openWater": "Open Water Diver",
-    "advanced": "Advanced Open Water"
+    "advanced": "Advanced Open Water",
+    "logoAlt": "Las Galeras Divers Logo",
+    "padiLogoAlt": "PADI Certified Center"
+  },
+  "common": {
+    "logoAlt": "Las Galeras Divers Logo"
   }
 }
 

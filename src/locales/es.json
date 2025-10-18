@@ -19,6 +19,8 @@
   "about": {
     "title": "Una Experiencia Única y Personalizada",
     "subtitle": "Sumérgete desde el encantador pueblo de Las Galeras, un refugio tranquilo al fin del mundo",
+    "imageAlt": "Equipo Las Galeras Divers",
+    "padiLogoAlt": "Centro Certificado PADI",
     "feature1Title": "Servicio Personalizado",
     "feature1Text": "Somos un centro de tamaño humano que privilegia un servicio personalizado y cálido. Grupos de máximo 6 buceadores para una seguridad óptima, siempre supervisados por nuestros instructores certificados PADI.",
     "feature2Title": "Sitios Excepcionales",
@@ -88,7 +90,16 @@
   },
   "gallery": {
     "title": "Galería de Fotos",
-    "subtitle": "Descubre en imágenes las maravillas que te esperan bajo el agua y alrededor de Las Galeras"
+    "subtitle": "Descubre en imágenes las maravillas que te esperan bajo el agua y alrededor de Las Galeras",
+    "image1": "Buceo en coral Las Galeras",
+    "image2": "Tortuga marina",
+    "image3": "Pez tropical",
+    "image4": "Jardín de coral",
+    "image5": "Playa Las Galeras",
+    "image6": "Grupo de buceadores",
+    "image7": "Raya manta",
+    "image8": "Cascada Samaná",
+    "image9": "Barracuda"
   },
   "testimonials": {
     "title": "Testimonios",
@@ -112,7 +123,8 @@
     "sunday": "Domingo",
     "hoursNote": "⚠️ Reserva recomendada • Adaptamos nuestros horarios según las condiciones meteorológicas",
     "mapMarker": "Las Galeras Divers",
-    "mapSubtext": "Tu Base de Buceo"
+    "mapSubtext": "Tu Base de Buceo",
+    "mapAlt": "Mapa de ubicación Las Galeras Divers"
   },
   "footer": {
     "navigation": "Navegación",
@@ -125,7 +137,12 @@
     "funDive": "Buceos Fun Dive",
     "nightDive": "Buceo Nocturno",
     "openWater": "Open Water Diver",
-    "advanced": "Advanced Open Water"
+    "advanced": "Advanced Open Water",
+    "logoAlt": "Logo Las Galeras Divers",
+    "padiLogoAlt": "Centro Certificado PADI"
+  },
+  "common": {
+    "logoAlt": "Logo Las Galeras Divers"
   }
 }
 

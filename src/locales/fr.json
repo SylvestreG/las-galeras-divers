@@ -19,6 +19,8 @@
   "about": {
     "title": "Une Expérience Unique et Personnalisée",
     "subtitle": "Plongez depuis le charmant village de Las Galeras, un refuge du bout du monde où règne la tranquillité",
+    "imageAlt": "Équipe Las Galeras Divers",
+    "padiLogoAlt": "Centre certifié PADI",
     "feature1Title": "Service Personnalisé",
     "feature1Text": "Nous sommes un centre à taille humaine qui privilégie un service personnalisé et chaleureux. Des groupes de 6 plongeurs maximum pour une sécurité optimale, toujours encadrés par nos instructeurs PADI certifiés.",
     "feature2Title": "Sites Exceptionnels",
@@ -88,7 +90,16 @@
   },
   "gallery": {
     "title": "Galerie Photos",
-    "subtitle": "Découvrez en images les merveilles qui vous attendent sous l'eau et autour de Las Galeras"
+    "subtitle": "Découvrez en images les merveilles qui vous attendent sous l'eau et autour de Las Galeras",
+    "image1": "Plongée corail Las Galeras",
+    "image2": "Tortue marine",
+    "image3": "Poisson tropical",
+    "image4": "Jardin de corail",
+    "image5": "Plage Las Galeras",
+    "image6": "Groupe de plongeurs",
+    "image7": "Raie manta",
+    "image8": "Cascade Samaná",
+    "image9": "Barracuda"
   },
   "testimonials": {
     "title": "Témoignages",
@@ -112,7 +123,8 @@
     "sunday": "Dimanche",
     "hoursNote": "⚠️ Réservation recommandée • Nous adaptons nos horaires selon les conditions météo",
     "mapMarker": "Las Galeras Divers",
-    "mapSubtext": "Votre Base de Plongée"
+    "mapSubtext": "Votre Base de Plongée",
+    "mapAlt": "Plan de localisation Las Galeras Divers"
   },
   "footer": {
     "navigation": "Navigation",
@@ -125,7 +137,12 @@
     "funDive": "Plongées Fun Dive",
     "nightDive": "Plongée de Nuit",
     "openWater": "Open Water Diver",
-    "advanced": "Advanced Open Water"
+    "advanced": "Advanced Open Water",
+    "logoAlt": "Logo Las Galeras Divers",
+    "padiLogoAlt": "Centre certifié PADI"
+  },
+  "common": {
+    "logoAlt": "Logo Las Galeras Divers"
   }
 }
 

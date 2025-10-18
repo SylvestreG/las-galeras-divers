@@ -31,7 +31,7 @@ const Header = () => {
     <header className={`header ${isScrolled ? 'header-scrolled' : ''}`}>
       <div className="container header-container">
         <div className="header-logo" onClick={() => scrollToSection('hero')}>
-          <img src={getAssetPath('/assets/logo.png')} alt="Las Galeras Divers Logo" className="logo-img" />
+          <img src={getAssetPath('/assets/logo.png')} alt={t('common.logoAlt')} className="logo-img" />
           <div className="logo-text">
             <span className="logo-name">Las Galeras Divers</span>
             <span className="logo-subtitle">Scuba School & Diving Center</span>
