@@ -1,0 +1,150 @@
+{
+  "siteInfo": {
+    "name": "Las Galeras Divers",
+    "tagline": "Plongez au Cœur d'un Paradis Préservé",
+    "description": "Centre de plongée francophone en République dominicaine. Baptême de plongée, formation PADI, et exploration des plus beaux sites de Las Galeras.",
+    "location": "Las Galeras, Péninsule de Samaná, République dominicaine",
+    "phone": "+1 829 675 3260",
+    "email": "contact@las-galeras-divers.com",
+    "website": "http://www.las-galeras-divers.com"
+  },
+  "socialMedia": {
+    "instagram": "https://www.instagram.com/Lasgalerasdivers",
+    "facebook": "https://www.facebook.com/Lasgalerasdivers",
+    "whatsapp": "https://wa.me/18296753260"
+  },
+  "pricing": {
+    "currency": "DOP",
+    "services": [
+      {
+        "id": "discovery",
+        "name": "Discovery / Baptême",
+        "nameEn": "Discovery Dive",
+        "price": 5000,
+        "description": "Première immersion en piscine pour se familiariser avec l'équipement. Dès 8 ans.",
+        "category": "bapteme"
+      },
+      {
+        "id": "single-dive",
+        "name": "Single Dive",
+        "nameEn": "Single Dive",
+        "price": 3800,
+        "description": "Une plongée explorée sur les magnifiques sites de Las Galeras.",
+        "category": "fun-dive"
+      },
+      {
+        "id": "double-dive",
+        "name": "Double Dive",
+        "nameEn": "Double Dive",
+        "price": 6000,
+        "description": "Deux plongées pour explorer différents sites en une journée.",
+        "category": "fun-dive"
+      },
+      {
+        "id": "night-dive",
+        "name": "Night Dive",
+        "nameEn": "Night Dive",
+        "price": 4500,
+        "description": "Découvrez la magie de la vie marine nocturne.",
+        "category": "specialty"
+      },
+      {
+        "id": "padi-scuba-diver",
+        "name": "PADI Scuba Diver",
+        "nameEn": "PADI Scuba Diver",
+        "price": 19000,
+        "description": "Certification PADI pour plonger jusqu'à 12 mètres avec un professionnel.",
+        "category": "certification"
+      },
+      {
+        "id": "open-water",
+        "name": "Open Water Diver",
+        "nameEn": "Open Water Diver",
+        "price": 32000,
+        "description": "Certification PADI complète pour plonger jusqu'à 18 mètres en autonomie.",
+        "category": "certification"
+      },
+      {
+        "id": "advanced-open-water",
+        "name": "Advanced Open Water",
+        "nameEn": "Advanced Open Water",
+        "price": 24500,
+        "description": "Niveau avancé PADI pour perfectionner vos compétences et plonger jusqu'à 30 mètres.",
+        "category": "certification"
+      }
+    ]
+  },
+  "seo": {
+    "keywords": [
+      "Las Galeras plongée",
+      "Samana plongée",
+      "République Dominicaine plongée",
+      "Caraïbes plongée",
+      "plongée tropicale",
+      "vacances plongée",
+      "séjour plongée République Dominicaine",
+      "club de plongée Las Galeras",
+      "centre de plongée Samana",
+      "diving Las Galeras",
+      "diving Dominican Republic",
+      "dive center Caribbean",
+      "diving holidays",
+      "Piedra Bonita dive site",
+      "Frontón reef",
+      "Playa Rincon snorkeling",
+      "El Cabito dive site",
+      "Cabo Cabrón wall dive",
+      "Coral Garden Las Galeras",
+      "wreck diving Dominican Republic",
+      "épave Las Galeras",
+      "tortue Las Galeras",
+      "raies manta Samana",
+      "baraccuda reef",
+      "Los Carriles dive",
+      "Tibisi reef",
+      "Perto Malo dive",
+      "baptême de plongée enfant",
+      "PADI Discover Scuba Diving",
+      "Scuba Diver",
+      "Open Water Diver",
+      "Advanced Open Water",
+      "Rescue Diver",
+      "Dive Master",
+      "cours PADI République Dominicaine",
+      "formation plongée francophone",
+      "cours de plongée enfants",
+      "cours de plongée en français",
+      "stage plongée tropicale",
+      "certification plongée Samana",
+      "plongée crépusculaire",
+      "plongée de nuit",
+      "snorkeling tour",
+      "excursion en bateau",
+      "observation des baleines Samana",
+      "tortues marines Las Galeras",
+      "poissons tropicaux Caraïbes",
+      "jardin de corail",
+      "Atlantique Nord tropical",
+      "aventure sous-marine",
+      "nature sauvage Samana",
+      "plongée en petit groupe",
+      "sécurité plongée",
+      "plongée accessible à tous",
+      "club de plongée francophone",
+      "centre francophone République Dominicaine",
+      "moniteur français plongée",
+      "plongée en français",
+      "formation plongée francophone",
+      "accueil français Las Galeras",
+      "buceo Las Galeras",
+      "centro de buceo República Dominicana",
+      "buceo Samana",
+      "scuba diving Las Galeras",
+      "diving Samana",
+      "dive center Dominican Republic",
+      "snorkeling Las Galeras",
+      "cursos PADI República Dominicana"
+    ]
+  }
+}
+

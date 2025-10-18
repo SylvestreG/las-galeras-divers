@@ -1,0 +1,131 @@
+{
+  "nav": {
+    "about": "About",
+    "services": "Services",
+    "pricing": "Pricing",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Dive into the Heart of a",
+    "titleHighlight": "Preserved Paradise",
+    "subtitle": "Discover the underwater wonders of Las Galeras with our PADI certified multilingual team",
+    "cta1": "Book Now",
+    "cta2": "View Pricing",
+    "feature1": "PADI Certified Instructors",
+    "feature2": "Small Groups (Max 6)",
+    "feature3": "Multilingual Center"
+  },
+  "about": {
+    "title": "A Unique and Personalized Experience",
+    "subtitle": "Dive from the charming village of Las Galeras, a peaceful haven at the end of the world",
+    "feature1Title": "Personalized Service",
+    "feature1Text": "We are a human-sized center that emphasizes personalized and warm service. Groups of maximum 6 divers for optimal safety, always supervised by our PADI certified instructors.",
+    "feature2Title": "Exceptional Sites",
+    "feature2Text": "Benefit from our expertise and perfect knowledge of the most beautiful sites in the region. Dive sites are chosen according to divers' skill levels and weather and maritime conditions.",
+    "feature3Title": "Extraordinary Marine Life",
+    "feature3Text": "The coral is always alive and above all extraordinarily beautiful! Coral gardens, coral labyrinths, caves, drop-offs, wrecks and the famous Piedra Bonita spot at Cabo Cabrón. Discover turtles, rays, giant barracudas and many other wonders.",
+    "stat1": "Years of Experience",
+    "stat2": "Dive Sites",
+    "stat3": "Max per Group",
+    "stat4": "Customer Satisfaction"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "A complete range of services for all levels, from discovery dives to exploration dives",
+    "baptism": {
+      "title": "Discovery Dive",
+      "subtitle": "From 8 years old",
+      "description": "The Adventure Begins Here! Do you dream of exploring a new world? Give yourself your first breath underwater! Safety and Confidence: First gentle and supervised immersion in the pool to familiarize yourself with the equipment if needed.",
+      "feature1": "Fun experience adapted to age",
+      "feature2": "Small group or individual learning",
+      "feature3": "Maximum safety with certified instructors"
+    },
+    "training": {
+      "title": "PADI Training",
+      "subtitle": "From beginner to expert",
+      "description": "Get your PADI certification with our experienced instructors. From Scuba Diver to Advanced Open Water, we support you in your progression.",
+      "feature1": "PADI Scuba Diver (12m max)",
+      "feature2": "Open Water Diver (18m max)",
+      "feature3": "Advanced Open Water (30m max)"
+    },
+    "funDive": {
+      "title": "Fun Dives",
+      "subtitle": "For certified divers",
+      "description": "Explore the most beautiful sites of Las Galeras with our day dives. Single or double dive, discover coral gardens, caves, drop-offs and the famous Piedra Bonita.",
+      "feature1": "Varied and exceptional sites",
+      "feature2": "Small groups of 6 max",
+      "feature3": "Expert multilingual guide"
+    },
+    "nightDive": {
+      "title": "Night Dive",
+      "subtitle": "A magical experience",
+      "description": "Discover the magic of nocturnal marine life. A unique experience to observe creatures that only come out at night.",
+      "feature1": "Fascinating nocturnal fauna",
+      "feature2": "Specialized equipment provided",
+      "feature3": "Expert and secure supervision"
+    },
+    "ctaTitle": "Scuba diving in Las Galeras is a treat!",
+    "ctaText": "You can also encounter turtles, rays, giant barracudas, and many other representatives of the local aquatic fauna.",
+    "ctaButton": "Contact Us"
+  },
+  "pricing": {
+    "title": "Our Pricing",
+    "subtitle": "Transparent prices for all your underwater adventures",
+    "all": "All",
+    "baptism": "Discovery",
+    "certifications": "Training",
+    "funDives": "Fun Dives",
+    "specialties": "Specialties",
+    "reserve": "Book",
+    "popular": "Popular",
+    "info1Title": "Payment Methods",
+    "info1Text": "We accept cash payments (DOP, USD, EUR) and credit cards",
+    "info2Title": "Group Rates",
+    "info2Text": "Discounts available for groups of 4 or more. Contact us!",
+    "info3Title": "Included in Price",
+    "info3Text": "All necessary equipment, boat transportation, and PADI professional supervision"
+  },
+  "gallery": {
+    "title": "Photo Gallery",
+    "subtitle": "Discover in images the wonders that await you underwater and around Las Galeras"
+  },
+  "testimonials": {
+    "title": "Testimonials",
+    "subtitle": "What our clients say about their experience with Las Galeras Divers",
+    "ctaTitle": "Join hundreds of satisfied divers!",
+    "ctaText": "Experience an unforgettable diving adventure in Las Galeras",
+    "ctaButton": "Book Your Dive"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Ready to dive? Contact us to book your underwater adventure",
+    "phone": "Phone / WhatsApp",
+    "email": "Email",
+    "location": "Location",
+    "socialMedia": "Social Media",
+    "whatsappBtn": "Contact on WhatsApp",
+    "responseTime": "We respond within 24h",
+    "viewMap": "View on map",
+    "hours": "Opening Hours",
+    "monday": "Monday - Saturday",
+    "sunday": "Sunday",
+    "hoursNote": "⚠️ Reservation recommended • We adapt our hours according to weather conditions",
+    "mapMarker": "Las Galeras Divers",
+    "mapSubtext": "Your Diving Base"
+  },
+  "footer": {
+    "navigation": "Navigation",
+    "ourServices": "Our Services",
+    "contactTitle": "Contact",
+    "copyright": "© 2025 Las Galeras Divers. All rights reserved.",
+    "certified": "PADI certified dive center • Las Galeras, Dominican Republic",
+    "baptism": "Discovery Dive",
+    "training": "PADI Training",
+    "funDive": "Fun Dives",
+    "nightDive": "Night Dive",
+    "openWater": "Open Water Diver",
+    "advanced": "Advanced Open Water"
+  }
+}
+

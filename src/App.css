@@ -1,0 +1,40 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+/* Scroll Margin for anchor links */
+section {
+  scroll-margin-top: 80px;
+}
+
+/* Wave Divider */
+.wave-divider {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave-divider svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 60px;
+}
+
+.wave-divider .shape-fill {
+  fill: var(--light-blue);
+}
+
+@media (max-width: 768px) {
+  .wave-divider svg {
+    height: 40px;
+  }
+}
+

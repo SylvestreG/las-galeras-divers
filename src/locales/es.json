@@ -1,0 +1,131 @@
+{
+  "nav": {
+    "about": "Sobre Nosotros",
+    "services": "Servicios",
+    "pricing": "Precios",
+    "gallery": "Galería",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Sumérgete en el Corazón de un",
+    "titleHighlight": "Paraíso Preservado",
+    "subtitle": "Descubre las maravillas submarinas de Las Galeras con nuestro equipo multilingüe certificado PADI",
+    "cta1": "Reservar Ahora",
+    "cta2": "Ver Precios",
+    "feature1": "Instructores Certificados PADI",
+    "feature2": "Grupos Pequeños (Máx 6)",
+    "feature3": "Centro Multilingüe"
+  },
+  "about": {
+    "title": "Una Experiencia Única y Personalizada",
+    "subtitle": "Sumérgete desde el encantador pueblo de Las Galeras, un refugio tranquilo al fin del mundo",
+    "feature1Title": "Servicio Personalizado",
+    "feature1Text": "Somos un centro de tamaño humano que privilegia un servicio personalizado y cálido. Grupos de máximo 6 buceadores para una seguridad óptima, siempre supervisados por nuestros instructores certificados PADI.",
+    "feature2Title": "Sitios Excepcionales",
+    "feature2Text": "Benefíciate de nuestra experiencia y conocimiento perfecto de los sitios más hermosos de la región. Los sitios de buceo se eligen según el nivel de práctica de los buceadores y las condiciones meteorológicas y marítimas.",
+    "feature3Title": "Fauna Marina Extraordinaria",
+    "feature3Text": "¡El coral siempre está vivo y sobre todo de una belleza extraordinaria! Jardines de coral, laberintos de coral, cuevas, paredes, naufragios y el famoso lugar de Piedra Bonita en Cabo Cabrón. Descubre tortugas, rayas, barracudas gigantes y muchas otras maravillas.",
+    "stat1": "Años de Experiencia",
+    "stat2": "Sitios de Buceo",
+    "stat3": "Máx por Grupo",
+    "stat4": "Satisfacción del Cliente"
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Una gama completa de servicios para todos los niveles, desde bautismo hasta buceos de exploración",
+    "baptism": {
+      "title": "Bautismo de Buceo",
+      "subtitle": "Desde 8 años",
+      "description": "¡La Aventura Comienza Aquí! ¿Sueñas con explorar un mundo nuevo? ¡Regálate tu primera respiración bajo el agua! Seguridad y Confianza: Primera inmersión suave y supervisada en piscina para familiarizarse con el equipo si es necesario.",
+      "feature1": "Experiencia lúdica adaptada a la edad",
+      "feature2": "Aprendizaje en grupo pequeño o individual",
+      "feature3": "Seguridad máxima con instructores certificados"
+    },
+    "training": {
+      "title": "Formaciones PADI",
+      "subtitle": "De principiante a experto",
+      "description": "Obtén tu certificación PADI con nuestros instructores experimentados. Desde Scuba Diver hasta Advanced Open Water, te acompañamos en tu progresión.",
+      "feature1": "PADI Scuba Diver (12m máx)",
+      "feature2": "Open Water Diver (18m máx)",
+      "feature3": "Advanced Open Water (30m máx)"
+    },
+    "funDive": {
+      "title": "Buceos Fun Dive",
+      "subtitle": "Para buceadores certificados",
+      "description": "Explora los sitios más hermosos de Las Galeras con nuestros buceos del día. Single o double dive, descubre jardines de coral, cuevas, paredes y el famoso Piedra Bonita.",
+      "feature1": "Sitios variados y excepcionales",
+      "feature2": "Grupos pequeños de 6 máx",
+      "feature3": "Guía experto multilingüe"
+    },
+    "nightDive": {
+      "title": "Buceo Nocturno",
+      "subtitle": "Una experiencia mágica",
+      "description": "Descubre la magia de la vida marina nocturna. Una experiencia única para observar criaturas que solo salen de noche.",
+      "feature1": "Fauna nocturna fascinante",
+      "feature2": "Equipo especializado proporcionado",
+      "feature3": "Supervisión experta y segura"
+    },
+    "ctaTitle": "¡El buceo submarino en Las Galeras es un deleite!",
+    "ctaText": "También puedes encontrar tortugas, rayas, barracudas gigantes y muchos otros representantes de la fauna acuática local.",
+    "ctaButton": "Contáctenos"
+  },
+  "pricing": {
+    "title": "Nuestros Precios",
+    "subtitle": "Precios transparentes para todas tus aventuras submarinas",
+    "all": "Todos",
+    "baptism": "Bautismo",
+    "certifications": "Formaciones",
+    "funDives": "Fun Dives",
+    "specialties": "Especialidades",
+    "reserve": "Reservar",
+    "popular": "Popular",
+    "info1Title": "Métodos de Pago",
+    "info1Text": "Aceptamos pagos en efectivo (DOP, USD, EUR) y tarjeta bancaria",
+    "info2Title": "Tarifas de Grupo",
+    "info2Text": "Descuentos disponibles para grupos de 4 personas o más. ¡Contáctenos!",
+    "info3Title": "Incluido en el Precio",
+    "info3Text": "Todo el equipo necesario, transporte en barco y supervisión profesional PADI"
+  },
+  "gallery": {
+    "title": "Galería de Fotos",
+    "subtitle": "Descubre en imágenes las maravillas que te esperan bajo el agua y alrededor de Las Galeras"
+  },
+  "testimonials": {
+    "title": "Testimonios",
+    "subtitle": "Lo que nuestros clientes dicen sobre su experiencia con Las Galeras Divers",
+    "ctaTitle": "¡Únete a cientos de buceadores satisfechos!",
+    "ctaText": "Vive tú también una experiencia de buceo inolvidable en Las Galeras",
+    "ctaButton": "Reserva Tu Buceo"
+  },
+  "contact": {
+    "title": "Contáctenos",
+    "subtitle": "¿Listo para bucear? Contáctenos para reservar tu aventura submarina",
+    "phone": "Teléfono / WhatsApp",
+    "email": "Correo Electrónico",
+    "location": "Ubicación",
+    "socialMedia": "Redes Sociales",
+    "whatsappBtn": "Contactar por WhatsApp",
+    "responseTime": "Respondemos en 24h",
+    "viewMap": "Ver en el mapa",
+    "hours": "Horario de Apertura",
+    "monday": "Lunes - Sábado",
+    "sunday": "Domingo",
+    "hoursNote": "⚠️ Reserva recomendada • Adaptamos nuestros horarios según las condiciones meteorológicas",
+    "mapMarker": "Las Galeras Divers",
+    "mapSubtext": "Tu Base de Buceo"
+  },
+  "footer": {
+    "navigation": "Navegación",
+    "ourServices": "Nuestros Servicios",
+    "contactTitle": "Contacto",
+    "copyright": "© 2025 Las Galeras Divers. Todos los derechos reservados.",
+    "certified": "Centro de buceo certificado PADI • Las Galeras, República Dominicana",
+    "baptism": "Bautismo de Buceo",
+    "training": "Formaciones PADI",
+    "funDive": "Buceos Fun Dive",
+    "nightDive": "Buceo Nocturno",
+    "openWater": "Open Water Diver",
+    "advanced": "Advanced Open Water"
+  }
+}
+

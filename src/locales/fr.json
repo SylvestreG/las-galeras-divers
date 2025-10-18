@@ -1,0 +1,131 @@
+{
+  "nav": {
+    "about": "À Propos",
+    "services": "Services",
+    "pricing": "Tarifs",
+    "gallery": "Galerie",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Plongez au Cœur d'un",
+    "titleHighlight": "Paradis Préservé",
+    "subtitle": "Découvrez les merveilles sous-marines de Las Galeras avec notre équipe francophone certifiée PADI",
+    "cta1": "Réserver Maintenant",
+    "cta2": "Voir les Tarifs",
+    "feature1": "Instructeurs PADI Certifiés",
+    "feature2": "Petits Groupes (Max 6)",
+    "feature3": "Centre Francophone"
+  },
+  "about": {
+    "title": "Une Expérience Unique et Personnalisée",
+    "subtitle": "Plongez depuis le charmant village de Las Galeras, un refuge du bout du monde où règne la tranquillité",
+    "feature1Title": "Service Personnalisé",
+    "feature1Text": "Nous sommes un centre à taille humaine qui privilégie un service personnalisé et chaleureux. Des groupes de 6 plongeurs maximum pour une sécurité optimale, toujours encadrés par nos instructeurs PADI certifiés.",
+    "feature2Title": "Sites Exceptionnels",
+    "feature2Text": "Profitez de notre expertise et de notre connaissance parfaite des plus beaux sites de la région. Les sites de plongée sont choisis en fonction du niveau de pratique des plongeurs et des conditions météorologiques et maritimes.",
+    "feature3Title": "Faune Marine Extraordinaire",
+    "feature3Text": "Le corail est toujours bien vivant et surtout d'une beauté extraordinaire ! Jardins de corail, labyrinthe de corail, grottes, tombants, épave et le fameux spot de Piedra Bonita à Cabo Cabrón. Découvrez tortues, raies, barracudas géants et bien d'autres merveilles.",
+    "stat1": "Années d'Expérience",
+    "stat2": "Sites de Plongée",
+    "stat3": "Max par Groupe",
+    "stat4": "Satisfaction Client"
+  },
+  "services": {
+    "title": "Nos Services",
+    "subtitle": "Une gamme complète de services pour tous les niveaux, du baptême aux plongées d'exploration",
+    "baptism": {
+      "title": "Baptême de Plongée",
+      "subtitle": "Dès 8 ans",
+      "description": "L'Aventure Commence Ici ! Vous rêvez d'explorer un monde nouveau ? Offrez-vous votre premier souffle sous l'eau ! Sécurité et Confiance : Première immersion douce et encadrée en piscine pour se familiariser avec le matériel si besoin.",
+      "feature1": "Expérience ludique et adaptée à son âge",
+      "feature2": "Apprentissage en petit groupe ou individuel",
+      "feature3": "Sécurité maximale avec instructeurs certifiés"
+    },
+    "training": {
+      "title": "Formations PADI",
+      "subtitle": "Du débutant à l'expert",
+      "description": "Obtenez votre certification PADI avec nos instructeurs expérimentés. Du Scuba Diver au Advanced Open Water, nous vous accompagnons dans votre progression.",
+      "feature1": "PADI Scuba Diver (12m max)",
+      "feature2": "Open Water Diver (18m max)",
+      "feature3": "Advanced Open Water (30m max)"
+    },
+    "funDive": {
+      "title": "Plongées Fun Dive",
+      "subtitle": "Pour plongeurs certifiés",
+      "description": "Explorez les plus beaux sites de Las Galeras avec nos plongées à la journée. Single ou double dive, découvrez jardins de corail, grottes, tombants et le fameux Piedra Bonita.",
+      "feature1": "Sites variés et exceptionnels",
+      "feature2": "Petits groupes de 6 max",
+      "feature3": "Guide francophone expert"
+    },
+    "nightDive": {
+      "title": "Plongée de Nuit",
+      "subtitle": "Une expérience magique",
+      "description": "Découvrez la magie de la vie marine nocturne. Une expérience unique pour observer les créatures qui ne sortent que la nuit.",
+      "feature1": "Faune nocturne fascinante",
+      "feature2": "Équipement spécialisé fourni",
+      "feature3": "Encadrement expert et sécurisé"
+    },
+    "ctaTitle": "La plongée sous-marine à Las Galeras est un régal !",
+    "ctaText": "On peut aussi y rencontrer des tortues, des raies, des barracudas géants, et bien d'autres représentants de la faune aquatique locale.",
+    "ctaButton": "Contactez-nous"
+  },
+  "pricing": {
+    "title": "Nos Tarifs",
+    "subtitle": "Des prix transparents pour toutes vos aventures sous-marines",
+    "all": "Tous",
+    "baptism": "Baptême",
+    "certifications": "Formations",
+    "funDives": "Fun Dives",
+    "specialties": "Spécialités",
+    "reserve": "Réserver",
+    "popular": "Populaire",
+    "info1Title": "Modes de Paiement",
+    "info1Text": "Nous acceptons les paiements en espèces (DOP, USD, EUR) et par carte bancaire",
+    "info2Title": "Tarifs Groupe",
+    "info2Text": "Réductions disponibles pour les groupes de 4 personnes et plus. Contactez-nous !",
+    "info3Title": "Inclus dans le Prix",
+    "info3Text": "Tout l'équipement nécessaire, transport en bateau, et encadrement professionnel PADI"
+  },
+  "gallery": {
+    "title": "Galerie Photos",
+    "subtitle": "Découvrez en images les merveilles qui vous attendent sous l'eau et autour de Las Galeras"
+  },
+  "testimonials": {
+    "title": "Témoignages",
+    "subtitle": "Ce que nos clients disent de leur expérience avec Las Galeras Divers",
+    "ctaTitle": "Rejoignez des centaines de plongeurs satisfaits !",
+    "ctaText": "Vivez vous aussi une expérience de plongée inoubliable à Las Galeras",
+    "ctaButton": "Réservez Votre Plongée"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Prêt à plonger ? Contactez-nous pour réserver votre aventure sous-marine",
+    "phone": "Téléphone / WhatsApp",
+    "email": "Email",
+    "location": "Localisation",
+    "socialMedia": "Réseaux Sociaux",
+    "whatsappBtn": "Contacter sur WhatsApp",
+    "responseTime": "Nous répondons sous 24h",
+    "viewMap": "Voir sur la carte",
+    "hours": "Horaires d'Ouverture",
+    "monday": "Lundi - Samedi",
+    "sunday": "Dimanche",
+    "hoursNote": "⚠️ Réservation recommandée • Nous adaptons nos horaires selon les conditions météo",
+    "mapMarker": "Las Galeras Divers",
+    "mapSubtext": "Votre Base de Plongée"
+  },
+  "footer": {
+    "navigation": "Navigation",
+    "ourServices": "Nos Services",
+    "contactTitle": "Contact",
+    "copyright": "© 2025 Las Galeras Divers. Tous droits réservés.",
+    "certified": "Centre de plongée PADI certifié • Las Galeras, République Dominicaine",
+    "baptism": "Baptême de Plongée",
+    "training": "Formations PADI",
+    "funDive": "Plongées Fun Dive",
+    "nightDive": "Plongée de Nuit",
+    "openWater": "Open Water Diver",
+    "advanced": "Advanced Open Water"
+  }
+}
+
