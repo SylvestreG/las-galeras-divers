@@ -1,0 +1,224 @@
+{
+  "nav": {
+    "about": "Chi Siamo",
+    "services": "Servizi",
+    "pricing": "Prezzi",
+    "gallery": "Galleria",
+    "contact": "Contatti"
+  },
+  "hero": {
+    "title": "Immergiti nel Cuore di un",
+    "titleHighlight": "Paradiso Incontaminato",
+    "subtitle": "Scopri le meraviglie subacquee di Las Galeras con il nostro team italofono certificato PADI",
+    "cta1": "Prenota Ora",
+    "cta2": "Vedi i Prezzi",
+    "feature1": "Istruttori PADI Certificati",
+    "feature2": "Piccoli Gruppi (Max 6)",
+    "feature3": "Centro Italofono"
+  },
+  "about": {
+    "title": "Un'Esperienza Unica e Personalizzata",
+    "subtitle": "Immergiti dal suggestivo villaggio di Las Galeras, un rifugio alla fine del mondo dove regna la tranquillità",
+    "imageAlt": "Team Las Galeras Divers",
+    "padiLogoAlt": "Centro certificato PADI",
+    "feature1Title": "Servizio Personalizzato",
+    "feature1Text": "Siamo un centro a dimensione umana che privilegia un servizio personalizzato e caloroso. Gruppi di 6 subacquei per barca. Possibilità di aggiungere una barca per arrivare a 12 subacquei. Abbiamo la fortuna di avere 2 Istruttori PADI certificati 😉",
+    "feature2Title": "Siti Eccezionali",
+    "feature2Text": "Approfitta della nostra esperienza e della nostra perfetta conoscenza dei più bei siti della regione. I siti di immersione sono scelti in base al livello dei subacquei e alle condizioni meteorologiche e marine.",
+    "feature3Title": "Fauna Marina Straordinaria",
+    "feature3Text": "I coralli sono ancora vivi e soprattutto di una bellezza straordinaria! Giardini di coralli, labirinti di coralli, grotte, pareti, relitti e il famoso sito di Piedra Bonita a Cabo Cabrón. Scopri tartarughe, razze, barracuda giganti e molte altre meraviglie.",
+    "stat1": "Anni di Esperienza",
+    "stat2": "Siti di Immersione",
+    "stat3": "Max per Gruppo",
+    "stat4": "Soddisfazione Cliente",
+    "teamTitle": "Il Nostro Team",
+    "team": {
+      "genelin": "Genelin",
+      "rose": "Rosé",
+      "cedric": "Cédric",
+      "cathy": "Cathy"
+    }
+  },
+  "services": {
+    "title": "I Nostri Servizi",
+    "subtitle": "Una gamma completa di servizi per tutti i livelli, dal battesimo alle immersioni esplorative",
+    "baptism": {
+      "title": "Battesimo Subacqueo",
+      "subtitle": "Dai 8 anni",
+      "description": "L'Avventura Inizia Qui! Sogni di esplorare un mondo nuovo? Regalati il tuo primo respiro sott'acqua! Sicurezza e Fiducia: Prima immersione dolce e seguita in piscina per familiarizzare con l'attrezzatura se necessario.",
+      "feature1": "Esperienza ludica e adatta all'età",
+      "feature2": "Apprendimento in piccolo gruppo o individuale",
+      "feature3": "Massima sicurezza con istruttori certificati"
+    },
+    "training": {
+      "title": "Corsi PADI",
+      "subtitle": "Dal principiante all'esperto",
+      "description": "Ottieni la tua certificazione PADI con i nostri istruttori esperti. Dallo Scuba Diver all'Advanced Open Water, ti accompagniamo nella tua progressione.",
+      "feature1": "PADI Scuba Diver (max 12m)",
+      "feature2": "Open Water Diver (max 18m)",
+      "feature3": "Advanced Open Water (max 30m)"
+    },
+    "funDive": {
+      "title": "Immersioni Fun Dive",
+      "subtitle": "Per subacquei certificati",
+      "description": "Esplora i più bei siti di Las Galeras con le nostre immersioni giornaliere. Singola o doppia immersione, scopri giardini di coralli, grotte, pareti e il famoso Piedra Bonita.",
+      "feature1": "Siti vari ed eccezionali",
+      "feature2": "Piccoli gruppi di massimo 6",
+      "feature3": "Guida italofona esperta"
+    },
+    "nightDive": {
+      "title": "Immersione Notturna",
+      "subtitle": "Un'esperienza magica",
+      "description": "Scopri la magia della vita marina notturna. Un'esperienza unica per osservare le creature che escono solo di notte.",
+      "feature1": "Fauna notturna affascinante",
+      "feature2": "Attrezzatura specializzata fornita",
+      "feature3": "Accompagnamento esperto e sicuro"
+    },
+    "ctaTitle": "Le immersioni subacquee a Las Galeras sono una delizia!",
+    "ctaText": "Si possono anche incontrare tartarughe, razze, barracuda giganti e molti altri rappresentanti della fauna acquatica locale.",
+    "ctaButton": "Contattaci"
+  },
+  "pricing": {
+    "title": "I Nostri Prezzi",
+    "subtitle": "Prezzi trasparenti per tutte le tue avventure subacquee",
+    "all": "Tutti",
+    "baptism": "Battesimo",
+    "certifications": "Corsi",
+    "funDives": "Fun Dives",
+    "specialties": "Specialità",
+    "reserve": "Prenota",
+    "popular": "Popolare",
+    "info1Title": "Modalità di Pagamento",
+    "info1Text": "Pagamento in contanti (DOP, USD, EUR). Possibilità di bonifico solo per gli acconti di prenotazione",
+    "info2Title": "Prenotazione Gruppo",
+    "info2Text": "Acconto di prenotazione richiesto per i gruppi. Contattaci!",
+    "info3Title": "Incluso nel Prezzo",
+    "info3Text": "Tutta l'attrezzatura necessaria, trasporto in barca e accompagnamento professionale PADI",
+    "services": {
+      "discovery": {
+        "name": "Discovery / Battesimo",
+        "description": "Prima immersione in piscina per familiarizzare con l'attrezzatura. Dai 8 anni."
+      },
+      "single-dive": {
+        "name": "Immersione Singola",
+        "description": "Un'immersione esplorata sui magnifici siti di Las Galeras."
+      },
+      "double-dive": {
+        "name": "Doppia Immersione",
+        "description": "Due immersioni per esplorare diversi siti in un giorno."
+      },
+      "night-dive": {
+        "name": "Immersione Notturna",
+        "description": "Scopri la magia della vita marina notturna."
+      },
+      "padi-scuba-diver": {
+        "name": "PADI Scuba Diver",
+        "description": "Certificazione PADI per immergersi fino a 12 metri con un professionista."
+      },
+      "open-water": {
+        "name": "Open Water Diver",
+        "description": "Certificazione PADI completa per immergersi fino a 18 metri in autonomia."
+      },
+      "advanced-open-water": {
+        "name": "Advanced Open Water",
+        "description": "Livello avanzato PADI per perfezionare le tue competenze e immergerti fino a 30 metri."
+      }
+    }
+  },
+  "gallery": {
+    "title": "Galleria Fotografica",
+    "subtitle": "Scopri in immagini le meraviglie che ti aspettano sott'acqua e intorno a Las Galeras",
+    "image1": "Club Las Galeras Divers",
+    "image2": "Tartaruga marina",
+    "image3": "Pesce tropicale",
+    "image4": "Immersione tra i coralli",
+    "image5": "Spiagge",
+    "image6": "Benvenuti da Noi (CÉDRIC & CATHY)",
+    "image7": "Prezzi",
+    "image8": "Cascata Limón",
+    "image9": "Coralli"
+  },
+  "testimonials": {
+    "title": "Testimonianze",
+    "subtitle": "Cosa dicono i nostri clienti della loro esperienza con Las Galeras Divers",
+    "ctaTitle": "Unisciti a centinaia di subacquei soddisfatti!",
+    "ctaText": "Vivi anche tu un'esperienza di immersione indimenticabile a Las Galeras",
+    "ctaButton": "Prenota la Tua Immersione",
+    "items": {
+      "1": {
+        "name": "Marie & Thomas",
+        "location": "Francia",
+        "text": "Un'esperienza indimenticabile! Il team di Las Galeras Divers è incredibilmente professionale e caloroso. Abbiamo potuto osservare tartarughe, razze e una moltitudine di pesci colorati. I siti di immersione sono magnifici e ben conservati."
+      },
+      "2": {
+        "name": "Sophie Laurent",
+        "location": "Belgio",
+        "text": "Ho fatto il mio battesimo subacqueo con loro ed è stato perfetto! Gli istruttori sono molto pedagogici e rassicuranti. Mi sono sentita al sicuro dall'inizio alla fine. Lo consiglio vivamente per una prima esperienza subacquea!"
+      },
+      "3": {
+        "name": "Jean-Pierre Dubois",
+        "location": "Canada",
+        "text": "Come subacqueo esperto, sono rimasto impressionato dalla qualità dei siti e dalla professionalità del team. Il sito di Piedra Bonita è semplicemente straordinario! Gruppi piccoli che permettono una vera esplorazione."
+      },
+      "4": {
+        "name": "Famiglia Moreau",
+        "location": "Svizzera",
+        "text": "I nostri bambini di 10 e 12 anni hanno adorato il loro battesimo subacqueo! Il team è stato molto attento e paziente con loro. È diventato il momento clou della nostra vacanza a Las Galeras. Grazie per questi ricordi memorabili!"
+      },
+      "5": {
+        "name": "Coppia Settembre 2025",
+        "location": "In coppia",
+        "text": "Fantastica esperienza di tre immersioni con Las Galeras Divers! Due prime immersioni assolutamente magnifiche con l'istruttore José. Un subacqueo esperto che conosce molto bene la zona! Una terza immersione per accompagnare il mio compagno che faceva un battesimo con Cédric. Anche lui un subacqueo esperto, rassicurante e pedagogico. Raccomandiamo vivamente Las Galeras Divers. Grazie a Cédric e Cathy per questa bella esperienza!"
+      }
+    }
+  },
+  "contact": {
+    "title": "Contattaci",
+    "subtitle": "Pronto per immergerti? Contattaci per prenotare la tua avventura subacquea",
+    "phone": "Telefono / WhatsApp",
+    "email": "Email",
+    "location": "Posizione",
+    "socialMedia": "Social Media",
+    "whatsappBtn": "Contatta su WhatsApp",
+    "responseTime": "Rispondiamo entro 24 ore",
+    "viewMap": "Visualizza sulla mappa",
+    "hours": "Orari di Apertura",
+    "monday": "Lunedì - Sabato",
+    "mondayHours": "8:30 - 17:00",
+    "sunday": "Domenica",
+    "sundayHours": "9:00 - 16:00",
+    "hoursNote": "⚠️ Prenotazione consigliata • Orari variabili secondo la stagione",
+    "mapMarker": "Las Galeras Divers",
+    "mapSubtext": "La Tua Base Subacquea",
+    "mapAlt": "Mappa di localizzazione Las Galeras Divers"
+  },
+  "footer": {
+    "navigation": "Navigazione",
+    "ourServices": "I Nostri Servizi",
+    "contactTitle": "Contatti",
+    "copyright": "© 2025 Las Galeras Divers. Tutti i diritti riservati.",
+    "certified": "Centro subacqueo certificato PADI • Las Galeras, Repubblica Dominicana",
+    "baptism": "Battesimo Subacqueo",
+    "training": "Corsi PADI",
+    "funDive": "Immersioni Fun Dive",
+    "nightDive": "Immersione Notturna",
+    "openWater": "Open Water Diver",
+    "advanced": "Advanced Open Water",
+    "logoAlt": "Logo Las Galeras Divers",
+    "padiLogoAlt": "Centro certificato PADI"
+  },
+  "common": {
+    "logoAlt": "Logo Las Galeras Divers"
+  },
+  "accessibility": {
+    "toggleMenu": "Attiva/disattiva menu",
+    "closeModal": "Chiudi",
+    "changeLanguage": "Cambia lingua",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "whatsapp": "WhatsApp",
+    "previousImage": "Immagine precedente",
+    "nextImage": "Immagine successiva"
+  }
+}
+

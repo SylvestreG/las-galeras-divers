@@ -3,8 +3,9 @@ import fr from '../locales/fr.json'
 import en from '../locales/en.json'
 import es from '../locales/es.json'
 import de from '../locales/de.json'
+import it from '../locales/it.json'
 
-const translations = { fr, en, es, de }
+const translations = { fr, en, es, de, it }
 
 const LanguageContext = createContext()
 
