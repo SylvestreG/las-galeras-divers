@@ -1,0 +1,224 @@
+{
+  "nav": {
+    "about": "Über Uns",
+    "services": "Dienstleistungen",
+    "pricing": "Preise",
+    "gallery": "Galerie",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Tauchen Sie ein in ein",
+    "titleHighlight": "Unberührtes Paradies",
+    "subtitle": "Entdecken Sie die Unterwasserwunder von Las Galeras mit unserem deutschsprachigen PADI-zertifizierten Team",
+    "cta1": "Jetzt Buchen",
+    "cta2": "Preise Ansehen",
+    "feature1": "PADI-Zertifizierte Tauchlehrer",
+    "feature2": "Kleine Gruppen (Max. 6)",
+    "feature3": "Deutschsprachiges Zentrum"
+  },
+  "about": {
+    "title": "Ein Einzigartiges und Persönliches Erlebnis",
+    "subtitle": "Tauchen Sie vom charmanten Dorf Las Galeras aus, einem ruhigen Rückzugsort am Ende der Welt",
+    "imageAlt": "Las Galeras Divers Team",
+    "padiLogoAlt": "PADI-zertifiziertes Zentrum",
+    "feature1Title": "Persönlicher Service",
+    "feature1Text": "Wir sind ein kleines Zentrum, das persönlichen und herzlichen Service bevorzugt. Gruppen von 6 Tauchern pro Boot. Möglichkeit, ein Boot hinzuzufügen, um auf 12 Taucher zu erweitern. Wir haben das Glück, 2 PADI-zertifizierte Tauchlehrer zu haben 😉",
+    "feature2Title": "Außergewöhnliche Tauchplätze",
+    "feature2Text": "Profitieren Sie von unserer Expertise und unserer perfekten Kenntnis der schönsten Tauchplätze der Region. Die Tauchplätze werden entsprechend dem Niveau der Taucher und den Wetter- und Meeresbedingungen ausgewählt.",
+    "feature3Title": "Außergewöhnliche Meeresfauna",
+    "feature3Text": "Das Korallen sind immer noch lebendig und vor allem außergewöhnlich schön! Korallengärten, Korallenlabyrinthe, Höhlen, Steilwände, Wracks und der berühmte Tauchplatz Piedra Bonita am Cabo Cabrón. Entdecken Sie Schildkröten, Rochen, riesige Barrakudas und viele andere Wunder.",
+    "stat1": "Jahre Erfahrung",
+    "stat2": "Tauchplätze",
+    "stat3": "Max. pro Gruppe",
+    "stat4": "Kundenzufriedenheit",
+    "teamTitle": "Unser Team",
+    "team": {
+      "genelin": "Genelin",
+      "rose": "Rosé",
+      "cedric": "Cédric",
+      "cathy": "Cathy"
+    }
+  },
+  "services": {
+    "title": "Unsere Dienstleistungen",
+    "subtitle": "Eine vollständige Palette von Dienstleistungen für alle Niveaus, vom Schnuppertauchen bis zu Erkundungstauchgängen",
+    "baptism": {
+      "title": "Schnuppertauchen",
+      "subtitle": "Ab 8 Jahren",
+      "description": "Das Abenteuer Beginnt Hier! Sie träumen davon, eine neue Welt zu erkunden? Gönnen Sie sich Ihren ersten Atemzug unter Wasser! Sicherheit und Vertrauen: Erstes sanftes und betreutes Eintauchen im Pool, um sich bei Bedarf mit der Ausrüstung vertraut zu machen.",
+      "feature1": "Spielerisches und altersgerechtes Erlebnis",
+      "feature2": "Lernen in kleinen Gruppen oder individuell",
+      "feature3": "Maximale Sicherheit mit zertifizierten Tauchlehrern"
+    },
+    "training": {
+      "title": "PADI-Kurse",
+      "subtitle": "Vom Anfänger zum Experten",
+      "description": "Erhalten Sie Ihre PADI-Zertifizierung mit unseren erfahrenen Tauchlehrern. Vom Scuba Diver bis zum Advanced Open Water begleiten wir Sie bei Ihrem Fortschritt.",
+      "feature1": "PADI Scuba Diver (max. 12m)",
+      "feature2": "Open Water Diver (max. 18m)",
+      "feature3": "Advanced Open Water (max. 30m)"
+    },
+    "funDive": {
+      "title": "Fun Dive Tauchgänge",
+      "subtitle": "Für zertifizierte Taucher",
+      "description": "Erkunden Sie die schönsten Tauchplätze von Las Galeras mit unseren Tagestauchen. Einzel- oder Doppeltauchgang, entdecken Sie Korallengärten, Höhlen, Steilwände und den berühmten Piedra Bonita.",
+      "feature1": "Abwechslungsreiche und außergewöhnliche Tauchplätze",
+      "feature2": "Kleine Gruppen von maximal 6",
+      "feature3": "Deutschsprachiger Experten-Guide"
+    },
+    "nightDive": {
+      "title": "Nachttauchen",
+      "subtitle": "Ein magisches Erlebnis",
+      "description": "Entdecken Sie die Magie des nächtlichen Meereslebens. Ein einzigartiges Erlebnis, um die Kreaturen zu beobachten, die nur nachts herauskommen.",
+      "feature1": "Faszinierende nachtaktive Fauna",
+      "feature2": "Spezialausrüstung wird gestellt",
+      "feature3": "Experten- und sichere Betreuung"
+    },
+    "ctaTitle": "Tauchen in Las Galeras ist ein Genuss!",
+    "ctaText": "Man kann auch Schildkröten, Rochen, riesige Barrakudas und viele andere Vertreter der lokalen Wasserfauna treffen.",
+    "ctaButton": "Kontaktieren Sie uns"
+  },
+  "pricing": {
+    "title": "Unsere Preise",
+    "subtitle": "Transparente Preise für alle Ihre Unterwasserabenteuer",
+    "all": "Alle",
+    "baptism": "Schnuppertauchen",
+    "certifications": "Kurse",
+    "funDives": "Fun Dives",
+    "specialties": "Spezialitäten",
+    "reserve": "Buchen",
+    "popular": "Beliebt",
+    "info1Title": "Zahlungsmethoden",
+    "info1Text": "Barzahlung (DOP, USD, EUR). Überweisungsmöglichkeit nur für Reservierungsanzahlungen",
+    "info2Title": "Gruppenreservierung",
+    "info2Text": "Reservierungsanzahlung für Gruppen erforderlich. Kontaktieren Sie uns!",
+    "info3Title": "Im Preis Inbegriffen",
+    "info3Text": "Alle notwendige Ausrüstung, Bootsfahrt und professionelle PADI-Betreuung",
+    "services": {
+      "discovery": {
+        "name": "Discovery / Schnuppertauchen",
+        "description": "Erstes Eintauchen im Pool, um sich mit der Ausrüstung vertraut zu machen. Ab 8 Jahren."
+      },
+      "single-dive": {
+        "name": "Einzeltauchgang",
+        "description": "Ein erkundeter Tauchgang an den herrlichen Tauchplätzen von Las Galeras."
+      },
+      "double-dive": {
+        "name": "Doppeltauchgang",
+        "description": "Zwei Tauchgänge, um verschiedene Tauchplätze an einem Tag zu erkunden."
+      },
+      "night-dive": {
+        "name": "Nachttauchen",
+        "description": "Entdecken Sie die Magie des nächtlichen Meereslebens."
+      },
+      "padi-scuba-diver": {
+        "name": "PADI Scuba Diver",
+        "description": "PADI-Zertifizierung zum Tauchen bis 12 Meter mit einem Profi."
+      },
+      "open-water": {
+        "name": "Open Water Diver",
+        "description": "Vollständige PADI-Zertifizierung zum selbstständigen Tauchen bis 18 Meter."
+      },
+      "advanced-open-water": {
+        "name": "Advanced Open Water",
+        "description": "Fortgeschrittenes PADI-Level zur Verbesserung Ihrer Fähigkeiten und zum Tauchen bis 30 Meter."
+      }
+    }
+  },
+  "gallery": {
+    "title": "Fotogalerie",
+    "subtitle": "Entdecken Sie in Bildern die Wunder, die Sie unter Wasser und rund um Las Galeras erwarten",
+    "image1": "Club Las Galeras Divers",
+    "image2": "Meeresschildkröte",
+    "image3": "Tropischer Fisch",
+    "image4": "Tauchen zwischen Korallen",
+    "image5": "Strände",
+    "image6": "Willkommen bei Uns (CÉDRIC & CATHY)",
+    "image7": "Preise",
+    "image8": "Limón Wasserfall",
+    "image9": "Korallen"
+  },
+  "testimonials": {
+    "title": "Erfahrungsberichte",
+    "subtitle": "Was unsere Kunden über ihre Erfahrung mit Las Galeras Divers sagen",
+    "ctaTitle": "Schließen Sie sich Hunderten zufriedener Taucher an!",
+    "ctaText": "Erleben auch Sie ein unvergessliches Taucherlebnis in Las Galeras",
+    "ctaButton": "Buchen Sie Ihren Tauchgang",
+    "items": {
+      "1": {
+        "name": "Marie & Thomas",
+        "location": "Frankreich",
+        "text": "Ein unvergessliches Erlebnis! Das Team von Las Galeras Divers ist unglaublich professionell und herzlich. Wir konnten Schildkröten, Rochen und eine Vielzahl bunter Fische beobachten. Die Tauchplätze sind wunderschön und gut erhalten."
+      },
+      "2": {
+        "name": "Sophie Laurent",
+        "location": "Belgien",
+        "text": "Ich habe mein Schnuppertauchen mit ihnen gemacht und es war perfekt! Die Tauchlehrer sind sehr pädagogisch und beruhigend. Ich habe mich von Anfang bis Ende sicher gefühlt. Ich empfehle es sehr für eine erste Unterwassererfahrung!"
+      },
+      "3": {
+        "name": "Jean-Pierre Dubois",
+        "location": "Kanada",
+        "text": "Als erfahrener Taucher war ich von der Qualität der Tauchplätze und der Professionalität des Teams beeindruckt. Der Tauchplatz Piedra Bonita ist einfach außergewöhnlich! Kleine Gruppen ermöglichen eine echte Erkundung."
+      },
+      "4": {
+        "name": "Familie Moreau",
+        "location": "Schweiz",
+        "text": "Unsere Kinder (10 und 12 Jahre) liebten ihr Schnuppertauchen! Das Team war sehr aufmerksam und geduldig mit ihnen. Es wurde zum Höhepunkt unseres Urlaubs in Las Galeras. Danke für diese unvergesslichen Erinnerungen!"
+      },
+      "5": {
+        "name": "Paar September 2025",
+        "location": "Als Paar",
+        "text": "Großartige Erfahrung mit drei Tauchgängen bei Las Galeras Divers! Zwei erste absolut herrliche Tauchgänge mit dem Tauchlehrer José. Ein erfahrener Taucher, der die Gegend sehr gut kennt! Ein dritter Tauchgang, um meinen Partner zu begleiten, der ein Schnuppertauchen mit Cédric machte. Ebenfalls ein erfahrener, beruhigender und pädagogischer Taucher. Wir empfehlen Las Galeras Divers sehr. Danke an Cédric und Cathy für diese schöne Erfahrung!"
+      }
+    }
+  },
+  "contact": {
+    "title": "Kontaktieren Sie uns",
+    "subtitle": "Bereit zum Tauchen? Kontaktieren Sie uns, um Ihr Unterwasserabenteuer zu buchen",
+    "phone": "Telefon / WhatsApp",
+    "email": "E-Mail",
+    "location": "Standort",
+    "socialMedia": "Soziale Netzwerke",
+    "whatsappBtn": "Kontakt über WhatsApp",
+    "responseTime": "Wir antworten innerhalb von 24 Stunden",
+    "viewMap": "Auf der Karte anzeigen",
+    "hours": "Öffnungszeiten",
+    "monday": "Montag - Samstag",
+    "mondayHours": "8:30 - 17:00",
+    "sunday": "Sonntag",
+    "sundayHours": "9:00 - 16:00",
+    "hoursNote": "⚠️ Reservierung empfohlen • Öffnungszeiten variieren je nach Saison",
+    "mapMarker": "Las Galeras Divers",
+    "mapSubtext": "Ihre Tauchbasis",
+    "mapAlt": "Standortplan Las Galeras Divers"
+  },
+  "footer": {
+    "navigation": "Navigation",
+    "ourServices": "Unsere Dienstleistungen",
+    "contactTitle": "Kontakt",
+    "copyright": "© 2025 Las Galeras Divers. Alle Rechte vorbehalten.",
+    "certified": "PADI-zertifiziertes Tauchzentrum • Las Galeras, Dominikanische Republik",
+    "baptism": "Schnuppertauchen",
+    "training": "PADI-Kurse",
+    "funDive": "Fun Dive Tauchgänge",
+    "nightDive": "Nachttauchen",
+    "openWater": "Open Water Diver",
+    "advanced": "Advanced Open Water",
+    "logoAlt": "Logo Las Galeras Divers",
+    "padiLogoAlt": "PADI-zertifiziertes Zentrum"
+  },
+  "common": {
+    "logoAlt": "Logo Las Galeras Divers"
+  },
+  "accessibility": {
+    "toggleMenu": "Menü umschalten",
+    "closeModal": "Schließen",
+    "changeLanguage": "Sprache ändern",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "whatsapp": "WhatsApp",
+    "previousImage": "Vorheriges Bild",
+    "nextImage": "Nächstes Bild"
+  }
+}
+
