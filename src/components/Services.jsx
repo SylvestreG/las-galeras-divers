@@ -14,6 +14,7 @@ const Services = () => {
       descriptionKey: 'services.baptism.description',
       icon: "🤿",
       image: getAssetPath("/assets/bapteme.jpg"),
+      teamNames: "Cédric & Cathy",
       featuresKeys: [
         'services.baptism.feature1',
         'services.baptism.feature2',
@@ -77,6 +78,11 @@ const Services = () => {
               <div className="service-image">
                 <img src={service.image} alt={t(service.titleKey)} className="img-cover" />
                 <div className="service-icon">{service.icon}</div>
+                {service.teamNames && (
+                  <div className="service-team-names">
+                    <p>{service.teamNames}</p>
+                  </div>
+                )}
               </div>
               <div className="service-content">
                 <div className="service-header">

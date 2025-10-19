@@ -56,6 +56,24 @@
   box-shadow: var(--shadow-md);
 }
 
+.service-team-names {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.5) 100%);
+  padding: 0.75rem;
+  text-align: center;
+}
+
+.service-team-names p {
+  color: var(--white);
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
 .service-content {
   padding: var(--spacing-md);
 }

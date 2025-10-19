@@ -19,6 +19,9 @@ const About = () => {
         <div className="about-content">
           <div className="about-image">
             <img src={getAssetPath('/assets/about-main.jpg')} alt={t('about.imageAlt')} className="img-cover" />
+            <div className="about-team-names">
+              <p>{t('about.team.genelin')} • {t('about.team.rose')} • {t('about.team.cedric')} • {t('about.team.cathy')}</p>
+            </div>
           </div>
 
           <div className="about-text">

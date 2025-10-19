@@ -30,6 +30,24 @@
   transform: scale(1.05);
 }
 
+.about-team-names {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.6) 100%);
+  padding: 1rem;
+  text-align: center;
+}
+
+.about-team-names p {
+  color: var(--white);
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
 .about-badge {
   position: absolute;
   bottom: 2rem;
