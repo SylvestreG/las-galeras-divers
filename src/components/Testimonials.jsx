@@ -24,6 +24,11 @@ const Testimonials = () => {
       id: 4,
       rating: 5,
       avatar: "👨‍👩‍👧‍👦"
+    },
+    {
+      id: 5,
+      rating: 5,
+      avatar: "💑"
     }
   ]
 
