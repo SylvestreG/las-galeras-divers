@@ -103,11 +103,11 @@ const Contact = () => {
           <div className="hours-grid">
             <div className="hours-item">
               <span className="hours-day">{t('contact.monday')}</span>
-              <span className="hours-time">8:00 - 18:00</span>
+              <span className="hours-time">{t('contact.mondayHours')}</span>
             </div>
             <div className="hours-item">
               <span className="hours-day">{t('contact.sunday')}</span>
-              <span className="hours-time">9:00 - 17:00</span>
+              <span className="hours-time">{t('contact.sundayHours')}</span>
             </div>
           </div>
           <p className="hours-note">{t('contact.hoursNote')}</p>

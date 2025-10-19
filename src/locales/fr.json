@@ -22,7 +22,7 @@
     "imageAlt": "Équipe Las Galeras Divers",
     "padiLogoAlt": "Centre certifié PADI",
     "feature1Title": "Service Personnalisé",
-    "feature1Text": "Nous sommes un centre à taille humaine qui privilégie un service personnalisé et chaleureux. Des groupes de 6 plongeurs maximum pour une sécurité optimale, toujours encadrés par nos instructeurs PADI certifiés.",
+    "feature1Text": "Nous sommes un centre à taille humaine qui privilégie un service personnalisé et chaleureux. Groupe de 6 plongeurs par bateau avec possibilité de louer un deuxième bateau si nécessaire. Nous avons la chance d'avoir 2 Instructeurs PADI certifiés 😉",
     "feature2Title": "Sites Exceptionnels",
     "feature2Text": "Profitez de notre expertise et de notre connaissance parfaite des plus beaux sites de la région. Les sites de plongée sont choisis en fonction du niveau de pratique des plongeurs et des conditions météorologiques et maritimes.",
     "feature3Title": "Faune Marine Extraordinaire",
@@ -30,7 +30,14 @@
     "stat1": "Années d'Expérience",
     "stat2": "Sites de Plongée",
     "stat3": "Max par Groupe",
-    "stat4": "Satisfaction Client"
+    "stat4": "Satisfaction Client",
+    "teamTitle": "Notre Équipe",
+    "team": {
+      "genelin": "Genelin",
+      "rose": "Rosé",
+      "cedric": "Cédric",
+      "cathy": "Cathy"
+    }
   },
   "services": {
     "title": "Nos Services",
@@ -82,9 +89,9 @@
     "reserve": "Réserver",
     "popular": "Populaire",
     "info1Title": "Modes de Paiement",
-    "info1Text": "Nous acceptons les paiements en espèces (DOP, USD, EUR) et par carte bancaire",
-    "info2Title": "Tarifs Groupe",
-    "info2Text": "Réductions disponibles pour les groupes de 4 personnes et plus. Contactez-nous !",
+    "info1Text": "Paiement en espèces (DOP, USD, EUR). Possibilité de transfert uniquement pour les acomptes de réservation",
+    "info2Title": "Réservation Groupe",
+    "info2Text": "Acompte de réservation demandé pour les groupes. Contactez-nous !",
     "info3Title": "Inclus dans le Prix",
     "info3Text": "Tout l'équipement nécessaire, transport en bateau, et encadrement professionnel PADI",
     "services": {
@@ -124,12 +131,12 @@
     "image1": "Plongée corail Las Galeras",
     "image2": "Tortue marine",
     "image3": "Poisson tropical",
-    "image4": "Jardin de corail",
-    "image5": "Plage Las Galeras",
+    "image4": "Coraux",
+    "image5": "Bienvenue chez Nous (CÉDRIC & CATHY)",
     "image6": "Groupe de plongeurs",
     "image7": "Raie manta",
-    "image8": "Cascade Samaná",
-    "image9": "Barracuda"
+    "image8": "Cascade Limón",
+    "image9": "Flyer Las Galeras Divers"
   },
   "testimonials": {
     "title": "Témoignages",
@@ -172,8 +179,10 @@
     "viewMap": "Voir sur la carte",
     "hours": "Horaires d'Ouverture",
     "monday": "Lundi - Samedi",
+    "mondayHours": "8h30 - 17h",
     "sunday": "Dimanche",
-    "hoursNote": "⚠️ Réservation recommandée • Nous adaptons nos horaires selon les conditions météo",
+    "sundayHours": "9h - 16h",
+    "hoursNote": "⚠️ Réservation recommandée • Horaires variables suivant saison",
     "mapMarker": "Las Galeras Divers",
     "mapSubtext": "Votre Base de Plongée",
     "mapAlt": "Plan de localisation Las Galeras Divers"

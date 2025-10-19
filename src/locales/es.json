@@ -22,7 +22,7 @@
     "imageAlt": "Equipo Las Galeras Divers",
     "padiLogoAlt": "Centro Certificado PADI",
     "feature1Title": "Servicio Personalizado",
-    "feature1Text": "Somos un centro de tamaño humano que privilegia un servicio personalizado y cálido. Grupos de máximo 6 buceadores para una seguridad óptima, siempre supervisados por nuestros instructores certificados PADI.",
+    "feature1Text": "Somos un centro de tamaño humano que privilegia un servicio personalizado y cálido. Grupo de 6 buceadores por barco con posibilidad de alquilar un segundo barco si es necesario. Tenemos la suerte de contar con 2 Instructores certificados PADI 😉",
     "feature2Title": "Sitios Excepcionales",
     "feature2Text": "Benefíciate de nuestra experiencia y conocimiento perfecto de los sitios más hermosos de la región. Los sitios de buceo se eligen según el nivel de práctica de los buceadores y las condiciones meteorológicas y marítimas.",
     "feature3Title": "Fauna Marina Extraordinaria",
@@ -30,7 +30,14 @@
     "stat1": "Años de Experiencia",
     "stat2": "Sitios de Buceo",
     "stat3": "Máx por Grupo",
-    "stat4": "Satisfacción del Cliente"
+    "stat4": "Satisfacción del Cliente",
+    "teamTitle": "Nuestro Equipo",
+    "team": {
+      "genelin": "Genelin",
+      "rose": "Rosé",
+      "cedric": "Cédric",
+      "cathy": "Cathy"
+    }
   },
   "services": {
     "title": "Nuestros Servicios",
@@ -82,9 +89,9 @@
     "reserve": "Reservar",
     "popular": "Popular",
     "info1Title": "Métodos de Pago",
-    "info1Text": "Aceptamos pagos en efectivo (DOP, USD, EUR) y tarjeta bancaria",
-    "info2Title": "Tarifas de Grupo",
-    "info2Text": "Descuentos disponibles para grupos de 4 personas o más. ¡Contáctenos!",
+    "info1Text": "Pago en efectivo (DOP, USD, EUR). Posibilidad de transferencia solo para depósitos de reserva",
+    "info2Title": "Reserva de Grupo",
+    "info2Text": "Depósito de reserva requerido para grupos. ¡Contáctenos!",
     "info3Title": "Incluido en el Precio",
     "info3Text": "Todo el equipo necesario, transporte en barco y supervisión profesional PADI",
     "services": {
@@ -124,12 +131,12 @@
     "image1": "Buceo en coral Las Galeras",
     "image2": "Tortuga marina",
     "image3": "Pez tropical",
-    "image4": "Jardín de coral",
-    "image5": "Playa Las Galeras",
+    "image4": "Corales",
+    "image5": "Bienvenidos a Nuestro Lugar (CÉDRIC & CATHY)",
     "image6": "Grupo de buceadores",
     "image7": "Raya manta",
-    "image8": "Cascada Samaná",
-    "image9": "Barracuda"
+    "image8": "Cascada Limón",
+    "image9": "Folleto Las Galeras Divers"
   },
   "testimonials": {
     "title": "Testimonios",
@@ -172,8 +179,10 @@
     "viewMap": "Ver en el mapa",
     "hours": "Horario de Apertura",
     "monday": "Lunes - Sábado",
+    "mondayHours": "8:30 - 17:00",
     "sunday": "Domingo",
-    "hoursNote": "⚠️ Reserva recomendada • Adaptamos nuestros horarios según las condiciones meteorológicas",
+    "sundayHours": "9:00 - 16:00",
+    "hoursNote": "⚠️ Reserva recomendada • Horarios variables según temporada",
     "mapMarker": "Las Galeras Divers",
     "mapSubtext": "Tu Base de Buceo",
     "mapAlt": "Mapa de ubicación Las Galeras Divers"

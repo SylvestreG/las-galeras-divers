@@ -22,7 +22,7 @@
     "imageAlt": "Las Galeras Divers Team",
     "padiLogoAlt": "PADI Certified Center",
     "feature1Title": "Personalized Service",
-    "feature1Text": "We are a human-sized center that emphasizes personalized and warm service. Groups of maximum 6 divers for optimal safety, always supervised by our PADI certified instructors.",
+    "feature1Text": "We are a human-sized center that emphasizes personalized and warm service. Group of 6 divers per boat with the possibility to rent a second boat if needed. We are lucky to have 2 PADI certified Instructors 😉",
     "feature2Title": "Exceptional Sites",
     "feature2Text": "Benefit from our expertise and perfect knowledge of the most beautiful sites in the region. Dive sites are chosen according to divers' skill levels and weather and maritime conditions.",
     "feature3Title": "Extraordinary Marine Life",
@@ -30,7 +30,14 @@
     "stat1": "Years of Experience",
     "stat2": "Dive Sites",
     "stat3": "Max per Group",
-    "stat4": "Customer Satisfaction"
+    "stat4": "Customer Satisfaction",
+    "teamTitle": "Our Team",
+    "team": {
+      "genelin": "Genelin",
+      "rose": "Rosé",
+      "cedric": "Cédric",
+      "cathy": "Cathy"
+    }
   },
   "services": {
     "title": "Our Services",
@@ -82,9 +89,9 @@
     "reserve": "Book",
     "popular": "Popular",
     "info1Title": "Payment Methods",
-    "info1Text": "We accept cash payments (DOP, USD, EUR) and credit cards",
-    "info2Title": "Group Rates",
-    "info2Text": "Discounts available for groups of 4 or more. Contact us!",
+    "info1Text": "Cash payment (DOP, USD, EUR). Bank transfer possible only for reservation deposits",
+    "info2Title": "Group Reservation",
+    "info2Text": "Reservation deposit required for groups. Contact us!",
     "info3Title": "Included in Price",
     "info3Text": "All necessary equipment, boat transportation, and PADI professional supervision",
     "services": {
@@ -124,12 +131,12 @@
     "image1": "Coral diving Las Galeras",
     "image2": "Sea turtle",
     "image3": "Tropical fish",
-    "image4": "Coral garden",
-    "image5": "Las Galeras beach",
+    "image4": "Corals",
+    "image5": "Welcome to Our Place (CÉDRIC & CATHY)",
     "image6": "Group of divers",
     "image7": "Manta ray",
-    "image8": "Samaná waterfall",
-    "image9": "Barracuda"
+    "image8": "Limón Waterfall",
+    "image9": "Las Galeras Divers Flyer"
   },
   "testimonials": {
     "title": "Testimonials",
@@ -172,8 +179,10 @@
     "viewMap": "View on map",
     "hours": "Opening Hours",
     "monday": "Monday - Saturday",
+    "mondayHours": "8:30 AM - 5:00 PM",
     "sunday": "Sunday",
-    "hoursNote": "⚠️ Reservation recommended • We adapt our hours according to weather conditions",
+    "sundayHours": "9:00 AM - 4:00 PM",
+    "hoursNote": "⚠️ Reservation recommended • Hours vary by season",
     "mapMarker": "Las Galeras Divers",
     "mapSubtext": "Your Diving Base",
     "mapAlt": "Las Galeras Divers location map"
