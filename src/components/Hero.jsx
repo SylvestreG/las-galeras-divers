@@ -21,25 +21,12 @@ const Hero = () => {
   }
 
   const heroStyle = {
-    backgroundImage: `linear-gradient(135deg, rgba(78, 205, 196, 0.9) 0%, rgba(58, 159, 199, 0.9) 100%), url(${getAssetPath('/assets/hero-bg.jpg')})`
+    backgroundImage: `linear-gradient(135deg, rgba(78, 205, 196, 0.4) 0%, rgba(58, 159, 199, 0.5) 100%), url(${getAssetPath('/assets/hero-bg.jpg')})`
   }
 
   return (
     <section id="hero" className="hero" style={heroStyle}>
       <div className="hero-overlay"></div>
-      
-      {/* Bulles marines animées */}
-      <div className="ocean-bubbles">
-        <div className="bubble bubble-1"></div>
-        <div className="bubble bubble-2"></div>
-        <div className="bubble bubble-3"></div>
-        <div className="bubble bubble-4"></div>
-        <div className="bubble bubble-5"></div>
-        <div className="bubble bubble-6"></div>
-        <div className="bubble bubble-7"></div>
-        <div className="bubble bubble-8"></div>
-      </div>
-      
       <div className="hero-content">
         <div className="container">
           <div className="hero-text fade-in">
