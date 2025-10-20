@@ -4,13 +4,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-position: center;
+  background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: var(--white);
   overflow: hidden;
   padding-top: 80px;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
 }
 
 /* Effet de vagues marines animées */
