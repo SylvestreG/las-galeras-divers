@@ -1,0 +1,40 @@
+# robots.txt for Las Galeras Divers
+# Website: https://www.las-galeras-divers.com
+
+# Allow all crawlers to access all content
+User-agent: *
+Allow: /
+
+# Block access to assets that don't need indexing
+Disallow: /assets/*.js$
+Disallow: /assets/*.css$
+
+# Sitemap location
+Sitemap: https://www.las-galeras-divers.com/sitemap.xml
+
+# Specific rules for major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /assets/*.jpg
+Allow: /assets/*.png
+Allow: /assets/*.webp
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Crawl-delay for aggressive bots (optional)
+User-agent: ia_archiver
+Crawl-delay: 10
+
+# Block bad bots (optional - uncomment if needed)
+# User-agent: AhrefsBot
+# Disallow: /
+
+# User-agent: SemrushBot
+# Disallow: /
+

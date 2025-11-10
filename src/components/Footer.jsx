@@ -46,23 +46,25 @@ const Footer = () => {
             <div className="footer-column">
               <h4 className="footer-title">{t('footer.navigation')}</h4>
               <ul className="footer-links">
-                <li><button onClick={() => scrollToSection('about')}>{t('nav.about')}</button></li>
-                <li><button onClick={() => scrollToSection('services')}>{t('nav.services')}</button></li>
-                <li><button onClick={() => scrollToSection('pricing')}>{t('nav.pricing')}</button></li>
-                <li><button onClick={() => scrollToSection('gallery')}>{t('nav.gallery')}</button></li>
-                <li><button onClick={() => scrollToSection('contact')}>{t('nav.contact')}</button></li>
+                <li><a href="#hero" onClick={() => scrollToSection('hero')}>{t('nav.home')}</a></li>
+                <li><a href="#about" onClick={() => scrollToSection('about')}>{t('nav.about')}</a></li>
+                <li><a href="#services" onClick={() => scrollToSection('services')}>{t('nav.services')}</a></li>
+                <li><a href="#pricing" onClick={() => scrollToSection('pricing')}>{t('nav.pricing')}</a></li>
+                <li><a href="#gallery" onClick={() => scrollToSection('gallery')}>{t('nav.gallery')}</a></li>
+                <li><a href="#testimonials" onClick={() => scrollToSection('testimonials')}>{t('nav.testimonials')}</a></li>
+                <li><a href="#contact" onClick={() => scrollToSection('contact')}>{t('nav.contact')}</a></li>
               </ul>
             </div>
 
             <div className="footer-column">
               <h4 className="footer-title">{t('footer.ourServices')}</h4>
               <ul className="footer-links">
-                <li><span>{t('footer.baptism')}</span></li>
-                <li><span>{t('footer.training')}</span></li>
-                <li><span>{t('footer.funDive')}</span></li>
-                <li><span>{t('footer.nightDive')}</span></li>
-                <li><span>{t('footer.openWater')}</span></li>
-                <li><span>{t('footer.advanced')}</span></li>
+                <li><a href="#services" onClick={() => scrollToSection('services')}>{t('footer.baptism')}</a></li>
+                <li><a href="#services" onClick={() => scrollToSection('services')}>{t('footer.training')}</a></li>
+                <li><a href="#services" onClick={() => scrollToSection('services')}>{t('footer.funDive')}</a></li>
+                <li><a href="#services" onClick={() => scrollToSection('services')}>{t('footer.nightDive')}</a></li>
+                <li><a href="#pricing" onClick={() => scrollToSection('pricing')}>{t('footer.openWater')}</a></li>
+                <li><a href="#pricing" onClick={() => scrollToSection('pricing')}>{t('footer.advanced')}</a></li>
               </ul>
             </div>
 

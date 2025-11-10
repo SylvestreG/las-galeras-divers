@@ -1,9 +1,11 @@
 {
   "nav": {
+    "home": "Home",
     "about": "About",
     "services": "Services",
     "pricing": "Pricing",
     "gallery": "Gallery",
+    "testimonials": "Testimonials",
     "contact": "Contact"
   },
   "hero": {

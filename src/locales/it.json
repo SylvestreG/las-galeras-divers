@@ -1,9 +1,11 @@
 {
   "nav": {
+    "home": "Home",
     "about": "Chi Siamo",
     "services": "Servizi",
     "pricing": "Prezzi",
     "gallery": "Galleria",
+    "testimonials": "Testimonianze",
     "contact": "Contatti"
   },
   "hero": {

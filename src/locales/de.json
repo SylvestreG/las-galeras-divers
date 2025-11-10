@@ -1,9 +1,11 @@
 {
   "nav": {
+    "home": "Startseite",
     "about": "Über Uns",
     "services": "Dienstleistungen",
     "pricing": "Preise",
     "gallery": "Galerie",
+    "testimonials": "Erfahrungsberichte",
     "contact": "Kontakt"
   },
   "hero": {
