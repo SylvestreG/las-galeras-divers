@@ -250,10 +250,17 @@ section {
 }
 
 /* Responsive Images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 .img-cover {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
 }
 
 .img-round {
