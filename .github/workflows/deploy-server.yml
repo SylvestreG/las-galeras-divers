@@ -60,7 +60,7 @@ jobs:
         run: |
           ssh -i ~/.ssh/deploy_key -p "${{ secrets.DEPLOY_PORT || 22 }}" \
             "${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}" \
-            "sudo mkdir -p '${{ env.DEPLOY_PATH }}' && sudo chown '${{ secrets.DEPLOY_USER }}:${{ secrets.DEPLOY_USER }}' '${{ env.DEPLOY_PATH }}'"
+            "sudo mkdir -p '${{ env.DEPLOY_PATH }}' && sudo chown -R '${{ secrets.DEPLOY_USER }}:${{ secrets.DEPLOY_USER }}' '${{ env.DEPLOY_PATH }}'"
 
       - name: Sync build to server
         run: |
