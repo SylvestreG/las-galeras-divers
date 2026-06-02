@@ -1,23 +1,17 @@
 import React, { useState } from 'react'
 import { useLanguage } from '../contexts/LanguageContext'
 import { getAssetPath } from '../utils/assets'
+import galleryImages from 'virtual:gallery-images'
 import './Gallery.css'
 
 const Gallery = () => {
   const { t } = useLanguage()
   const [selectedImage, setSelectedImage] = useState(null)
 
-  const images = [
-    { id: 1, src: getAssetPath('/assets/gallery-1.jpg'), altKey: 'gallery.image1', category: 'coral' },
-    { id: 2, src: getAssetPath('/assets/gallery-2.jpg'), altKey: 'gallery.image2', category: 'fauna' },
-    { id: 3, src: getAssetPath('/assets/gallery-3.jpg'), altKey: 'gallery.image3', category: 'fauna' },
-    { id: 4, src: getAssetPath('/assets/gallery-4.jpg'), altKey: 'gallery.image4', category: 'coral' },
-    { id: 5, src: getAssetPath('/assets/gallery-5.jpg'), altKey: 'gallery.image5', category: 'beach' },
-    { id: 6, src: getAssetPath('/assets/gallery-6.jpg'), altKey: 'gallery.image6', category: 'diving' },
-    { id: 7, src: getAssetPath('/assets/gallery-7.jpg'), altKey: 'gallery.image7', category: 'fauna' },
-    { id: 8, src: getAssetPath('/assets/gallery-8.jpg'), altKey: 'gallery.image8', category: 'landscape' },
-    { id: 9, src: getAssetPath('/assets/gallery-9.jpg'), altKey: 'gallery.image9', category: 'fauna' },
-  ]
+  const images = galleryImages.map((image) => ({
+    ...image,
+    src: getAssetPath(image.src),
+  }))
 
   const openLightbox = (image) => {
     setSelectedImage(image)
