@@ -146,6 +146,7 @@
     "ctaTitle": "Rejoignez des centaines de plongeurs satisfaits !",
     "ctaText": "Vivez vous aussi une expérience de plongée inoubliable à Las Galeras",
     "ctaButton": "Réservez Votre Plongée",
+    "googleReviews": "Voir nos avis Google",
     "items": {
       "1": {
         "name": "Marie & Thomas",
@@ -219,6 +220,7 @@
     "instagram": "Instagram",
     "facebook": "Facebook",
     "whatsapp": "WhatsApp",
+    "googleReviews": "Avis Google",
     "previousImage": "Image précédente",
     "nextImage": "Image suivante"
   }

@@ -146,6 +146,7 @@
     "ctaTitle": "Unisciti a centinaia di subacquei soddisfatti!",
     "ctaText": "Vivi anche tu un'esperienza di immersione indimenticabile a Las Galeras",
     "ctaButton": "Prenota la Tua Immersione",
+    "googleReviews": "Vedi le nostre recensioni su Google",
     "items": {
       "1": {
         "name": "Marie & Thomas",
@@ -219,6 +220,7 @@
     "instagram": "Instagram",
     "facebook": "Facebook",
     "whatsapp": "WhatsApp",
+    "googleReviews": "Recensioni Google",
     "previousImage": "Immagine precedente",
     "nextImage": "Immagine successiva"
   }

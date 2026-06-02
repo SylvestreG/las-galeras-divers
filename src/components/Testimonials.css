@@ -135,6 +135,11 @@
   color: var(--white);
 }
 
+.testimonials-google {
+  text-align: center;
+  margin-bottom: var(--spacing-lg);
+}
+
 @media (max-width: 768px) {
   .testimonials-grid {
     grid-template-columns: 1fr;

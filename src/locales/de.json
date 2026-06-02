@@ -146,6 +146,7 @@
     "ctaTitle": "Schließen Sie sich Hunderten zufriedener Taucher an!",
     "ctaText": "Erleben auch Sie ein unvergessliches Taucherlebnis in Las Galeras",
     "ctaButton": "Buchen Sie Ihren Tauchgang",
+    "googleReviews": "Unsere Google-Bewertungen ansehen",
     "items": {
       "1": {
         "name": "Marie & Thomas",
@@ -219,6 +220,7 @@
     "instagram": "Instagram",
     "facebook": "Facebook",
     "whatsapp": "WhatsApp",
+    "googleReviews": "Google-Bewertungen",
     "previousImage": "Vorheriges Bild",
     "nextImage": "Nächstes Bild"
   }

@@ -146,6 +146,7 @@
     "ctaTitle": "¡Únete a cientos de buceadores satisfechos!",
     "ctaText": "Vive tú también una experiencia de buceo inolvidable en Las Galeras",
     "ctaButton": "Reserva Tu Buceo",
+    "googleReviews": "Ver nuestras reseñas en Google",
     "items": {
       "1": {
         "name": "Marie & Thomas",
@@ -219,6 +220,7 @@
     "instagram": "Instagram",
     "facebook": "Facebook",
     "whatsapp": "WhatsApp",
+    "googleReviews": "Reseñas de Google",
     "previousImage": "Imagen anterior",
     "nextImage": "Imagen siguiente"
   }

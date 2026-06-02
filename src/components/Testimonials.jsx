@@ -1,9 +1,11 @@
 import React from 'react'
 import { useLanguage } from '../contexts/LanguageContext'
+import config from '../config.json'
 import './Testimonials.css'
 
 const Testimonials = () => {
   const { t } = useLanguage()
+  const { googleReviews } = config.socialMedia
   const testimonials = [
     {
       id: 1,
@@ -64,6 +66,18 @@ const Testimonials = () => {
               <p className="testimonial-text">"{t(`testimonials.items.${testimonial.id}.text`)}"</p>
             </div>
           ))}
+        </div>
+
+        <div className="testimonials-google">
+          <a
+            href={googleReviews}
+            className="btn btn-secondary"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={t('accessibility.googleReviews')}
+          >
+            ⭐ {t('testimonials.googleReviews')}
+          </a>
         </div>
 
         <div className="testimonials-cta">

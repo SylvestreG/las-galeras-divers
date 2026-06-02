@@ -146,6 +146,7 @@
     "ctaTitle": "Join hundreds of satisfied divers!",
     "ctaText": "Experience an unforgettable diving adventure in Las Galeras",
     "ctaButton": "Book Your Dive",
+    "googleReviews": "See our Google reviews",
     "items": {
       "1": {
         "name": "Marie & Thomas",
@@ -219,6 +220,7 @@
     "instagram": "Instagram",
     "facebook": "Facebook",
     "whatsapp": "WhatsApp",
+    "googleReviews": "Google reviews",
     "previousImage": "Previous image",
     "nextImage": "Next image"
   }
