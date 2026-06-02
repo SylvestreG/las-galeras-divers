@@ -1,0 +1,65 @@
+name: Deploy to production server
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-production
+  cancel-in-progress: true
+
+env:
+  DEPLOY_PATH: /var/www/las-galeras-divers.com
+  NODE_VERSION: '18'
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          printf '%s\n' "${{ secrets.DEPLOY_SSH_KEY }}" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          ssh-keyscan -p "${{ secrets.DEPLOY_PORT || 22 }}" "${{ secrets.DEPLOY_HOST }}" >> ~/.ssh/known_hosts
+
+      - name: Prepare deploy directory
+        run: |
+          ssh -i ~/.ssh/deploy_key -p "${{ secrets.DEPLOY_PORT || 22 }}" \
+            "${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}" \
+            "sudo mkdir -p '${{ env.DEPLOY_PATH }}' && sudo chown '${{ secrets.DEPLOY_USER }}:${{ secrets.DEPLOY_USER }}' '${{ env.DEPLOY_PATH }}'"
+
+      - name: Sync build to server
+        run: |
+          # dist/ contents go to the site root (index.html, assets/, favicon.png, etc.)
+          # info.sh is server-only and must not be removed by --delete
+          rsync -avzr --delete \
+            --filter 'protect info.sh' \
+            -e "ssh -i ~/.ssh/deploy_key -p ${{ secrets.DEPLOY_PORT || 22 }} -o StrictHostKeyChecking=yes" \
+            dist/ "${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}:${{ env.DEPLOY_PATH }}/"
+
+      - name: Set ownership and permissions
+        run: |
+          ssh -i ~/.ssh/deploy_key -p "${{ secrets.DEPLOY_PORT || 22 }}" \
+            "${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}" \
+            "sudo chown -R www-data:www-data '${{ env.DEPLOY_PATH }}' && \
+             sudo find '${{ env.DEPLOY_PATH }}' -type d -exec chmod 755 {} \; && \
+             sudo find '${{ env.DEPLOY_PATH }}' -type f ! -name 'info.sh' -exec chmod 644 {} \; && \
+             if [ -f '${{ env.DEPLOY_PATH }}/info.sh' ]; then sudo chmod 755 '${{ env.DEPLOY_PATH }}/info.sh'; fi"
