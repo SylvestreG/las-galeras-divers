@@ -34,15 +34,23 @@ jobs:
         run: npm run build
 
       - name: Setup SSH key
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
         run: |
           mkdir -p ~/.ssh
-          echo "${{ secrets.DEPLOY_SSH_KEY }}" | base64 -d > ~/.ssh/deploy_key
+          chmod 700 ~/.ssh
+
+          if [[ "$SSH_PRIVATE_KEY" == -----BEGIN* ]]; then
+            printf '%s\n' "$SSH_PRIVATE_KEY" > ~/.ssh/deploy_key
+          else
+            echo "$SSH_PRIVATE_KEY" | base64 -d > ~/.ssh/deploy_key
+          fi
+
           chmod 600 ~/.ssh/deploy_key
 
           if ! ssh-keygen -y -f ~/.ssh/deploy_key > /dev/null 2>&1; then
             echo "::error::DEPLOY_SSH_KEY invalide."
-            echo "Le secret doit contenir la clé privée encodée en base64 (sans passphrase)."
-            echo "Sur Mac : base64 -i ~/.ssh/las-galeras-deploy | pbcopy"
+            echo "Collez la clé privée complète (-----BEGIN OPENSSH PRIVATE KEY----- ... -----END ...)."
             exit 1
           fi
 
