@@ -11,6 +11,7 @@ concurrency:
 
 env:
   DEPLOY_PATH: /var/www/las-galeras-divers.com
+  DEPLOY_STAGING: /tmp/las-galeras-divers-deploy
   NODE_VERSION: '18'
 
 jobs:
@@ -56,26 +57,26 @@ jobs:
 
           ssh-keyscan -p "${{ secrets.DEPLOY_PORT || 22 }}" "${{ secrets.DEPLOY_HOST }}" >> ~/.ssh/known_hosts
 
-      - name: Prepare deploy directory
+      - name: Upload build to staging
         run: |
           ssh -i ~/.ssh/deploy_key -p "${{ secrets.DEPLOY_PORT || 22 }}" \
             "${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}" \
-            "sudo mkdir -p '${{ env.DEPLOY_PATH }}' && sudo chown -R '${{ secrets.DEPLOY_USER }}:${{ secrets.DEPLOY_USER }}' '${{ env.DEPLOY_PATH }}'"
+            "rm -rf '${{ env.DEPLOY_STAGING }}' && mkdir -p '${{ env.DEPLOY_STAGING }}'"
 
-      - name: Sync build to server
-        run: |
-          # dist/ contents go to the site root (index.html, assets/, favicon.png, etc.)
-          # info.sh is server-only and must not be removed by --delete
           rsync -avzr --delete \
-            --filter 'protect info.sh' \
             -e "ssh -i ~/.ssh/deploy_key -p ${{ secrets.DEPLOY_PORT || 22 }} -o StrictHostKeyChecking=yes" \
-            dist/ "${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}:${{ env.DEPLOY_PATH }}/"
+            dist/ "${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}:${{ env.DEPLOY_STAGING }}/"
 
-      - name: Set ownership and permissions
+      - name: Publish to web root with sudo
         run: |
           ssh -i ~/.ssh/deploy_key -p "${{ secrets.DEPLOY_PORT || 22 }}" \
             "${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}" \
-            "sudo chown -R www-data:www-data '${{ env.DEPLOY_PATH }}' && \
+            "sudo mkdir -p '${{ env.DEPLOY_PATH }}' && \
+             sudo rsync -a --delete \
+               --filter 'protect info.sh' \
+               '${{ env.DEPLOY_STAGING }}/' '${{ env.DEPLOY_PATH }}/' && \
+             sudo chown -R www-data:www-data '${{ env.DEPLOY_PATH }}' && \
              sudo find '${{ env.DEPLOY_PATH }}' -type d -exec chmod 755 {} \; && \
              sudo find '${{ env.DEPLOY_PATH }}' -type f ! -name 'info.sh' -exec chmod 644 {} \; && \
-             if [ -f '${{ env.DEPLOY_PATH }}/info.sh' ]; then sudo chmod 755 '${{ env.DEPLOY_PATH }}/info.sh'; fi"
+             if [ -f '${{ env.DEPLOY_PATH }}/info.sh' ]; then sudo chmod 755 '${{ env.DEPLOY_PATH }}/info.sh'; fi && \
+             rm -rf '${{ env.DEPLOY_STAGING }}'"
