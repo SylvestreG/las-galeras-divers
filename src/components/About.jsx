@@ -17,10 +17,15 @@ const About = () => {
         </div>
 
         <div className="about-content">
-          <div className="about-image">
-            <img src={getAssetPath('/assets/about-main.jpg')} alt={t('about.imageAlt')} className="img-cover" />
-            <div className="about-team-names">
-              <p>{t('about.team.genelin')} • {t('about.team.rose')}</p>
+          <div className="about-images">
+            <div className="about-image about-image-news">
+              <img src={getAssetPath('/assets/news.webp')} alt={t('about.newsImageAlt')} className="img-cover" />
+            </div>
+            <div className="about-image about-image-team">
+              <img src={getAssetPath('/assets/about-main.webp')} alt={t('about.imageAlt')} className="img-cover" />
+              <div className="about-team-names">
+                <p>{t('about.team.genelin')} • {t('about.team.rose')}</p>
+              </div>
             </div>
           </div>
 

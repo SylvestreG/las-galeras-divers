@@ -7,8 +7,15 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: var(--spacing-lg);
-  align-items: center;
+  align-items: stretch;
   margin-bottom: var(--spacing-xl);
+}
+
+.about-images {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+  height: 100%;
 }
 
 .about-image {
@@ -16,7 +23,16 @@
   border-radius: var(--radius-lg);
   overflow: hidden;
   box-shadow: var(--shadow-lg);
-  height: 600px;
+  flex: 1;
+  min-height: 0;
+}
+
+.about-image-news {
+  flex: 0.85;
+}
+
+.about-image-team {
+  flex: 1.15;
 }
 
 .about-image img {
@@ -156,8 +172,12 @@
     gap: var(--spacing-md);
   }
 
+  .about-images {
+    min-height: 360px;
+  }
+
   .about-image {
-    height: 400px;
+    min-height: 160px;
   }
 
   .about-badge {
