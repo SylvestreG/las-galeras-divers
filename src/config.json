@@ -45,7 +45,7 @@
         "id": "night-dive",
         "name": "Night Dive",
         "nameEn": "Night Dive",
-        "price": 4500,
+        "price": 5000,
         "description": "Découvrez la magie de la vie marine nocturne.",
         "category": "specialty"
       },
@@ -61,7 +61,7 @@
         "id": "open-water",
         "name": "Open Water Diver",
         "nameEn": "Open Water Diver",
-        "price": 32000,
+        "price": 32500,
         "description": "Certification PADI complète pour plonger jusqu'à 18 mètres en autonomie.",
         "category": "certification"
       },
@@ -69,7 +69,7 @@
         "id": "advanced-open-water",
         "name": "Advanced Open Water",
         "nameEn": "Advanced Open Water",
-        "price": 24500,
+        "price": 25500,
         "description": "Niveau avancé PADI pour perfectionner vos compétences et plonger jusqu'à 30 mètres.",
         "category": "certification"
       }
