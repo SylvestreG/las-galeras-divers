@@ -361,7 +361,7 @@ LIVE! 🎉
 
 ## 🏝️ Page « Découvrir Las Galeras » (`/que-faire-a-las-galeras/`)
 
-Deuxième page du site, accessible depuis le menu et le pied de page (« Découvrir Las Galeras »). Le routage est assuré par `src/router.jsx` (mini-routeur basé sur `history.pushState`, sans dépendance) ; `src/App.jsx` affiche `HomePage` ou `DiscoverPage` selon l'URL. Les liens de sections (`/#about`, `/#contact`, …) fonctionnent depuis n'importe quelle page.
+Deuxième page du site, accessible depuis le menu et le pied de page (« Découvrir Las Galeras »). Le routage est assuré par `src/router.jsx` (mini-routeur basé sur `history.pushState`, sans dépendance) ; `src/App.jsx` affiche `HomePage`, `DiscoverPage` ou `FaqPage` selon l'URL. Les liens de sections (`/#about`, `/#contact`, …) fonctionnent depuis n'importe quelle page.
 
 ```
 ┌─────────────────────────────────────────┐
@@ -385,6 +385,46 @@ Deuxième page du site, accessible depuis le menu et le pied de page (« Découv
 └─────────────────────────────────────────┘
 ```
 
-- Contenu : `discover` dans `src/locales/{fr,en,es}.json` ; structure dans `src/data/discoverSections.js`.
+- Contenu : `discover` dans `src/locales/{fr,en,es,de,it}.json` ; structure dans `src/data/discoverSections.js`.
 - Photos : `public/assets/discover-<slug>.webp`, détectées au build par `vite-plugins/discover-images.js`.
 - SEO : titre/description/canonique par page (`src/hooks/usePageMeta.js`) et version statique générée dans `dist/que-faire-a-las-galeras/index.html` (`vite-plugins/prerender-routes.js`) ; entrée dans `public/sitemap.xml`.
+
+---
+
+## ❓ Page « FAQ » (`/faq-plongee-las-galeras/`)
+
+Troisième page du site, accessible depuis le menu et le pied de page (« FAQ »). 61 questions-réponses sur la plongée à Las Galeras, réparties en 10 thèmes.
+
+```
+┌─────────────────────────────────────────┐
+│ Hero : « Tout savoir sur la plongée     │
+│ à Las Galeras » (photo de plongeur)     │
+├─────────────────────────────────────────┤
+│ Introduction (3 paragraphes)            │
+├─────────────────────────────────────────┤
+│ Sommaire : 10 vignettes-thèmes          │
+│ (icône, titre, nombre de questions)     │
+├─────────────────────────────────────────┤
+│ 10 sections, une par thème :            │
+│ 01 Découvrir la plongée (8)             │
+│ 02 Niveaux et formations PADI (9,       │
+│    avec le tableau des niveaux)         │
+│ 03 Plongées pour les certifiés (8)      │
+│ 04 Sites de plongée (4)                 │
+│ 05 Faune et flore marines (6)           │
+│ 06 Météo et conditions (4)              │
+│ 07 Sécurité et santé (10)               │
+│ 08 Organisation des sorties (5)         │
+│ 09 Réservations et annulations (5)      │
+│ 10 Pourquoi Las Galeras Divers (2)      │
+│ Chaque question est un accordéon ;      │
+│ lien « Retour aux thèmes » par section  │
+├─────────────────────────────────────────┤
+│ Conclusion « Vous avez une autre        │
+│ question ? » + boutons Contact / Tarifs │
+└─────────────────────────────────────────┘
+```
+
+- Contenu : `faq` dans `src/locales/{fr,en,es,de,it}.json` (blocs texte / liste / tableau) ; ordre et icônes des thèmes dans `src/data/faqSections.js`.
+- Ancres : `#<thème>` (ex. `#safety`) et `#<thème>-q<n>` (ex. `#safety-q9`, qui ouvre la question).
+- SEO : version statique `dist/faq-plongee-las-galeras/index.html` avec données structurées schema.org `FAQPage` (`vite-plugins/faq-json-ld.js`) ; entrée dans `public/sitemap.xml`.

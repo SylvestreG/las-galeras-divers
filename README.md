@@ -312,3 +312,12 @@ La page `/que-faire-a-las-galeras/` (entrée de menu « Découvrir Las Galeras �
 - **Structure** : liste des plages et activités dans `src/data/discoverSections.js`, composant `src/pages/DiscoverPage.jsx`.
 - **Photos** : déposer un fichier `public/assets/discover-<slug>.webp` et il est utilisé automatiquement au prochain build (comme la galerie). Slugs disponibles : `hero`, `playa-rincon`, `playa-fronton`, `playa-madama`, `playa-colorada`, `la-playita`, `hiking`, `climbing`, `el-limon`, `horse-riding`, `quad-buggy`, `whales`, `boat-trips`, `fishing`, `ziplines`, `samana-cayo-levantado`, `santo-domingo`, `gastronomy`. Sans photo, une vignette colorée avec une icône est affichée. `npm run convert-webp` convertit les JPG/PNG déposés dans `public/assets/` en WebP.
 - **SEO** : au build, la page est écrite en statique dans `dist/que-faire-a-las-galeras/index.html` avec son propre titre, sa description, ses balises Open Graph et son URL canonique (`vite-plugins/prerender-routes.js`). Elle est déclarée dans `public/sitemap.xml`.
+
+## ❓ Page « FAQ »
+
+La page `/faq-plongee-las-galeras/` (entrée de menu « FAQ ») regroupe 61 questions-réponses sur la plongée à Las Galeras, en 10 thèmes : découvrir la plongée, niveaux et formations PADI, plongées pour les certifiés, sites de plongée, faune et flore, météo, sécurité et santé, organisation des sorties, réservations et annulations, pourquoi choisir Las Galeras Divers.
+
+- **Textes** : clé `faq` (et `seo.faq` pour le titre/description) dans `src/locales/{fr,en,es,de,it}.json`. Chaque question est un objet `{ "q": "…", "a": [ … ] }` ; une réponse est une liste de blocs : un texte (paragraphe), `{ "list": [ … ] }` (liste à puces) ou `{ "table": { "headers": [ … ], "rows": [[ … ]] } }` (tableau). Ajouter, retirer ou réordonner des questions se fait directement dans ces fichiers, dans les cinq langues.
+- **Structure** : ordre et icônes des thèmes dans `src/data/faqSections.js`, composant `src/pages/FaqPage.jsx` (sommaire par thème, accordéon, liens directs vers un thème `#safety` ou une question `#safety-q9`).
+- **Photo du bandeau** : `public/assets/gallery-4.webp` (constante `FAQ_HERO_IMAGE` dans `src/data/faqSections.js`).
+- **SEO** : version statique `dist/faq-plongee-las-galeras/index.html` avec titre, description, Open Graph, URL canonique et données structurées `FAQPage` (schema.org, générées par `vite-plugins/faq-json-ld.js`) ; entrée dans `public/sitemap.xml`.

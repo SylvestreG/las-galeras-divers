@@ -6,6 +6,7 @@
     "pricing": "Tarifs",
     "gallery": "Galerie",
     "discover": "Découvrir Las Galeras",
+    "faq": "FAQ",
     "testimonials": "Témoignages",
     "contact": "Contact"
   },
@@ -345,6 +346,572 @@
       "button": "Découvrir nos plongées"
     }
   },
+  "faq": {
+    "eyebrow": "Foire aux questions",
+    "title": "Tout savoir sur la plongée à Las Galeras",
+    "subtitle": "Vos questions sur la plongée à Las Galeras, en République dominicaine",
+    "intro": [
+      "Bienvenue chez Las Galeras Divers !",
+      "Que vous souhaitiez découvrir la plongée sous-marine, obtenir une certification PADI ou explorer les fonds marins de Las Galeras, notre équipe est là pour vous accompagner.",
+      "Retrouvez ici les réponses aux questions les plus fréquentes pour préparer votre expérience en toute sérénité."
+    ],
+    "topicsTitle": "Choisissez un thème",
+    "questionsLabel": "questions",
+    "backToTopics": "Retour aux thèmes",
+    "sections": {
+      "discover": {
+        "title": "Découvrir la plongée",
+        "items": [
+          {
+            "q": "À partir de quel âge peut-on faire un baptême de plongée ?",
+            "a": [
+              "Nous proposons une première découverte de la plongée dès 8 ans, dans un environnement adapté, avec une profondeur maximale de 2 mètres pour les enfants de 8 et 9 ans.",
+              "À partir de 10 ans, il est possible de participer au programme PADI Discover Scuba Diving, sous réserve de remplir les conditions requises.",
+              "Chaque expérience est adaptée à l'âge, à l'aisance dans l'eau et aux capacités du participant."
+            ]
+          },
+          {
+            "q": "Faut-il savoir nager pour faire un baptême ?",
+            "a": [
+              "Il n'est pas nécessaire d'être un excellent nageur, mais il est important d'être suffisamment à l'aise dans l'eau.",
+              "Votre moniteur vous accompagne tout au long de l'expérience et adapte l'activité à votre niveau de confiance."
+            ]
+          },
+          {
+            "q": "Je n'ai jamais plongé. Puis-je participer ?",
+            "a": [
+              "Bien sûr ! Le baptême est spécialement conçu pour les personnes qui souhaitent découvrir les sensations de la plongée sous-marine sans formation préalable."
+            ]
+          },
+          {
+            "q": "Un baptême de plongée donne-t-il une certification ?",
+            "a": [
+              "Non. Un baptême de plongée n'est pas une formation certifiante.",
+              "Il permet de découvrir le monde sous-marin accompagné d'un professionnel, mais ne délivre aucun brevet de plongeur autonome.",
+              "Pour obtenir une certification reconnue internationalement, il faut suivre une formation comme le PADI Open Water Diver."
+            ]
+          },
+          {
+            "q": "J'ai déjà effectué plusieurs baptêmes. Suis-je considéré comme plongeur certifié ?",
+            "a": [
+              "Non. Même après plusieurs baptêmes, vous n'êtes pas considéré comme plongeur certifié.",
+              "Pour participer aux sorties réservées aux plongeurs certifiés, une certification reconnue est nécessaire."
+            ]
+          },
+          {
+            "q": "Peut-on faire un baptême en couple ou en famille ?",
+            "a": [
+              "Oui ! Nous accueillons les couples, les familles et les groupes d'amis. L'organisation est adaptée à l'âge et aux capacités de chacun."
+            ]
+          },
+          {
+            "q": "J'ai peur de respirer sous l'eau. Est-ce normal ?",
+            "a": [
+              "Tout à fait ! Nous prenons le temps de vous expliquer le fonctionnement du matériel et de vous familiariser progressivement avec la respiration sous l'eau.",
+              "Vous avancez à votre rythme, sans pression."
+            ]
+          },
+          {
+            "q": "Peut-on faire un baptême si l'on a peur de l'eau ?",
+            "a": [
+              "Cela dépend de votre niveau d'appréhension. Nous prenons le temps de vous rassurer et de vous accompagner progressivement.",
+              "Si votre peur ne permet pas de réaliser l'activité dans de bonnes conditions de sécurité, nous préférerons ne pas poursuivre."
+            ]
+          }
+        ]
+      },
+      "courses": {
+        "title": "Les niveaux et formations PADI",
+        "items": [
+          {
+            "q": "Quels sont les différents niveaux de plongée ?",
+            "a": [
+              "Voici les principales étapes pour découvrir la plongée et progresser vers des certifications plus avancées.",
+              {
+                "table": {
+                  "headers": [
+                    "Niveau",
+                    "Âge minimum",
+                    "Profondeur maximale"
+                  ],
+                  "rows": [
+                    [
+                      "Première découverte",
+                      "8 ans",
+                      "2 m"
+                    ],
+                    [
+                      "Discover Scuba Diving",
+                      "10 ans",
+                      "12 m"
+                    ],
+                    [
+                      "Junior Open Water",
+                      "10 ans",
+                      "12 à 18 m selon l'âge"
+                    ],
+                    [
+                      "Open Water Diver",
+                      "15 ans",
+                      "18 m"
+                    ],
+                    [
+                      "Junior Advanced",
+                      "12 ans",
+                      "21 m"
+                    ],
+                    [
+                      "Advanced Open Water",
+                      "15 ans",
+                      "30 m"
+                    ],
+                    [
+                      "Rescue Diver",
+                      "12 ans",
+                      "Selon qualification"
+                    ],
+                    [
+                      "Divemaster",
+                      "18 ans",
+                      "Selon activité et qualification"
+                    ]
+                  ]
+                }
+              },
+              "Les profondeurs indiquées correspondent aux limites applicables aux programmes ou certifications, sous réserve des conditions de formation et de sécurité. Pour les enfants et adolescents, des règles spécifiques d'accompagnement s'appliquent."
+            ]
+          },
+          {
+            "q": "Qu'est-ce que le PADI Open Water Diver ?",
+            "a": [
+              "L'Open Water Diver est la première certification de plongée sous-marine.",
+              "La formation comprend une partie théorique, des exercices pratiques et quatre plongées en milieu naturel.",
+              "Une fois certifié, vous pourrez plonger jusqu'à 18 mètres, avec un binôme qualifié, dans les limites de votre formation et de votre expérience."
+            ]
+          },
+          {
+            "q": "Combien de temps dure la formation Open Water ?",
+            "a": [
+              "La formation se déroule généralement sur 2 à 3 jours, notamment lorsque la théorie PADI eLearning est terminée avant votre arrivée.",
+              "La durée peut être adaptée à votre progression et aux conditions météorologiques."
+            ]
+          },
+          {
+            "q": "Peut-on commencer la théorie avant les vacances ?",
+            "a": [
+              "Oui, et c'est même conseillé !",
+              "Grâce au PADI eLearning, vous pouvez commencer votre formation théorique depuis chez vous, à votre rythme.",
+              "Vous profitez ainsi davantage de votre séjour pour les exercices pratiques et les plongées en mer."
+            ]
+          },
+          {
+            "q": "Qu'est-ce que l'Advanced Open Water Diver ?",
+            "a": [
+              "L'Advanced Open Water Diver permet d'améliorer vos compétences et de découvrir de nouvelles techniques à travers cinq plongées de formation.",
+              "Le programme comprend notamment une plongée profonde et une plongée d'orientation.",
+              "Pour les adultes, la formation permet d'accéder à une profondeur maximale de 30 mètres."
+            ]
+          },
+          {
+            "q": "Qu'est-ce que le Rescue Diver ?",
+            "a": [
+              "Le Rescue Diver est une formation consacrée à la prévention des incidents, à l'assistance aux plongeurs et à la gestion des situations d'urgence.",
+              "Elle permet de développer la confiance, l'anticipation et les capacités d'intervention.",
+              "Des prérequis de certification et de formation aux premiers secours sont nécessaires."
+            ]
+          },
+          {
+            "q": "Qu'est-ce que le Divemaster ?",
+            "a": [
+              "Le Divemaster est le premier niveau professionnel PADI.",
+              "Cette formation permet d'approfondir ses connaissances, ses techniques et ses compétences d'encadrement, dans les limites de cette qualification."
+            ]
+          },
+          {
+            "q": "Combien de temps faut-il prévoir pour une formation PADI ?",
+            "a": [
+              {
+                "list": [
+                  "Open Water Diver : 2 à 3 jours.",
+                  "Advanced Open Water : 2 à 3 jours.",
+                  "Rescue Diver : 2 à 4 jours, hors prérequis.",
+                  "Divemaster : plusieurs semaines selon le programme."
+                ]
+              },
+              "Ces durées sont indicatives et peuvent varier selon la progression de chaque élève."
+            ]
+          },
+          {
+            "q": "Peut-on suivre une formation pendant ses vacances ?",
+            "a": [
+              "Bien sûr ! Nous pouvons organiser votre formation en fonction de la durée de votre séjour, des disponibilités et des conditions météorologiques.",
+              "Nous vous recommandons de nous contacter avant votre arrivée pour préparer votre programme."
+            ]
+          }
+        ]
+      },
+      "certified": {
+        "title": "Les plongées pour les certifiés",
+        "items": [
+          {
+            "q": "Je suis Open Water. Puis-je plonger à Las Galeras ?",
+            "a": [
+              "Bien sûr ! Plusieurs de nos sites sont accessibles aux plongeurs Open Water.",
+              "Nous choisissons les plongées en fonction de votre certification, de votre expérience et des conditions de mer."
+            ]
+          },
+          {
+            "q": "Je n'ai pas plongé depuis plusieurs années. Puis-je reprendre ?",
+            "a": [
+              "Oui ! Selon le temps écoulé depuis votre dernière plongée et votre expérience, nous pouvons vous proposer une remise à niveau.",
+              "L'objectif est de retrouver vos automatismes et de reprendre la plongée en confiance."
+            ]
+          },
+          {
+            "q": "Proposez-vous des remises à niveau ?",
+            "a": [
+              "Oui. Elles permettent de revoir les principales règles de sécurité, l'utilisation du matériel, la flottabilité et les exercices essentiels."
+            ]
+          },
+          {
+            "q": "Combien de temps dure une plongée ?",
+            "a": [
+              "Nos plongées durent généralement environ 45 minutes.",
+              "Cette durée peut varier selon la profondeur, la consommation d'air et les conditions du moment."
+            ]
+          },
+          {
+            "q": "Peut-on faire deux plongées dans la même matinée ?",
+            "a": [
+              "Oui ! Nous organisons régulièrement des sorties comprenant deux plongées, généralement sur des sites différents, avec un intervalle de surface adapté."
+            ]
+          },
+          {
+            "q": "Le matériel est-il fourni ?",
+            "a": [
+              "Oui, nous mettons à votre disposition le matériel nécessaire à la plongée : bouteille, détendeur, gilet stabilisateur, masque, palmes et combinaison adaptée."
+            ]
+          },
+          {
+            "q": "Puis-je utiliser mon propre matériel ?",
+            "a": [
+              "Bien sûr ! Vous pouvez venir avec votre équipement personnel, à condition qu'il soit adapté et en bon état de fonctionnement."
+            ]
+          },
+          {
+            "q": "Peut-on faire de la plongée de nuit ?",
+            "a": [
+              "Des plongées de nuit peuvent être envisagées selon les conditions de mer, l'expérience des participants et les possibilités d'organisation du centre."
+            ]
+          }
+        ]
+      },
+      "sites": {
+        "title": "Les sites de plongée de Las Galeras",
+        "items": [
+          {
+            "q": "Quels types de sites peut-on découvrir ?",
+            "a": [
+              "Las Galeras offre une grande diversité de paysages sous-marins : récifs, tombants, formations rocheuses, arches naturelles et épaves.",
+              "Chaque site possède ses particularités et offre une expérience différente."
+            ]
+          },
+          {
+            "q": "Tous les sites sont-ils accessibles à tous les niveaux ?",
+            "a": [
+              "Non. Certains sites sont parfaitement adaptés aux débutants, tandis que d'autres nécessitent davantage d'expérience ou une certification plus avancée.",
+              "Nous sélectionnons toujours les sites selon le niveau des participants et les conditions du jour."
+            ]
+          },
+          {
+            "q": "Peut-on découvrir des grottes ou des arches sous-marines ?",
+            "a": [
+              "Certains sites possèdent des arches, des cavités et des passages rocheux spectaculaires.",
+              "Leur exploration dépend de la configuration des lieux, de votre expérience et de votre formation. Toute pénétration en milieu sous plafond nécessite les qualifications et équipements appropriés."
+            ]
+          },
+          {
+            "q": "Où peut-on découvrir les différents sites de plongée ?",
+            "a": [
+              "Nous mettons à votre disposition une carte détaillée des sites de plongée de Las Galeras, présentant leurs caractéristiques, leurs profondeurs et les niveaux recommandés.",
+              "Le choix définitif des sites reste soumis aux conditions météorologiques et maritimes."
+            ]
+          }
+        ]
+      },
+      "marine-life": {
+        "title": "La faune et la flore marines",
+        "items": [
+          {
+            "q": "Quels animaux peut-on observer à Las Galeras ?",
+            "a": [
+              "Les fonds marins de Las Galeras abritent une grande diversité d'espèces : poissons tropicaux, murènes, langoustes, raies, barracudas, poissons-anges, poissons-coffres et parfois des tortues.",
+              "Les récifs accueillent également différentes espèces de coraux, d'éponges et d'organismes marins."
+            ]
+          },
+          {
+            "q": "Peut-on voir des requins ?",
+            "a": [
+              "Des observations occasionnelles de requins sont possibles, notamment des requins-marteaux sur certains sites.",
+              "Ces rencontres restent exceptionnelles et ne peuvent jamais être garanties."
+            ]
+          },
+          {
+            "q": "Peut-on voir des tortues ?",
+            "a": [
+              "Oui, des tortues marines sont parfois observées lors de nos plongées.",
+              "Comme pour tous les animaux sauvages, leur présence reste imprévisible."
+            ]
+          },
+          {
+            "q": "Peut-on voir des baleines ou des lamantins ?",
+            "a": [
+              "La région de Samaná est notamment connue pour la présence saisonnière des baleines à bosse.",
+              "Les lamantins peuvent également être présents dans certaines zones côtières de République dominicaine.",
+              "Cependant, ces animaux ne font pas partie des observations habituelles lors de nos plongées."
+            ]
+          },
+          {
+            "q": "Peut-on toucher les poissons ou les coraux ?",
+            "a": [
+              "Non. Afin de préserver l'environnement marin, nous demandons de ne pas toucher, déplacer ou prélever les animaux et les organismes marins."
+            ]
+          },
+          {
+            "q": "Comment reconnaître les poissons que l'on rencontre ?",
+            "a": [
+              "Nous proposons un guide illustré de la faune marine de Las Galeras, présentant de nombreuses espèces de poissons, de raies, de coraux et d'éponges présentes dans notre région."
+            ]
+          }
+        ]
+      },
+      "weather": {
+        "title": "Météo et conditions de plongée",
+        "items": [
+          {
+            "q": "Peut-on plonger toute l'année à Las Galeras ?",
+            "a": [
+              "Oui ! La plongée est possible toute l'année, lorsque les conditions météorologiques et maritimes le permettent."
+            ]
+          },
+          {
+            "q": "Quelle est la température de l'eau ?",
+            "a": [
+              "La température de l'eau est généralement agréable, autour de 26 à 29 °C, avec des variations saisonnières."
+            ]
+          },
+          {
+            "q": "Quelle est la visibilité sous l'eau ?",
+            "a": [
+              "La visibilité varie selon les sites, la houle, les courants et les conditions météorologiques.",
+              "Certains sites offrent une très belle visibilité, tandis que d'autres peuvent être temporairement affectés par le sable ou les particules en suspension."
+            ]
+          },
+          {
+            "q": "Que se passe-t-il en cas de mauvais temps ?",
+            "a": [
+              "La sécurité reste notre priorité.",
+              "Selon les conditions, nous pouvons modifier les sites, reporter la sortie ou l'annuler si la mer ne permet pas de plonger en sécurité."
+            ]
+          }
+        ]
+      },
+      "safety": {
+        "title": "Sécurité et santé",
+        "items": [
+          {
+            "q": "Est-ce dangereux de faire de la plongée ?",
+            "a": [
+              "Comme toute activité en milieu naturel, la plongée comporte certains risques.",
+              "Une formation adaptée, le respect des procédures de sécurité et un encadrement professionnel permettent de réduire ces risques."
+            ]
+          },
+          {
+            "q": "Que se passe-t-il si je panique sous l'eau ?",
+            "a": [
+              "Votre moniteur reste à vos côtés pour vous accompagner et vous aider à retrouver votre calme.",
+              "Si nécessaire, la plongée peut être interrompue et une remontée contrôlée sera organisée."
+            ]
+          },
+          {
+            "q": "Est-ce que je risque de manquer d'air ?",
+            "a": [
+              "Avant chaque plongée, nous vérifions le matériel et rappelons les règles de surveillance de la réserve d'air.",
+              "Pendant la plongée, votre consommation est suivie afin de prévoir la remontée avec une réserve adaptée."
+            ]
+          },
+          {
+            "q": "Est-ce que les oreilles font mal pendant la descente ?",
+            "a": [
+              "Normalement, non, si l'équilibrage est effectué correctement.",
+              "Votre moniteur vous explique les techniques nécessaires et vous accompagne lors d'une descente progressive.",
+              "Il ne faut jamais forcer une descente en cas de douleur ou de difficulté d'équilibrage."
+            ]
+          },
+          {
+            "q": "Peut-on plonger avec des problèmes de santé ?",
+            "a": [
+              "Certaines conditions médicales peuvent nécessiter un avis médical préalable.",
+              "Un questionnaire de santé permet de déterminer si une consultation est nécessaire avant l'activité."
+            ]
+          },
+          {
+            "q": "Peut-on plonger après 60 ou 70 ans ?",
+            "a": [
+              "Oui ! Il n'existe pas de limite d'âge maximale universelle.",
+              "L'essentiel est de disposer d'un état de santé et d'une condition physique compatibles avec la plongée."
+            ]
+          },
+          {
+            "q": "Peut-on plonger lorsqu'on est enrhumé ?",
+            "a": [
+              "Il est déconseillé de plonger lorsque les voies respiratoires sont encombrées ou lorsque l'équilibrage des oreilles est difficile."
+            ]
+          },
+          {
+            "q": "Peut-on plonger avec des lunettes ?",
+            "a": [
+              "Oui. Il existe des masques équipés de verres correcteurs.",
+              "Les lentilles de contact peuvent également être utilisées avec certaines précautions."
+            ]
+          },
+          {
+            "q": "Combien de temps faut-il attendre avant de prendre l'avion ?",
+            "a": [
+              "Pour votre sécurité, nous appliquons les délais minimaux suivants :",
+              {
+                "list": [
+                  "18 heures après la dernière plongée sans palier de décompression obligatoire, y compris lorsqu'un palier de sécurité a été effectué.",
+                  "24 heures au minimum après une plongée ayant nécessité des paliers de décompression obligatoires, avec un délai plus long si le profil de plongée ou les recommandations de sécurité l'exigent."
+                ]
+              },
+              "Ces délais ne garantissent pas l'absence de risque. Nous vous conseillons de prévoir votre dernière plongée suffisamment tôt avant votre vol de retour."
+            ]
+          },
+          {
+            "q": "Puis-je arrêter une plongée avant la fin ?",
+            "a": [
+              "Bien sûr ! Vous pouvez signaler à tout moment que vous souhaitez interrompre votre plongée.",
+              "Votre moniteur vous accompagnera pour effectuer une remontée contrôlée, en respectant les procédures de sécurité.",
+              "Votre confort et votre sécurité passent avant la durée de la plongée."
+            ]
+          }
+        ]
+      },
+      "trips": {
+        "title": "Organisation des sorties",
+        "items": [
+          {
+            "q": "À quelle heure commencent les sorties ?",
+            "a": [
+              "Nos sorties sont généralement organisées le matin.",
+              "L'heure exacte du rendez-vous vous est communiquée lors de votre réservation."
+            ]
+          },
+          {
+            "q": "Combien de plongeurs participent aux sorties ?",
+            "a": [
+              "Nous privilégions les petits groupes afin de garantir un encadrement personnalisé, une ambiance conviviale et une expérience agréable."
+            ]
+          },
+          {
+            "q": "Les personnes qui ne plongent pas peuvent-elles accompagner les plongeurs ?",
+            "a": [
+              "Oui, sous réserve des places disponibles sur le bateau.",
+              "Nous pouvons également proposer une activité de snorkeling (randonnée palmée) en supplément, permettant aux accompagnants de profiter de la mer pendant la sortie, lorsque les conditions le permettent."
+            ]
+          },
+          {
+            "q": "Peut-on prendre des photos ou filmer sous l'eau ?",
+            "a": [
+              "Bien sûr ! Vous pouvez utiliser votre appareil photo ou votre caméra sous-marine, à condition de respecter les consignes de sécurité et de préserver l'environnement marin."
+            ]
+          },
+          {
+            "q": "Quels documents faut-il présenter ?",
+            "a": [
+              "Pour les plongées réservées aux plongeurs certifiés, une preuve de certification est nécessaire.",
+              "Un questionnaire médical et les documents de participation appropriés peuvent également être demandés."
+            ]
+          }
+        ]
+      },
+      "booking": {
+        "title": "Réservations, paiements et annulations",
+        "items": [
+          {
+            "q": "Quels moyens de paiement acceptez-vous ?",
+            "a": [
+              "Nous acceptons les paiements en espèces et par carte bancaire directement au centre de plongée.",
+              "Pour les réservations anticipées et les achats de formations PADI, le paiement par virement bancaire est également possible."
+            ]
+          },
+          {
+            "q": "Combien de temps à l'avance faut-il réserver ?",
+            "a": [
+              "Vous pouvez réserver vos plongées ou vos formations plusieurs jours, semaines ou même plusieurs mois à l'avance.",
+              "Nous demandons simplement une confirmation de votre participation 24 heures avant la sortie, afin de finaliser l'organisation du bateau, du matériel et de l'encadrement."
+            ]
+          },
+          {
+            "q": "Quelles sont les conditions d'annulation pour les réservations individuelles ?",
+            "a": [
+              "Vous pouvez annuler votre réservation sans aucun frais, à condition de contacter directement Las Galeras Divers au moins 24 heures avant la sortie prévue.",
+              "Ce délai nous permet de réorganiser nos sorties et de proposer les places disponibles à d'autres plongeurs."
+            ]
+          },
+          {
+            "q": "Quelles sont les conditions d'annulation pour les groupes ?",
+            "a": [
+              "Pour les groupes de 6 personnes ou plus, des conditions particulières s'appliquent en raison de l'organisation nécessaire.",
+              {
+                "list": [
+                  "Annulation au moins un mois avant la date prévue : aucun frais.",
+                  "Annulation moins d'un mois avant la date prévue : frais d'annulation de 30 % du montant total de la réservation."
+                ]
+              },
+              "Ces conditions sont communiquées lors de la réservation."
+            ]
+          },
+          {
+            "q": "Une sortie peut-elle être annulée par Las Galeras Divers ?",
+            "a": [
+              "Oui. En cas de conditions météorologiques défavorables, de mer dangereuse ou de circonstances imprévues compromettant la sécurité, nous pouvons modifier, reporter ou annuler une sortie.",
+              "Nous vous informerons dès que possible afin de rechercher ensemble une solution adaptée.",
+              "La sécurité de nos plongeurs reste toujours notre priorité."
+            ]
+          }
+        ]
+      },
+      "why-us": {
+        "title": "Pourquoi choisir Las Galeras Divers ?",
+        "items": [
+          {
+            "q": "Pourquoi venir plonger à Las Galeras ?",
+            "a": [
+              "Situé sur la péninsule de Samaná, Las Galeras est un village authentique de République dominicaine, loin de l'agitation des grandes stations touristiques.",
+              "Ses fonds marins offrent une grande diversité de paysages : récifs, tombants, formations rocheuses, arches et épaves."
+            ]
+          },
+          {
+            "q": "Pourquoi choisir Las Galeras Divers ?",
+            "a": [
+              "Chez Las Galeras Divers, nous privilégions les petits groupes, la convivialité et un encadrement personnalisé.",
+              "Que vous souhaitiez découvrir la plongée pour la première fois, obtenir une certification PADI ou explorer de nouveaux sites, nous prenons le temps de vous accompagner et d'adapter votre expérience.",
+              "Notre objectif est simple : vous faire découvrir les richesses sous-marines de Las Galeras dans une ambiance chaleureuse, avec le plaisir de plonger et la sécurité comme priorités."
+            ]
+          }
+        ]
+      }
+    },
+    "closing": {
+      "title": "Vous avez une autre question ?",
+      "text": "Notre équipe vous répond avec plaisir, avant et pendant votre séjour.",
+      "welcome": "À très bientôt sous l'eau avec Las Galeras Divers !",
+      "contact": "Nous contacter",
+      "pricing": "Voir nos tarifs"
+    }
+  },
   "footer": {
     "navigation": "Navigation",
     "ourServices": "Nos Services",
@@ -382,7 +949,10 @@
     "discover": {
       "title": "Que faire à Las Galeras et ses environs ? Plages, activités et visite de Samaná | Las Galeras Divers",
       "description": "Que faire à Las Galeras ? Plages de rêve, randonnées, cascade El Limón, baleines à bosse, excursions en bateau, quad, Cayo Levantado... Toutes les activités à Las Galeras et dans la péninsule de Samaná, en dehors de la plongée."
+    },
+    "faq": {
+      "title": "FAQ plongée Las Galeras : baptême, formations PADI, sites et sécurité | Las Galeras Divers",
+      "description": "Toutes les réponses sur la plongée à Las Galeras, en République dominicaine : baptême dès 8 ans, formations PADI Open Water et Advanced, plongées pour certifiés, sites, faune, météo, sécurité, réservations et annulations."
     }
   }
 }
-

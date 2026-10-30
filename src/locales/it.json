@@ -6,6 +6,7 @@
     "pricing": "Prezzi",
     "gallery": "Galleria",
     "discover": "Scopri Las Galeras",
+    "faq": "FAQ",
     "testimonials": "Testimonianze",
     "contact": "Contatti"
   },
@@ -345,6 +346,572 @@
       "button": "Scopri le nostre immersioni"
     }
   },
+  "faq": {
+    "eyebrow": "Domande frequenti",
+    "title": "Tutto sulle immersioni a Las Galeras",
+    "subtitle": "Le vostre domande sulle immersioni a Las Galeras, nella Repubblica Dominicana",
+    "intro": [
+      "Benvenuti da Las Galeras Divers!",
+      "Che vogliate scoprire le immersioni subacquee, ottenere una certificazione PADI o esplorare i fondali marini di Las Galeras, il nostro team è qui per accompagnarvi.",
+      "Trovate qui le risposte alle domande più frequenti per preparare la vostra esperienza in tutta serenità."
+    ],
+    "topicsTitle": "Scegliete un tema",
+    "questionsLabel": "domande",
+    "backToTopics": "Torna ai temi",
+    "sections": {
+      "discover": {
+        "title": "Scoprire le immersioni",
+        "items": [
+          {
+            "q": "A partire da quale età si può fare un battesimo subacqueo?",
+            "a": [
+              "Proponiamo una prima scoperta delle immersioni dagli 8 anni, in un ambiente adatto, con una profondità massima di 2 metri per i bambini di 8 e 9 anni.",
+              "A partire dai 10 anni è possibile partecipare al programma PADI Discover Scuba Diving, a condizione di soddisfare i requisiti richiesti.",
+              "Ogni esperienza è adattata all'età, alla confidenza con l'acqua e alle capacità del partecipante."
+            ]
+          },
+          {
+            "q": "È necessario saper nuotare per fare un battesimo?",
+            "a": [
+              "Non è necessario essere ottimi nuotatori, ma è importante sentirsi sufficientemente a proprio agio in acqua.",
+              "Il vostro istruttore vi accompagna per tutta la durata dell'esperienza e adatta l'attività al vostro livello di confidenza."
+            ]
+          },
+          {
+            "q": "Non ho mai fatto immersioni. Posso partecipare?",
+            "a": [
+              "Certamente! Il battesimo è pensato proprio per chi desidera scoprire le sensazioni delle immersioni subacquee senza alcuna formazione preliminare."
+            ]
+          },
+          {
+            "q": "Un battesimo subacqueo dà una certificazione?",
+            "a": [
+              "No. Un battesimo subacqueo non è un corso certificante.",
+              "Permette di scoprire il mondo sottomarino accompagnati da un professionista, ma non rilascia alcun brevetto di subacqueo autonomo.",
+              "Per ottenere una certificazione riconosciuta a livello internazionale, è necessario seguire un corso come il PADI Open Water Diver."
+            ]
+          },
+          {
+            "q": "Ho già fatto diversi battesimi. Sono considerato un subacqueo certificato?",
+            "a": [
+              "No. Anche dopo diversi battesimi, non siete considerati subacquei certificati.",
+              "Per partecipare alle uscite riservate ai subacquei certificati, è necessaria una certificazione riconosciuta."
+            ]
+          },
+          {
+            "q": "Si può fare un battesimo in coppia o in famiglia?",
+            "a": [
+              "Sì! Accogliamo coppie, famiglie e gruppi di amici. L'organizzazione viene adattata all'età e alle capacità di ciascuno."
+            ]
+          },
+          {
+            "q": "Ho paura di respirare sott'acqua. È normale?",
+            "a": [
+              "Assolutamente! Ci prendiamo il tempo di spiegarvi il funzionamento dell'attrezzatura e di farvi familiarizzare progressivamente con la respirazione sott'acqua.",
+              "Procedete al vostro ritmo, senza pressioni."
+            ]
+          },
+          {
+            "q": "Si può fare un battesimo se si ha paura dell'acqua?",
+            "a": [
+              "Dipende dal vostro livello di apprensione. Ci prendiamo il tempo di rassicurarvi e di accompagnarvi progressivamente.",
+              "Se la vostra paura non permette di svolgere l'attività in buone condizioni di sicurezza, preferiremo non proseguire."
+            ]
+          }
+        ]
+      },
+      "courses": {
+        "title": "I livelli e i corsi PADI",
+        "items": [
+          {
+            "q": "Quali sono i diversi livelli di immersione?",
+            "a": [
+              "Ecco le principali tappe per scoprire le immersioni e progredire verso certificazioni più avanzate.",
+              {
+                "table": {
+                  "headers": [
+                    "Livello",
+                    "Età minima",
+                    "Profondità massima"
+                  ],
+                  "rows": [
+                    [
+                      "Prima scoperta",
+                      "8 anni",
+                      "2 m"
+                    ],
+                    [
+                      "Discover Scuba Diving",
+                      "10 anni",
+                      "12 m"
+                    ],
+                    [
+                      "Junior Open Water",
+                      "10 anni",
+                      "da 12 a 18 m a seconda dell'età"
+                    ],
+                    [
+                      "Open Water Diver",
+                      "15 anni",
+                      "18 m"
+                    ],
+                    [
+                      "Junior Advanced",
+                      "12 anni",
+                      "21 m"
+                    ],
+                    [
+                      "Advanced Open Water",
+                      "15 anni",
+                      "30 m"
+                    ],
+                    [
+                      "Rescue Diver",
+                      "12 anni",
+                      "Secondo la qualifica"
+                    ],
+                    [
+                      "Divemaster",
+                      "18 anni",
+                      "Secondo l'attività e la qualifica"
+                    ]
+                  ]
+                }
+              },
+              "Le profondità indicate corrispondono ai limiti applicabili ai programmi o alle certificazioni, fatte salve le condizioni di formazione e di sicurezza. Per i bambini e gli adolescenti si applicano regole specifiche di accompagnamento."
+            ]
+          },
+          {
+            "q": "Che cos'è il PADI Open Water Diver?",
+            "a": [
+              "L'Open Water Diver è la prima certificazione di immersione subacquea.",
+              "Il corso comprende una parte teorica, esercizi pratici e quattro immersioni in ambiente naturale.",
+              "Una volta certificati, potrete immergervi fino a 18 metri, con un compagno qualificato, nei limiti della vostra formazione e della vostra esperienza."
+            ]
+          },
+          {
+            "q": "Quanto dura il corso Open Water?",
+            "a": [
+              "Il corso si svolge generalmente in 2 o 3 giorni, in particolare quando la teoria PADI eLearning è stata completata prima del vostro arrivo.",
+              "La durata può essere adattata alla vostra progressione e alle condizioni meteorologiche."
+            ]
+          },
+          {
+            "q": "Si può iniziare la teoria prima delle vacanze?",
+            "a": [
+              "Sì, ed è anche consigliato!",
+              "Grazie al PADI eLearning, potete iniziare la formazione teorica da casa, al vostro ritmo.",
+              "Così potrete dedicare più tempo del vostro soggiorno agli esercizi pratici e alle immersioni in mare."
+            ]
+          },
+          {
+            "q": "Che cos'è l'Advanced Open Water Diver?",
+            "a": [
+              "L'Advanced Open Water Diver permette di migliorare le vostre competenze e di scoprire nuove tecniche attraverso cinque immersioni di formazione.",
+              "Il programma comprende in particolare un'immersione profonda e un'immersione di orientamento.",
+              "Per gli adulti, il corso permette di accedere a una profondità massima di 30 metri."
+            ]
+          },
+          {
+            "q": "Che cos'è il Rescue Diver?",
+            "a": [
+              "Il Rescue Diver è un corso dedicato alla prevenzione degli incidenti, all'assistenza ai subacquei e alla gestione delle situazioni di emergenza.",
+              "Permette di sviluppare la fiducia, la capacità di anticipare e le competenze di intervento.",
+              "Sono richiesti prerequisiti di certificazione e di formazione al primo soccorso."
+            ]
+          },
+          {
+            "q": "Che cos'è il Divemaster?",
+            "a": [
+              "Il Divemaster è il primo livello professionale PADI.",
+              "Questo corso permette di approfondire le proprie conoscenze, le tecniche e le competenze di accompagnamento, nei limiti di questa qualifica."
+            ]
+          },
+          {
+            "q": "Quanto tempo bisogna prevedere per un corso PADI?",
+            "a": [
+              {
+                "list": [
+                  "Open Water Diver: da 2 a 3 giorni.",
+                  "Advanced Open Water: da 2 a 3 giorni.",
+                  "Rescue Diver: da 2 a 4 giorni, esclusi i prerequisiti.",
+                  "Divemaster: diverse settimane a seconda del programma."
+                ]
+              },
+              "Queste durate sono indicative e possono variare in base alla progressione di ogni allievo."
+            ]
+          },
+          {
+            "q": "Si può seguire un corso durante le vacanze?",
+            "a": [
+              "Certamente! Possiamo organizzare il vostro corso in base alla durata del soggiorno, alle disponibilità e alle condizioni meteorologiche.",
+              "Vi consigliamo di contattarci prima del vostro arrivo per preparare il programma."
+            ]
+          }
+        ]
+      },
+      "certified": {
+        "title": "Le immersioni per subacquei certificati",
+        "items": [
+          {
+            "q": "Sono Open Water. Posso immergermi a Las Galeras?",
+            "a": [
+              "Certamente! Molti dei nostri siti sono accessibili ai subacquei Open Water.",
+              "Scegliamo le immersioni in base alla vostra certificazione, alla vostra esperienza e alle condizioni del mare."
+            ]
+          },
+          {
+            "q": "Non mi immergo da diversi anni. Posso ricominciare?",
+            "a": [
+              "Sì! A seconda del tempo trascorso dalla vostra ultima immersione e della vostra esperienza, possiamo proporvi un'immersione di ripasso.",
+              "L'obiettivo è ritrovare i vostri automatismi e tornare a immergervi con fiducia."
+            ]
+          },
+          {
+            "q": "Proponete immersioni di ripasso?",
+            "a": [
+              "Sì. Permettono di rivedere le principali regole di sicurezza, l'uso dell'attrezzatura, l'assetto e gli esercizi essenziali."
+            ]
+          },
+          {
+            "q": "Quanto dura un'immersione?",
+            "a": [
+              "Le nostre immersioni durano generalmente circa 45 minuti.",
+              "Questa durata può variare in base alla profondità, al consumo d'aria e alle condizioni del momento."
+            ]
+          },
+          {
+            "q": "Si possono fare due immersioni nella stessa mattinata?",
+            "a": [
+              "Sì! Organizziamo regolarmente uscite che comprendono due immersioni, generalmente su siti diversi, con un intervallo di superficie adeguato."
+            ]
+          },
+          {
+            "q": "L'attrezzatura è fornita?",
+            "a": [
+              "Sì, mettiamo a vostra disposizione tutta l'attrezzatura necessaria per l'immersione: bombola, erogatore, giubbotto ad assetto variabile, maschera, pinne e muta adeguata."
+            ]
+          },
+          {
+            "q": "Posso usare la mia attrezzatura?",
+            "a": [
+              "Certamente! Potete venire con la vostra attrezzatura personale, a condizione che sia adeguata e in buono stato di funzionamento."
+            ]
+          },
+          {
+            "q": "Si possono fare immersioni notturne?",
+            "a": [
+              "Le immersioni notturne possono essere prese in considerazione a seconda delle condizioni del mare, dell'esperienza dei partecipanti e delle possibilità organizzative del centro."
+            ]
+          }
+        ]
+      },
+      "sites": {
+        "title": "I siti di immersione di Las Galeras",
+        "items": [
+          {
+            "q": "Che tipi di siti si possono scoprire?",
+            "a": [
+              "Las Galeras offre una grande varietà di paesaggi sottomarini: barriere coralline, pareti, formazioni rocciose, archi naturali e relitti.",
+              "Ogni sito ha le sue particolarità e offre un'esperienza diversa."
+            ]
+          },
+          {
+            "q": "Tutti i siti sono accessibili a tutti i livelli?",
+            "a": [
+              "No. Alcuni siti sono perfettamente adatti ai principianti, mentre altri richiedono maggiore esperienza o una certificazione più avanzata.",
+              "Selezioniamo sempre i siti in base al livello dei partecipanti e alle condizioni del giorno."
+            ]
+          },
+          {
+            "q": "Si possono scoprire grotte o archi sottomarini?",
+            "a": [
+              "Alcuni siti presentano archi, cavità e passaggi rocciosi spettacolari.",
+              "La loro esplorazione dipende dalla configurazione dei luoghi, dalla vostra esperienza e dalla vostra formazione. Qualsiasi penetrazione in ambienti chiusi, senza accesso diretto alla superficie, richiede le qualifiche e l'attrezzatura appropriate."
+            ]
+          },
+          {
+            "q": "Dove si possono scoprire i diversi siti di immersione?",
+            "a": [
+              "Mettiamo a vostra disposizione una mappa dettagliata dei siti di immersione di Las Galeras, con le loro caratteristiche, le profondità e i livelli consigliati.",
+              "La scelta definitiva dei siti resta soggetta alle condizioni meteorologiche e marine."
+            ]
+          }
+        ]
+      },
+      "marine-life": {
+        "title": "La fauna e la flora marine",
+        "items": [
+          {
+            "q": "Quali animali si possono osservare a Las Galeras?",
+            "a": [
+              "I fondali di Las Galeras ospitano una grande varietà di specie: pesci tropicali, murene, aragoste, razze, barracuda, pesci angelo, pesci cofano e talvolta tartarughe.",
+              "Le barriere coralline ospitano inoltre diverse specie di coralli, spugne e organismi marini."
+            ]
+          },
+          {
+            "q": "Si possono vedere squali?",
+            "a": [
+              "Avvistamenti occasionali di squali sono possibili, in particolare di squali martello su alcuni siti.",
+              "Questi incontri restano eccezionali e non possono mai essere garantiti."
+            ]
+          },
+          {
+            "q": "Si possono vedere tartarughe?",
+            "a": [
+              "Sì, le tartarughe marine vengono talvolta osservate durante le nostre immersioni.",
+              "Come per tutti gli animali selvatici, la loro presenza resta imprevedibile."
+            ]
+          },
+          {
+            "q": "Si possono vedere balene o lamantini?",
+            "a": [
+              "La regione di Samaná è nota in particolare per la presenza stagionale delle megattere.",
+              "I lamantini possono inoltre essere presenti in alcune zone costiere della Repubblica Dominicana.",
+              "Tuttavia, questi animali non fanno parte degli avvistamenti abituali durante le nostre immersioni."
+            ]
+          },
+          {
+            "q": "Si possono toccare i pesci o i coralli?",
+            "a": [
+              "No. Per preservare l'ambiente marino, chiediamo di non toccare, spostare o prelevare animali e organismi marini."
+            ]
+          },
+          {
+            "q": "Come riconoscere i pesci che si incontrano?",
+            "a": [
+              "Proponiamo una guida illustrata della fauna marina di Las Galeras, che presenta numerose specie di pesci, razze, coralli e spugne presenti nella nostra regione."
+            ]
+          }
+        ]
+      },
+      "weather": {
+        "title": "Meteo e condizioni di immersione",
+        "items": [
+          {
+            "q": "Ci si può immergere tutto l'anno a Las Galeras?",
+            "a": [
+              "Sì! Le immersioni sono possibili tutto l'anno, quando le condizioni meteorologiche e marine lo permettono."
+            ]
+          },
+          {
+            "q": "Qual è la temperatura dell'acqua?",
+            "a": [
+              "La temperatura dell'acqua è generalmente piacevole, tra i 26 e i 29 °C, con variazioni stagionali."
+            ]
+          },
+          {
+            "q": "Com'è la visibilità sott'acqua?",
+            "a": [
+              "La visibilità varia a seconda dei siti, del moto ondoso, delle correnti e delle condizioni meteorologiche.",
+              "Alcuni siti offrono un'ottima visibilità, mentre altri possono essere temporaneamente influenzati dalla sabbia o dalle particelle in sospensione."
+            ]
+          },
+          {
+            "q": "Cosa succede in caso di maltempo?",
+            "a": [
+              "La sicurezza resta la nostra priorità.",
+              "A seconda delle condizioni, possiamo cambiare i siti, rinviare l'uscita o annullarla se il mare non permette di immergersi in sicurezza."
+            ]
+          }
+        ]
+      },
+      "safety": {
+        "title": "Sicurezza e salute",
+        "items": [
+          {
+            "q": "È pericoloso fare immersioni?",
+            "a": [
+              "Come ogni attività in ambiente naturale, l'immersione comporta alcuni rischi.",
+              "Una formazione adeguata, il rispetto delle procedure di sicurezza e un accompagnamento professionale permettono di ridurre questi rischi."
+            ]
+          },
+          {
+            "q": "Cosa succede se vado nel panico sott'acqua?",
+            "a": [
+              "Il vostro istruttore resta al vostro fianco per accompagnarvi e aiutarvi a ritrovare la calma.",
+              "Se necessario, l'immersione può essere interrotta e verrà organizzata una risalita controllata."
+            ]
+          },
+          {
+            "q": "Rischio di rimanere senza aria?",
+            "a": [
+              "Prima di ogni immersione, controlliamo l'attrezzatura e ricordiamo le regole di controllo della riserva d'aria.",
+              "Durante l'immersione, il vostro consumo viene monitorato per pianificare la risalita con una riserva adeguata."
+            ]
+          },
+          {
+            "q": "Le orecchie fanno male durante la discesa?",
+            "a": [
+              "Normalmente no, se la compensazione viene eseguita correttamente.",
+              "Il vostro istruttore vi spiega le tecniche necessarie e vi accompagna in una discesa progressiva.",
+              "Non bisogna mai forzare la discesa in caso di dolore o di difficoltà di compensazione."
+            ]
+          },
+          {
+            "q": "Ci si può immergere con problemi di salute?",
+            "a": [
+              "Alcune condizioni mediche possono richiedere un parere medico preventivo.",
+              "Un questionario sanitario permette di stabilire se sia necessaria una visita medica prima dell'attività."
+            ]
+          },
+          {
+            "q": "Ci si può immergere dopo i 60 o 70 anni?",
+            "a": [
+              "Sì! Non esiste un limite massimo di età universale.",
+              "L'essenziale è avere uno stato di salute e una condizione fisica compatibili con l'immersione."
+            ]
+          },
+          {
+            "q": "Ci si può immergere con il raffreddore?",
+            "a": [
+              "È sconsigliato immergersi quando le vie respiratorie sono congestionate o quando la compensazione delle orecchie risulta difficile."
+            ]
+          },
+          {
+            "q": "Ci si può immergere con gli occhiali?",
+            "a": [
+              "Sì. Esistono maschere dotate di lenti graduate.",
+              "Anche le lenti a contatto possono essere utilizzate, con alcune precauzioni."
+            ]
+          },
+          {
+            "q": "Quanto tempo bisogna aspettare prima di prendere l'aereo?",
+            "a": [
+              "Per la vostra sicurezza, applichiamo i seguenti intervalli minimi:",
+              {
+                "list": [
+                  "18 ore dopo l'ultima immersione senza tappe di decompressione obbligatorie, anche quando è stata effettuata una tappa di sicurezza.",
+                  "Almeno 24 ore dopo un'immersione che ha richiesto tappe di decompressione obbligatorie, con un intervallo più lungo se il profilo dell'immersione o le raccomandazioni di sicurezza lo richiedono."
+                ]
+              },
+              "Questi intervalli non garantiscono l'assenza di rischi. Vi consigliamo di programmare l'ultima immersione con sufficiente anticipo rispetto al volo di ritorno."
+            ]
+          },
+          {
+            "q": "Posso interrompere un'immersione prima della fine?",
+            "a": [
+              "Certamente! Potete segnalare in qualsiasi momento che desiderate interrompere l'immersione.",
+              "Il vostro istruttore vi accompagnerà in una risalita controllata, nel rispetto delle procedure di sicurezza.",
+              "Il vostro comfort e la vostra sicurezza vengono prima della durata dell'immersione."
+            ]
+          }
+        ]
+      },
+      "trips": {
+        "title": "Organizzazione delle uscite",
+        "items": [
+          {
+            "q": "A che ora iniziano le uscite?",
+            "a": [
+              "Le nostre uscite sono generalmente organizzate al mattino.",
+              "L'orario esatto dell'appuntamento vi viene comunicato al momento della prenotazione."
+            ]
+          },
+          {
+            "q": "Quanti subacquei partecipano alle uscite?",
+            "a": [
+              "Privilegiamo i piccoli gruppi per garantire un accompagnamento personalizzato, un'atmosfera conviviale e un'esperienza piacevole."
+            ]
+          },
+          {
+            "q": "Le persone che non si immergono possono accompagnare i subacquei?",
+            "a": [
+              "Sì, in base ai posti disponibili sulla barca.",
+              "Possiamo inoltre proporre, con un supplemento, un'attività di snorkeling che permette agli accompagnatori di godersi il mare durante l'uscita, quando le condizioni lo consentono."
+            ]
+          },
+          {
+            "q": "Si possono fare foto o video sott'acqua?",
+            "a": [
+              "Certamente! Potete utilizzare la vostra macchina fotografica o videocamera subacquea, a condizione di rispettare le norme di sicurezza e di preservare l'ambiente marino."
+            ]
+          },
+          {
+            "q": "Quali documenti bisogna presentare?",
+            "a": [
+              "Per le immersioni riservate ai subacquei certificati, è necessaria una prova della certificazione.",
+              "Possono inoltre essere richiesti un questionario medico e i documenti di partecipazione appropriati."
+            ]
+          }
+        ]
+      },
+      "booking": {
+        "title": "Prenotazioni, pagamenti e cancellazioni",
+        "items": [
+          {
+            "q": "Quali metodi di pagamento accettate?",
+            "a": [
+              "Accettiamo pagamenti in contanti e con carta direttamente al centro immersioni.",
+              "Per le prenotazioni anticipate e l'acquisto di corsi PADI, è possibile anche il pagamento tramite bonifico bancario."
+            ]
+          },
+          {
+            "q": "Con quanto anticipo bisogna prenotare?",
+            "a": [
+              "Potete prenotare le vostre immersioni o i vostri corsi con diversi giorni, settimane o persino mesi di anticipo.",
+              "Chiediamo semplicemente una conferma della vostra partecipazione 24 ore prima dell'uscita, per finalizzare l'organizzazione della barca, dell'attrezzatura e dell'accompagnamento."
+            ]
+          },
+          {
+            "q": "Quali sono le condizioni di cancellazione per le prenotazioni individuali?",
+            "a": [
+              "Potete cancellare la vostra prenotazione senza alcun costo, a condizione di contattare direttamente Las Galeras Divers almeno 24 ore prima dell'uscita prevista.",
+              "Questo preavviso ci permette di riorganizzare le uscite e di proporre i posti disponibili ad altri subacquei."
+            ]
+          },
+          {
+            "q": "Quali sono le condizioni di cancellazione per i gruppi?",
+            "a": [
+              "Per i gruppi di 6 o più persone si applicano condizioni particolari, in ragione dell'organizzazione necessaria.",
+              {
+                "list": [
+                  "Cancellazione almeno un mese prima della data prevista: nessun costo.",
+                  "Cancellazione meno di un mese prima della data prevista: penale di cancellazione pari al 30% dell'importo totale della prenotazione."
+                ]
+              },
+              "Queste condizioni vengono comunicate al momento della prenotazione."
+            ]
+          },
+          {
+            "q": "Un'uscita può essere annullata da Las Galeras Divers?",
+            "a": [
+              "Sì. In caso di condizioni meteorologiche sfavorevoli, mare pericoloso o circostanze impreviste che compromettano la sicurezza, possiamo modificare, rinviare o annullare un'uscita.",
+              "Vi informeremo il prima possibile per cercare insieme una soluzione adeguata.",
+              "La sicurezza dei nostri subacquei resta sempre la nostra priorità."
+            ]
+          }
+        ]
+      },
+      "why-us": {
+        "title": "Perché scegliere Las Galeras Divers?",
+        "items": [
+          {
+            "q": "Perché venire a immergersi a Las Galeras?",
+            "a": [
+              "Situata nella penisola di Samaná, Las Galeras è un villaggio autentico della Repubblica Dominicana, lontano dal trambusto delle grandi località turistiche.",
+              "I suoi fondali offrono una grande varietà di paesaggi: barriere coralline, pareti, formazioni rocciose, archi e relitti."
+            ]
+          },
+          {
+            "q": "Perché scegliere Las Galeras Divers?",
+            "a": [
+              "Da Las Galeras Divers privilegiamo i piccoli gruppi, la convivialità e un accompagnamento personalizzato.",
+              "Che vogliate scoprire le immersioni per la prima volta, ottenere una certificazione PADI o esplorare nuovi siti, ci prendiamo il tempo di accompagnarvi e di adattare la vostra esperienza.",
+              "Il nostro obiettivo è semplice: farvi scoprire le ricchezze sottomarine di Las Galeras in un'atmosfera calorosa, con il piacere di immergersi e la sicurezza come priorità."
+            ]
+          }
+        ]
+      }
+    },
+    "closing": {
+      "title": "Avete un'altra domanda?",
+      "text": "Il nostro team vi risponde con piacere, prima e durante il vostro soggiorno.",
+      "welcome": "A prestissimo sott'acqua con Las Galeras Divers!",
+      "contact": "Contattaci",
+      "pricing": "Vedi i nostri prezzi"
+    }
+  },
   "footer": {
     "navigation": "Navigazione",
     "ourServices": "I Nostri Servizi",
@@ -382,6 +949,10 @@
     "discover": {
       "title": "Cosa fare a Las Galeras e dintorni? Spiagge, attività e visita di Samaná | Las Galeras Divers",
       "description": "Cosa fare a Las Galeras? Spiagge da sogno, escursioni a piedi, cascata El Limón, megattere, gite in barca, quad, Cayo Levantado... Tutte le attività a Las Galeras e nella penisola di Samaná, oltre alle immersioni."
+    },
+    "faq": {
+      "title": "FAQ immersioni Las Galeras: battesimo subacqueo, corsi PADI, siti e sicurezza | Las Galeras Divers",
+      "description": "Tutte le risposte sulle immersioni a Las Galeras, nella Repubblica Dominicana: battesimo subacqueo dagli 8 anni, corsi PADI Open Water e Advanced, immersioni per subacquei certificati, siti, fauna, meteo, sicurezza, prenotazioni e cancellazioni."
     }
   }
 }

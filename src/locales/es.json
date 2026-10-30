@@ -6,6 +6,7 @@
     "pricing": "Precios",
     "gallery": "Galería",
     "discover": "Descubrir Las Galeras",
+    "faq": "FAQ",
     "testimonials": "Testimonios",
     "contact": "Contacto"
   },
@@ -345,6 +346,572 @@
       "button": "Descubrir nuestras inmersiones"
     }
   },
+  "faq": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Todo sobre el buceo en Las Galeras",
+    "subtitle": "Sus preguntas sobre el buceo en Las Galeras, en la República Dominicana",
+    "intro": [
+      "¡Bienvenido a Las Galeras Divers!",
+      "Ya sea que desee descubrir el buceo, obtener una certificación PADI o explorar los fondos marinos de Las Galeras, nuestro equipo está aquí para acompañarle.",
+      "Encuentre aquí las respuestas a las preguntas más frecuentes para preparar su experiencia con total tranquilidad."
+    ],
+    "topicsTitle": "Elija un tema",
+    "questionsLabel": "preguntas",
+    "backToTopics": "Volver a los temas",
+    "sections": {
+      "discover": {
+        "title": "Descubrir el buceo",
+        "items": [
+          {
+            "q": "¿A partir de qué edad se puede hacer un bautismo de buceo?",
+            "a": [
+              "Ofrecemos una primera experiencia de buceo desde los 8 años, en un entorno adaptado, con una profundidad máxima de 2 metros para los niños de 8 y 9 años.",
+              "A partir de los 10 años, es posible participar en el programa PADI Discover Scuba Diving, siempre que se cumplan los requisitos necesarios.",
+              "Cada experiencia se adapta a la edad, a la comodidad en el agua y a las capacidades del participante."
+            ]
+          },
+          {
+            "q": "¿Es necesario saber nadar para hacer un bautismo?",
+            "a": [
+              "No es necesario ser un excelente nadador, pero sí es importante sentirse suficientemente cómodo en el agua.",
+              "Su instructor le acompaña durante toda la experiencia y adapta la actividad a su nivel de confianza."
+            ]
+          },
+          {
+            "q": "Nunca he buceado. ¿Puedo participar?",
+            "a": [
+              "¡Por supuesto! El bautismo está especialmente diseñado para las personas que desean descubrir las sensaciones del buceo sin formación previa."
+            ]
+          },
+          {
+            "q": "¿Un bautismo de buceo otorga una certificación?",
+            "a": [
+              "No. El bautismo de buceo no es una formación que otorgue certificación.",
+              "Permite descubrir el mundo submarino acompañado de un profesional, pero no otorga ningún título de buceador autónomo.",
+              "Para obtener una certificación reconocida internacionalmente, es necesario realizar una formación como el PADI Open Water Diver."
+            ]
+          },
+          {
+            "q": "Ya he hecho varios bautismos. ¿Se me considera buceador certificado?",
+            "a": [
+              "No. Incluso después de varios bautismos, no se le considera buceador certificado.",
+              "Para participar en las salidas reservadas a los buceadores certificados, se necesita una certificación reconocida."
+            ]
+          },
+          {
+            "q": "¿Se puede hacer un bautismo en pareja o en familia?",
+            "a": [
+              "¡Sí! Recibimos a parejas, familias y grupos de amigos. La organización se adapta a la edad y a las capacidades de cada uno."
+            ]
+          },
+          {
+            "q": "Me da miedo respirar bajo el agua. ¿Es normal?",
+            "a": [
+              "¡Totalmente! Nos tomamos el tiempo de explicarle el funcionamiento del equipo y de familiarizarle progresivamente con la respiración bajo el agua.",
+              "Usted avanza a su ritmo, sin presión."
+            ]
+          },
+          {
+            "q": "¿Se puede hacer un bautismo si se tiene miedo al agua?",
+            "a": [
+              "Depende de su nivel de aprensión. Nos tomamos el tiempo de tranquilizarle y de acompañarle progresivamente.",
+              "Si su miedo no permite realizar la actividad en buenas condiciones de seguridad, preferiremos no continuar."
+            ]
+          }
+        ]
+      },
+      "courses": {
+        "title": "Niveles y formaciones PADI",
+        "items": [
+          {
+            "q": "¿Cuáles son los distintos niveles de buceo?",
+            "a": [
+              "Estas son las principales etapas para descubrir el buceo y progresar hacia certificaciones más avanzadas.",
+              {
+                "table": {
+                  "headers": [
+                    "Nivel",
+                    "Edad mínima",
+                    "Profundidad máxima"
+                  ],
+                  "rows": [
+                    [
+                      "Primera experiencia",
+                      "8 años",
+                      "2 m"
+                    ],
+                    [
+                      "Discover Scuba Diving",
+                      "10 años",
+                      "12 m"
+                    ],
+                    [
+                      "Junior Open Water",
+                      "10 años",
+                      "12 a 18 m según la edad"
+                    ],
+                    [
+                      "Open Water Diver",
+                      "15 años",
+                      "18 m"
+                    ],
+                    [
+                      "Junior Advanced",
+                      "12 años",
+                      "21 m"
+                    ],
+                    [
+                      "Advanced Open Water",
+                      "15 años",
+                      "30 m"
+                    ],
+                    [
+                      "Rescue Diver",
+                      "12 años",
+                      "Según cualificación"
+                    ],
+                    [
+                      "Divemaster",
+                      "18 años",
+                      "Según actividad y cualificación"
+                    ]
+                  ]
+                }
+              },
+              "Las profundidades indicadas corresponden a los límites aplicables a los programas o certificaciones, sujetas a las condiciones de formación y de seguridad. Para niños y adolescentes se aplican normas específicas de acompañamiento."
+            ]
+          },
+          {
+            "q": "¿Qué es el PADI Open Water Diver?",
+            "a": [
+              "El Open Water Diver es la primera certificación de buceo.",
+              "La formación incluye una parte teórica, ejercicios prácticos y cuatro inmersiones en el medio natural.",
+              "Una vez certificado, podrá bucear hasta 18 metros, con un compañero cualificado, dentro de los límites de su formación y de su experiencia."
+            ]
+          },
+          {
+            "q": "¿Cuánto dura la formación Open Water?",
+            "a": [
+              "La formación se desarrolla generalmente en 2 a 3 días, especialmente cuando la teoría PADI eLearning se ha completado antes de su llegada.",
+              "La duración puede adaptarse a su progresión y a las condiciones meteorológicas."
+            ]
+          },
+          {
+            "q": "¿Se puede empezar la teoría antes de las vacaciones?",
+            "a": [
+              "¡Sí, e incluso es recomendable!",
+              "Gracias al PADI eLearning, puede comenzar su formación teórica desde casa, a su ritmo.",
+              "Así aprovechará mejor su estancia para los ejercicios prácticos y las inmersiones en el mar."
+            ]
+          },
+          {
+            "q": "¿Qué es el Advanced Open Water Diver?",
+            "a": [
+              "El Advanced Open Water Diver permite mejorar sus habilidades y descubrir nuevas técnicas a través de cinco inmersiones de formación.",
+              "El programa incluye, en particular, una inmersión profunda y una inmersión de orientación.",
+              "Para los adultos, la formación permite acceder a una profundidad máxima de 30 metros."
+            ]
+          },
+          {
+            "q": "¿Qué es el Rescue Diver?",
+            "a": [
+              "El Rescue Diver es una formación dedicada a la prevención de incidentes, la asistencia a otros buceadores y la gestión de situaciones de emergencia.",
+              "Permite desarrollar la confianza, la anticipación y la capacidad de intervención.",
+              "Se requieren prerrequisitos de certificación y de formación en primeros auxilios."
+            ]
+          },
+          {
+            "q": "¿Qué es el Divemaster?",
+            "a": [
+              "El Divemaster es el primer nivel profesional PADI.",
+              "Esta formación permite profundizar sus conocimientos, sus técnicas y sus habilidades de supervisión, dentro de los límites de esta cualificación."
+            ]
+          },
+          {
+            "q": "¿Cuánto tiempo hay que prever para una formación PADI?",
+            "a": [
+              {
+                "list": [
+                  "Open Water Diver: 2 a 3 días.",
+                  "Advanced Open Water: 2 a 3 días.",
+                  "Rescue Diver: 2 a 4 días, sin contar los prerrequisitos.",
+                  "Divemaster: varias semanas según el programa."
+                ]
+              },
+              "Estas duraciones son orientativas y pueden variar según la progresión de cada alumno."
+            ]
+          },
+          {
+            "q": "¿Se puede hacer una formación durante las vacaciones?",
+            "a": [
+              "¡Por supuesto! Podemos organizar su formación en función de la duración de su estancia, de la disponibilidad y de las condiciones meteorológicas.",
+              "Le recomendamos que nos contacte antes de su llegada para preparar su programa."
+            ]
+          }
+        ]
+      },
+      "certified": {
+        "title": "Inmersiones para buceadores certificados",
+        "items": [
+          {
+            "q": "Soy Open Water. ¿Puedo bucear en Las Galeras?",
+            "a": [
+              "¡Por supuesto! Varios de nuestros sitios son accesibles para los buceadores Open Water.",
+              "Elegimos las inmersiones en función de su certificación, de su experiencia y de las condiciones del mar."
+            ]
+          },
+          {
+            "q": "Hace varios años que no buceo. ¿Puedo retomar el buceo?",
+            "a": [
+              "¡Sí! Según el tiempo transcurrido desde su última inmersión y su experiencia, podemos proponerle un curso de actualización.",
+              "El objetivo es recuperar sus automatismos y volver a bucear con confianza."
+            ]
+          },
+          {
+            "q": "¿Ofrecen cursos de actualización?",
+            "a": [
+              "Sí. Permiten repasar las principales normas de seguridad, el uso del equipo, la flotabilidad y los ejercicios esenciales."
+            ]
+          },
+          {
+            "q": "¿Cuánto dura una inmersión?",
+            "a": [
+              "Nuestras inmersiones duran generalmente unos 45 minutos.",
+              "Esta duración puede variar según la profundidad, el consumo de aire y las condiciones del momento."
+            ]
+          },
+          {
+            "q": "¿Se pueden hacer dos inmersiones en la misma mañana?",
+            "a": [
+              "¡Sí! Organizamos regularmente salidas con dos inmersiones, generalmente en sitios diferentes, con un intervalo de superficie adecuado."
+            ]
+          },
+          {
+            "q": "¿Se proporciona el equipo?",
+            "a": [
+              "Sí, ponemos a su disposición el equipo necesario para bucear: tanque, regulador, chaleco compensador, máscara, aletas y traje adecuado."
+            ]
+          },
+          {
+            "q": "¿Puedo utilizar mi propio equipo?",
+            "a": [
+              "¡Por supuesto! Puede venir con su equipo personal, siempre que sea adecuado y esté en buen estado de funcionamiento."
+            ]
+          },
+          {
+            "q": "¿Se puede hacer buceo nocturno?",
+            "a": [
+              "Pueden organizarse inmersiones nocturnas según las condiciones del mar, la experiencia de los participantes y las posibilidades de organización del centro."
+            ]
+          }
+        ]
+      },
+      "sites": {
+        "title": "Los sitios de buceo de Las Galeras",
+        "items": [
+          {
+            "q": "¿Qué tipos de sitios se pueden descubrir?",
+            "a": [
+              "Las Galeras ofrece una gran diversidad de paisajes submarinos: arrecifes, paredes, formaciones rocosas, arcos naturales y naufragios.",
+              "Cada sitio tiene sus particularidades y ofrece una experiencia diferente."
+            ]
+          },
+          {
+            "q": "¿Todos los sitios son accesibles para todos los niveles?",
+            "a": [
+              "No. Algunos sitios son perfectamente adecuados para principiantes, mientras que otros requieren más experiencia o una certificación más avanzada.",
+              "Siempre seleccionamos los sitios según el nivel de los participantes y las condiciones del día."
+            ]
+          },
+          {
+            "q": "¿Se pueden descubrir cuevas o arcos submarinos?",
+            "a": [
+              "Algunos sitios cuentan con arcos, cavidades y pasajes rocosos espectaculares.",
+              "Su exploración depende de la configuración del lugar, de su experiencia y de su formación. Cualquier penetración en un entorno cerrado (con techo) requiere las cualificaciones y el equipo apropiados."
+            ]
+          },
+          {
+            "q": "¿Dónde se pueden descubrir los distintos sitios de buceo?",
+            "a": [
+              "Ponemos a su disposición un mapa detallado de los sitios de buceo de Las Galeras, con sus características, sus profundidades y los niveles recomendados.",
+              "La elección definitiva de los sitios está sujeta a las condiciones meteorológicas y marítimas."
+            ]
+          }
+        ]
+      },
+      "marine-life": {
+        "title": "Fauna y flora marinas",
+        "items": [
+          {
+            "q": "¿Qué animales se pueden observar en Las Galeras?",
+            "a": [
+              "Los fondos marinos de Las Galeras albergan una gran diversidad de especies: peces tropicales, morenas, langostas, rayas, barracudas, peces ángel, peces cofre y, a veces, tortugas.",
+              "Los arrecifes acogen también diferentes especies de corales, esponjas y organismos marinos."
+            ]
+          },
+          {
+            "q": "¿Se pueden ver tiburones?",
+            "a": [
+              "Son posibles avistamientos ocasionales de tiburones, en particular tiburones martillo en algunos sitios.",
+              "Estos encuentros siguen siendo excepcionales y nunca pueden garantizarse."
+            ]
+          },
+          {
+            "q": "¿Se pueden ver tortugas?",
+            "a": [
+              "Sí, a veces se observan tortugas marinas durante nuestras inmersiones.",
+              "Como con todos los animales salvajes, su presencia es imprevisible."
+            ]
+          },
+          {
+            "q": "¿Se pueden ver ballenas o manatíes?",
+            "a": [
+              "La región de Samaná es conocida, en particular, por la presencia estacional de las ballenas jorobadas.",
+              "Los manatíes también pueden estar presentes en algunas zonas costeras de la República Dominicana.",
+              "Sin embargo, estos animales no forman parte de las observaciones habituales durante nuestras inmersiones."
+            ]
+          },
+          {
+            "q": "¿Se pueden tocar los peces o los corales?",
+            "a": [
+              "No. Para preservar el medio marino, pedimos no tocar, desplazar ni extraer los animales y organismos marinos."
+            ]
+          },
+          {
+            "q": "¿Cómo reconocer los peces que encontramos?",
+            "a": [
+              "Ofrecemos una guía ilustrada de la fauna marina de Las Galeras, que presenta numerosas especies de peces, rayas, corales y esponjas presentes en nuestra región."
+            ]
+          }
+        ]
+      },
+      "weather": {
+        "title": "Meteorología y condiciones de buceo",
+        "items": [
+          {
+            "q": "¿Se puede bucear todo el año en Las Galeras?",
+            "a": [
+              "¡Sí! El buceo es posible durante todo el año, siempre que las condiciones meteorológicas y marítimas lo permitan."
+            ]
+          },
+          {
+            "q": "¿Cuál es la temperatura del agua?",
+            "a": [
+              "La temperatura del agua es generalmente agradable, entre 26 y 29 °C, con variaciones estacionales."
+            ]
+          },
+          {
+            "q": "¿Cuál es la visibilidad bajo el agua?",
+            "a": [
+              "La visibilidad varía según los sitios, el oleaje, las corrientes y las condiciones meteorológicas.",
+              "Algunos sitios ofrecen una visibilidad excelente, mientras que otros pueden verse afectados temporalmente por la arena o las partículas en suspensión."
+            ]
+          },
+          {
+            "q": "¿Qué ocurre en caso de mal tiempo?",
+            "a": [
+              "La seguridad es nuestra prioridad.",
+              "Según las condiciones, podemos cambiar los sitios, aplazar la salida o cancelarla si el mar no permite bucear con seguridad."
+            ]
+          }
+        ]
+      },
+      "safety": {
+        "title": "Seguridad y salud",
+        "items": [
+          {
+            "q": "¿Es peligroso bucear?",
+            "a": [
+              "Como toda actividad en el medio natural, el buceo conlleva ciertos riesgos.",
+              "Una formación adecuada, el respeto de los procedimientos de seguridad y una supervisión profesional permiten reducir esos riesgos."
+            ]
+          },
+          {
+            "q": "¿Qué ocurre si entro en pánico bajo el agua?",
+            "a": [
+              "Su instructor permanece a su lado para acompañarle y ayudarle a recuperar la calma.",
+              "Si es necesario, la inmersión puede interrumpirse y se organizará un ascenso controlado."
+            ]
+          },
+          {
+            "q": "¿Corro el riesgo de quedarme sin aire?",
+            "a": [
+              "Antes de cada inmersión, verificamos el equipo y recordamos las normas de control de la reserva de aire.",
+              "Durante la inmersión, se hace un seguimiento de su consumo para planificar el ascenso con una reserva adecuada."
+            ]
+          },
+          {
+            "q": "¿Duelen los oídos durante el descenso?",
+            "a": [
+              "Normalmente no, si la compensación se realiza correctamente.",
+              "Su instructor le explica las técnicas necesarias y le acompaña durante un descenso progresivo.",
+              "Nunca se debe forzar el descenso en caso de dolor o de dificultad para compensar."
+            ]
+          },
+          {
+            "q": "¿Se puede bucear con problemas de salud?",
+            "a": [
+              "Algunas condiciones médicas pueden requerir una opinión médica previa.",
+              "Un cuestionario de salud permite determinar si es necesaria una consulta antes de la actividad."
+            ]
+          },
+          {
+            "q": "¿Se puede bucear después de los 60 o 70 años?",
+            "a": [
+              "¡Sí! No existe un límite de edad máximo universal.",
+              "Lo esencial es tener un estado de salud y una condición física compatibles con el buceo."
+            ]
+          },
+          {
+            "q": "¿Se puede bucear con resfriado?",
+            "a": [
+              "Se desaconseja bucear cuando las vías respiratorias están congestionadas o cuando la compensación de los oídos resulta difícil."
+            ]
+          },
+          {
+            "q": "¿Se puede bucear si uso gafas o lentes?",
+            "a": [
+              "Sí. Existen máscaras equipadas con cristales graduados.",
+              "Las lentes de contacto también pueden utilizarse con ciertas precauciones."
+            ]
+          },
+          {
+            "q": "¿Cuánto tiempo hay que esperar antes de tomar el avión?",
+            "a": [
+              "Por su seguridad, aplicamos los siguientes plazos mínimos:",
+              {
+                "list": [
+                  "18 horas después de la última inmersión sin parada de descompresión obligatoria, incluso cuando se haya realizado una parada de seguridad.",
+                  "24 horas como mínimo después de una inmersión que haya requerido paradas de descompresión obligatorias, con un plazo mayor si el perfil de la inmersión o las recomendaciones de seguridad lo exigen."
+                ]
+              },
+              "Estos plazos no garantizan la ausencia de riesgo. Le aconsejamos planificar su última inmersión con suficiente antelación respecto a su vuelo de regreso."
+            ]
+          },
+          {
+            "q": "¿Puedo interrumpir una inmersión antes de que termine?",
+            "a": [
+              "¡Por supuesto! Puede indicar en cualquier momento que desea interrumpir su inmersión.",
+              "Su instructor le acompañará para realizar un ascenso controlado, respetando los procedimientos de seguridad.",
+              "Su comodidad y su seguridad están por encima de la duración de la inmersión."
+            ]
+          }
+        ]
+      },
+      "trips": {
+        "title": "Organización de las salidas",
+        "items": [
+          {
+            "q": "¿A qué hora empiezan las salidas?",
+            "a": [
+              "Nuestras salidas se organizan generalmente por la mañana.",
+              "La hora exacta de la cita se le comunica al hacer su reserva."
+            ]
+          },
+          {
+            "q": "¿Cuántos buceadores participan en las salidas?",
+            "a": [
+              "Privilegiamos los grupos pequeños para garantizar una supervisión personalizada, un ambiente agradable y una experiencia placentera."
+            ]
+          },
+          {
+            "q": "¿Las personas que no bucean pueden acompañar a los buceadores?",
+            "a": [
+              "Sí, en función de las plazas disponibles en el barco.",
+              "También podemos proponer una actividad de snorkel como suplemento, que permite a los acompañantes disfrutar del mar durante la salida, cuando las condiciones lo permiten."
+            ]
+          },
+          {
+            "q": "¿Se pueden tomar fotos o filmar bajo el agua?",
+            "a": [
+              "¡Por supuesto! Puede utilizar su cámara de fotos o su cámara submarina, siempre que respete las normas de seguridad y preserve el medio marino."
+            ]
+          },
+          {
+            "q": "¿Qué documentos hay que presentar?",
+            "a": [
+              "Para las inmersiones reservadas a los buceadores certificados, se necesita una prueba de certificación.",
+              "También pueden solicitarse un cuestionario médico y los documentos de participación correspondientes."
+            ]
+          }
+        ]
+      },
+      "booking": {
+        "title": "Reservas, pagos y cancelaciones",
+        "items": [
+          {
+            "q": "¿Qué medios de pago aceptan?",
+            "a": [
+              "Aceptamos pagos en efectivo y con tarjeta bancaria directamente en el centro de buceo.",
+              "Para las reservas anticipadas y la compra de formaciones PADI, también es posible el pago por transferencia bancaria."
+            ]
+          },
+          {
+            "q": "¿Con cuánta antelación hay que reservar?",
+            "a": [
+              "Puede reservar sus inmersiones o sus formaciones con varios días, semanas o incluso varios meses de antelación.",
+              "Solo le pedimos una confirmación de su participación 24 horas antes de la salida, para finalizar la organización del barco, del equipo y de la supervisión."
+            ]
+          },
+          {
+            "q": "¿Cuáles son las condiciones de cancelación para las reservas individuales?",
+            "a": [
+              "Puede cancelar su reserva sin ningún cargo, siempre que contacte directamente con Las Galeras Divers al menos 24 horas antes de la salida prevista.",
+              "Este plazo nos permite reorganizar nuestras salidas y ofrecer las plazas disponibles a otros buceadores."
+            ]
+          },
+          {
+            "q": "¿Cuáles son las condiciones de cancelación para los grupos?",
+            "a": [
+              "Para los grupos de 6 personas o más, se aplican condiciones especiales debido a la organización necesaria.",
+              {
+                "list": [
+                  "Cancelación al menos un mes antes de la fecha prevista: sin cargo.",
+                  "Cancelación con menos de un mes de antelación: gastos de cancelación del 30 % del importe total de la reserva."
+                ]
+              },
+              "Estas condiciones se comunican en el momento de la reserva."
+            ]
+          },
+          {
+            "q": "¿Puede Las Galeras Divers cancelar una salida?",
+            "a": [
+              "Sí. En caso de condiciones meteorológicas desfavorables, mar peligroso o circunstancias imprevistas que comprometan la seguridad, podemos modificar, aplazar o cancelar una salida.",
+              "Le informaremos lo antes posible para buscar juntos una solución adecuada.",
+              "La seguridad de nuestros buceadores es siempre nuestra prioridad."
+            ]
+          }
+        ]
+      },
+      "why-us": {
+        "title": "¿Por qué elegir Las Galeras Divers?",
+        "items": [
+          {
+            "q": "¿Por qué venir a bucear a Las Galeras?",
+            "a": [
+              "Situado en la península de Samaná, Las Galeras es un pueblo auténtico de la República Dominicana, lejos del bullicio de los grandes centros turísticos.",
+              "Sus fondos marinos ofrecen una gran diversidad de paisajes: arrecifes, paredes, formaciones rocosas, arcos y naufragios."
+            ]
+          },
+          {
+            "q": "¿Por qué elegir Las Galeras Divers?",
+            "a": [
+              "En Las Galeras Divers privilegiamos los grupos pequeños, la cercanía y una supervisión personalizada.",
+              "Ya sea que desee descubrir el buceo por primera vez, obtener una certificación PADI o explorar nuevos sitios, nos tomamos el tiempo de acompañarle y de adaptar su experiencia.",
+              "Nuestro objetivo es sencillo: hacerle descubrir las riquezas submarinas de Las Galeras en un ambiente cálido, con el placer de bucear y la seguridad como prioridades."
+            ]
+          }
+        ]
+      }
+    },
+    "closing": {
+      "title": "¿Tiene otra pregunta?",
+      "text": "Nuestro equipo le responderá con mucho gusto, antes y durante su estancia.",
+      "welcome": "¡Hasta muy pronto bajo el agua con Las Galeras Divers!",
+      "contact": "Contáctenos",
+      "pricing": "Ver nuestros precios"
+    }
+  },
   "footer": {
     "navigation": "Navegación",
     "ourServices": "Nuestros Servicios",
@@ -382,7 +949,10 @@
     "discover": {
       "title": "¿Qué hacer en Las Galeras y sus alrededores? Playas, actividades y visita a Samaná | Las Galeras Divers",
       "description": "¿Qué hacer en Las Galeras? Playas de ensueño, senderismo, cascada El Limón, ballenas jorobadas, excursiones en barco, quad, Cayo Levantado... Todas las actividades en Las Galeras y en la península de Samaná, más allá del buceo."
+    },
+    "faq": {
+      "title": "FAQ de buceo en Las Galeras: bautismo, formaciones PADI, sitios y seguridad | Las Galeras Divers",
+      "description": "Todas las respuestas sobre el buceo en Las Galeras, República Dominicana: bautismo desde los 8 años, formaciones PADI Open Water y Advanced, inmersiones para buceadores certificados, sitios, fauna, meteorología, seguridad, reservas y cancelaciones."
     }
   }
 }
-

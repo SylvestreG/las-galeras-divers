@@ -6,6 +6,7 @@
     "pricing": "Preise",
     "gallery": "Galerie",
     "discover": "Las Galeras entdecken",
+    "faq": "FAQ",
     "testimonials": "Erfahrungsberichte",
     "contact": "Kontakt"
   },
@@ -345,6 +346,572 @@
       "button": "Unsere Tauchgänge entdecken"
     }
   },
+  "faq": {
+    "eyebrow": "Häufig gestellte Fragen",
+    "title": "Alles über das Tauchen in Las Galeras",
+    "subtitle": "Ihre Fragen zum Tauchen in Las Galeras, Dominikanische Republik",
+    "intro": [
+      "Willkommen bei Las Galeras Divers!",
+      "Ob Sie das Tauchen entdecken, eine PADI-Zertifizierung erwerben oder die Unterwasserwelt von Las Galeras erkunden möchten: Unser Team begleitet Sie gerne.",
+      "Hier finden Sie die Antworten auf die häufigsten Fragen, damit Sie Ihr Erlebnis ganz entspannt vorbereiten können."
+    ],
+    "topicsTitle": "Wählen Sie ein Thema",
+    "questionsLabel": "Fragen",
+    "backToTopics": "Zurück zu den Themen",
+    "sections": {
+      "discover": {
+        "title": "Tauchen entdecken",
+        "items": [
+          {
+            "q": "Ab welchem Alter kann man ein Schnuppertauchen machen?",
+            "a": [
+              "Wir bieten ein erstes Taucherlebnis bereits ab 8 Jahren an, in einer geeigneten Umgebung und mit einer maximalen Tiefe von 2 Metern für Kinder von 8 und 9 Jahren.",
+              "Ab 10 Jahren ist die Teilnahme am Programm PADI Discover Scuba Diving möglich, sofern die erforderlichen Voraussetzungen erfüllt sind.",
+              "Jedes Erlebnis wird an das Alter, die Sicherheit im Wasser und die Fähigkeiten der Teilnehmenden angepasst."
+            ]
+          },
+          {
+            "q": "Muss ich schwimmen können, um ein Schnuppertauchen zu machen?",
+            "a": [
+              "Sie müssen kein ausgezeichneter Schwimmer sein, aber es ist wichtig, dass Sie sich im Wasser ausreichend wohlfühlen.",
+              "Ihr Tauchlehrer begleitet Sie während des gesamten Erlebnisses und passt die Aktivität daran an, wie sicher Sie sich fühlen."
+            ]
+          },
+          {
+            "q": "Ich bin noch nie getaucht. Kann ich teilnehmen?",
+            "a": [
+              "Natürlich! Das Schnuppertauchen ist speziell für Menschen gedacht, die das Gefühl des Tauchens ohne vorherige Ausbildung kennenlernen möchten."
+            ]
+          },
+          {
+            "q": "Erhält man beim Schnuppertauchen eine Zertifizierung?",
+            "a": [
+              "Nein. Ein Schnuppertauchen ist keine zertifizierende Ausbildung.",
+              "Es ermöglicht Ihnen, die Unterwasserwelt in Begleitung eines Profis zu entdecken, verleiht aber kein Brevet als eigenständiger Taucher.",
+              "Für eine international anerkannte Zertifizierung müssen Sie einen Kurs wie den PADI Open Water Diver absolvieren."
+            ]
+          },
+          {
+            "q": "Ich habe bereits mehrere Schnuppertauchgänge gemacht. Gelte ich als zertifizierter Taucher?",
+            "a": [
+              "Nein. Auch nach mehreren Schnuppertauchgängen gelten Sie nicht als zertifizierter Taucher.",
+              "Für die Teilnahme an Ausfahrten, die zertifizierten Tauchern vorbehalten sind, ist eine anerkannte Zertifizierung erforderlich."
+            ]
+          },
+          {
+            "q": "Kann man ein Schnuppertauchen als Paar oder mit der Familie machen?",
+            "a": [
+              "Ja! Wir heißen Paare, Familien und Freundesgruppen willkommen. Die Organisation wird an das Alter und die Fähigkeiten jedes Einzelnen angepasst."
+            ]
+          },
+          {
+            "q": "Ich habe Angst davor, unter Wasser zu atmen. Ist das normal?",
+            "a": [
+              "Absolut! Wir nehmen uns die Zeit, Ihnen die Funktionsweise der Ausrüstung zu erklären und Sie Schritt für Schritt mit dem Atmen unter Wasser vertraut zu machen.",
+              "Sie gehen in Ihrem eigenen Tempo vor, ganz ohne Druck."
+            ]
+          },
+          {
+            "q": "Kann man ein Schnuppertauchen machen, wenn man Angst vor dem Wasser hat?",
+            "a": [
+              "Das hängt davon ab, wie stark Ihre Angst ist. Wir nehmen uns die Zeit, Sie zu beruhigen und Sie Schritt für Schritt zu begleiten.",
+              "Sollte Ihre Angst es nicht erlauben, die Aktivität unter sicheren Bedingungen durchzuführen, verzichten wir lieber darauf, fortzufahren."
+            ]
+          }
+        ]
+      },
+      "courses": {
+        "title": "Tauchstufen und PADI-Kurse",
+        "items": [
+          {
+            "q": "Welche Tauchstufen gibt es?",
+            "a": [
+              "Hier sind die wichtigsten Etappen, um das Tauchen zu entdecken und sich bis zu höheren Zertifizierungen weiterzuentwickeln.",
+              {
+                "table": {
+                  "headers": [
+                    "Stufe",
+                    "Mindestalter",
+                    "Maximale Tiefe"
+                  ],
+                  "rows": [
+                    [
+                      "Erstes Taucherlebnis",
+                      "8 Jahre",
+                      "2 m"
+                    ],
+                    [
+                      "Discover Scuba Diving",
+                      "10 Jahre",
+                      "12 m"
+                    ],
+                    [
+                      "Junior Open Water",
+                      "10 Jahre",
+                      "12 bis 18 m je nach Alter"
+                    ],
+                    [
+                      "Open Water Diver",
+                      "15 Jahre",
+                      "18 m"
+                    ],
+                    [
+                      "Junior Advanced",
+                      "12 Jahre",
+                      "21 m"
+                    ],
+                    [
+                      "Advanced Open Water",
+                      "15 Jahre",
+                      "30 m"
+                    ],
+                    [
+                      "Rescue Diver",
+                      "12 Jahre",
+                      "Je nach Qualifikation"
+                    ],
+                    [
+                      "Divemaster",
+                      "18 Jahre",
+                      "Je nach Aktivität und Qualifikation"
+                    ]
+                  ]
+                }
+              },
+              "Die angegebenen Tiefen entsprechen den für die jeweiligen Programme oder Zertifizierungen geltenden Grenzen, vorbehaltlich der Ausbildungs- und Sicherheitsbedingungen. Für Kinder und Jugendliche gelten besondere Regeln für die Begleitung."
+            ]
+          },
+          {
+            "q": "Was ist der PADI Open Water Diver?",
+            "a": [
+              "Der Open Water Diver ist die erste Zertifizierung im Gerätetauchen.",
+              "Der Kurs umfasst einen Theorieteil, praktische Übungen und vier Tauchgänge im Freiwasser.",
+              "Nach der Zertifizierung können Sie mit einem qualifizierten Tauchpartner bis zu 18 Meter tief tauchen, im Rahmen Ihrer Ausbildung und Ihrer Erfahrung."
+            ]
+          },
+          {
+            "q": "Wie lange dauert der Open-Water-Kurs?",
+            "a": [
+              "Der Kurs dauert in der Regel 2 bis 3 Tage, insbesondere wenn die Theorie per PADI eLearning bereits vor Ihrer Ankunft abgeschlossen ist.",
+              "Die Dauer kann an Ihren Lernfortschritt und die Wetterbedingungen angepasst werden."
+            ]
+          },
+          {
+            "q": "Kann ich die Theorie schon vor dem Urlaub beginnen?",
+            "a": [
+              "Ja, das ist sogar empfehlenswert!",
+              "Mit PADI eLearning können Sie Ihre theoretische Ausbildung bequem von zu Hause aus und in Ihrem eigenen Tempo beginnen.",
+              "So bleibt Ihnen während Ihres Aufenthalts mehr Zeit für die praktischen Übungen und die Tauchgänge im Meer."
+            ]
+          },
+          {
+            "q": "Was ist der Advanced Open Water Diver?",
+            "a": [
+              "Der Advanced Open Water Diver ermöglicht es Ihnen, Ihre Fähigkeiten zu verbessern und in fünf Ausbildungstauchgängen neue Techniken kennenzulernen.",
+              "Das Programm umfasst unter anderem einen Tieftauchgang und einen Navigationstauchgang.",
+              "Für Erwachsene erlaubt der Kurs eine maximale Tiefe von 30 Metern."
+            ]
+          },
+          {
+            "q": "Was ist der Rescue Diver?",
+            "a": [
+              "Der Rescue Diver ist ein Kurs, der sich der Vermeidung von Zwischenfällen, der Hilfeleistung für Taucher und dem Umgang mit Notfallsituationen widmet.",
+              "Er stärkt das Selbstvertrauen, das vorausschauende Denken und die Fähigkeit, im Ernstfall einzugreifen.",
+              "Voraussetzung sind eine entsprechende Zertifizierung und eine Erste-Hilfe-Ausbildung."
+            ]
+          },
+          {
+            "q": "Was ist der Divemaster?",
+            "a": [
+              "Der Divemaster ist die erste professionelle Stufe bei PADI.",
+              "Dieser Kurs vertieft Ihre Kenntnisse, Ihre Techniken und Ihre Fähigkeiten zur Betreuung von Tauchern, im Rahmen dieser Qualifikation."
+            ]
+          },
+          {
+            "q": "Wie viel Zeit sollte ich für einen PADI-Kurs einplanen?",
+            "a": [
+              {
+                "list": [
+                  "Open Water Diver: 2 bis 3 Tage.",
+                  "Advanced Open Water: 2 bis 3 Tage.",
+                  "Rescue Diver: 2 bis 4 Tage, Voraussetzungen nicht eingerechnet.",
+                  "Divemaster: mehrere Wochen je nach Programm."
+                ]
+              },
+              "Diese Angaben sind Richtwerte und können je nach Lernfortschritt des Einzelnen variieren."
+            ]
+          },
+          {
+            "q": "Kann ich einen Kurs während meines Urlaubs machen?",
+            "a": [
+              "Natürlich! Wir können Ihren Kurs entsprechend der Dauer Ihres Aufenthalts, der Verfügbarkeiten und der Wetterbedingungen organisieren.",
+              "Wir empfehlen Ihnen, uns vor Ihrer Ankunft zu kontaktieren, um Ihr Programm vorzubereiten."
+            ]
+          }
+        ]
+      },
+      "certified": {
+        "title": "Tauchgänge für zertifizierte Taucher",
+        "items": [
+          {
+            "q": "Ich bin Open Water Diver. Kann ich in Las Galeras tauchen?",
+            "a": [
+              "Natürlich! Mehrere unserer Tauchplätze sind für Open-Water-Taucher zugänglich.",
+              "Wir wählen die Tauchgänge entsprechend Ihrer Zertifizierung, Ihrer Erfahrung und der Meeresbedingungen aus."
+            ]
+          },
+          {
+            "q": "Ich bin seit mehreren Jahren nicht mehr getaucht. Kann ich wieder einsteigen?",
+            "a": [
+              "Ja! Je nachdem, wie lange Ihr letzter Tauchgang zurückliegt und welche Erfahrung Sie haben, können wir Ihnen einen Auffrischungskurs anbieten.",
+              "Ziel ist es, Ihre Routinen wiederzufinden und mit Vertrauen wieder ins Tauchen einzusteigen."
+            ]
+          },
+          {
+            "q": "Bieten Sie Auffrischungskurse an?",
+            "a": [
+              "Ja. Dabei werden die wichtigsten Sicherheitsregeln, der Umgang mit der Ausrüstung, die Tarierung und die grundlegenden Übungen wiederholt."
+            ]
+          },
+          {
+            "q": "Wie lange dauert ein Tauchgang?",
+            "a": [
+              "Unsere Tauchgänge dauern in der Regel etwa 45 Minuten.",
+              "Diese Dauer kann je nach Tiefe, Luftverbrauch und den aktuellen Bedingungen variieren."
+            ]
+          },
+          {
+            "q": "Kann man zwei Tauchgänge am selben Vormittag machen?",
+            "a": [
+              "Ja! Wir organisieren regelmäßig Ausfahrten mit zwei Tauchgängen, in der Regel an verschiedenen Tauchplätzen, mit einem angemessenen Oberflächenintervall."
+            ]
+          },
+          {
+            "q": "Wird die Ausrüstung gestellt?",
+            "a": [
+              "Ja, wir stellen Ihnen die gesamte notwendige Tauchausrüstung zur Verfügung: Flasche, Atemregler, Tarierjacket, Maske, Flossen und einen passenden Tauchanzug."
+            ]
+          },
+          {
+            "q": "Kann ich meine eigene Ausrüstung verwenden?",
+            "a": [
+              "Natürlich! Sie können Ihre persönliche Ausrüstung mitbringen, sofern sie geeignet und in einwandfreiem Zustand ist."
+            ]
+          },
+          {
+            "q": "Kann man Nachttauchgänge machen?",
+            "a": [
+              "Nachttauchgänge sind je nach Meeresbedingungen, Erfahrung der Teilnehmenden und organisatorischen Möglichkeiten des Tauchcenters möglich."
+            ]
+          }
+        ]
+      },
+      "sites": {
+        "title": "Die Tauchplätze von Las Galeras",
+        "items": [
+          {
+            "q": "Welche Arten von Tauchplätzen kann man entdecken?",
+            "a": [
+              "Las Galeras bietet eine große Vielfalt an Unterwasserlandschaften: Riffe, Steilwände, Felsformationen, natürliche Bögen und Wracks.",
+              "Jeder Tauchplatz hat seine Besonderheiten und bietet ein anderes Erlebnis."
+            ]
+          },
+          {
+            "q": "Sind alle Tauchplätze für alle Niveaus zugänglich?",
+            "a": [
+              "Nein. Einige Tauchplätze eignen sich hervorragend für Anfänger, während andere mehr Erfahrung oder eine höhere Zertifizierung erfordern.",
+              "Wir wählen die Tauchplätze immer entsprechend dem Niveau der Teilnehmenden und den Bedingungen des Tages aus."
+            ]
+          },
+          {
+            "q": "Kann man Höhlen oder Unterwasserbögen entdecken?",
+            "a": [
+              "Einige Tauchplätze bieten spektakuläre Bögen, Hohlräume und Felsdurchgänge.",
+              "Ob diese erkundet werden können, hängt von der Beschaffenheit des Ortes, Ihrer Erfahrung und Ihrer Ausbildung ab. Jedes Eindringen in Bereiche ohne direkten Zugang zur Oberfläche (Overhead-Umgebungen) erfordert die entsprechenden Qualifikationen und die passende Ausrüstung."
+            ]
+          },
+          {
+            "q": "Wo kann ich mich über die verschiedenen Tauchplätze informieren?",
+            "a": [
+              "Wir stellen Ihnen eine detaillierte Karte der Tauchplätze von Las Galeras zur Verfügung, mit ihren Merkmalen, Tiefen und den empfohlenen Niveaus.",
+              "Die endgültige Wahl der Tauchplätze hängt von den Wetter- und Meeresbedingungen ab."
+            ]
+          }
+        ]
+      },
+      "marine-life": {
+        "title": "Meeresfauna und -flora",
+        "items": [
+          {
+            "q": "Welche Tiere kann man in Las Galeras beobachten?",
+            "a": [
+              "Die Unterwasserwelt von Las Galeras beherbergt eine große Artenvielfalt: tropische Fische, Muränen, Langusten, Rochen, Barrakudas, Kaiserfische, Kofferfische und manchmal Schildkröten.",
+              "Die Riffe beheimaten außerdem verschiedene Arten von Korallen, Schwämmen und anderen Meeresorganismen."
+            ]
+          },
+          {
+            "q": "Kann man Haie sehen?",
+            "a": [
+              "Gelegentliche Haibeobachtungen sind möglich, insbesondere Hammerhaie an bestimmten Tauchplätzen.",
+              "Solche Begegnungen bleiben jedoch die Ausnahme und können nie garantiert werden."
+            ]
+          },
+          {
+            "q": "Kann man Schildkröten sehen?",
+            "a": [
+              "Ja, Meeresschildkröten werden bei unseren Tauchgängen manchmal gesichtet.",
+              "Wie bei allen Wildtieren bleibt ihre Anwesenheit unvorhersehbar."
+            ]
+          },
+          {
+            "q": "Kann man Wale oder Seekühe sehen?",
+            "a": [
+              "Die Region Samaná ist vor allem für die saisonale Anwesenheit von Buckelwalen bekannt.",
+              "Seekühe (Manatis) können ebenfalls in bestimmten Küstengebieten der Dominikanischen Republik vorkommen.",
+              "Diese Tiere gehören jedoch nicht zu den üblichen Beobachtungen bei unseren Tauchgängen."
+            ]
+          },
+          {
+            "q": "Darf man Fische oder Korallen berühren?",
+            "a": [
+              "Nein. Zum Schutz der Meeresumwelt bitten wir Sie, Tiere und Meeresorganismen nicht zu berühren, zu bewegen oder zu entnehmen."
+            ]
+          },
+          {
+            "q": "Wie erkenne ich die Fische, denen ich begegne?",
+            "a": [
+              "Wir bieten einen illustrierten Führer zur Meeresfauna von Las Galeras an, der zahlreiche Arten von Fischen, Rochen, Korallen und Schwämmen unserer Region vorstellt."
+            ]
+          }
+        ]
+      },
+      "weather": {
+        "title": "Wetter und Tauchbedingungen",
+        "items": [
+          {
+            "q": "Kann man in Las Galeras das ganze Jahr über tauchen?",
+            "a": [
+              "Ja! Tauchen ist das ganze Jahr über möglich, sofern die Wetter- und Meeresbedingungen es zulassen."
+            ]
+          },
+          {
+            "q": "Wie warm ist das Wasser?",
+            "a": [
+              "Die Wassertemperatur ist in der Regel angenehm und liegt bei etwa 26 bis 29 °C, mit saisonalen Schwankungen."
+            ]
+          },
+          {
+            "q": "Wie ist die Sicht unter Wasser?",
+            "a": [
+              "Die Sicht variiert je nach Tauchplatz, Wellengang, Strömungen und Wetterbedingungen.",
+              "Einige Tauchplätze bieten eine hervorragende Sicht, während andere vorübergehend durch Sand oder Schwebeteilchen beeinträchtigt sein können."
+            ]
+          },
+          {
+            "q": "Was passiert bei schlechtem Wetter?",
+            "a": [
+              "Die Sicherheit hat für uns oberste Priorität.",
+              "Je nach Bedingungen können wir die Tauchplätze ändern, die Ausfahrt verschieben oder sie absagen, wenn das Meer kein sicheres Tauchen erlaubt."
+            ]
+          }
+        ]
+      },
+      "safety": {
+        "title": "Sicherheit und Gesundheit",
+        "items": [
+          {
+            "q": "Ist Tauchen gefährlich?",
+            "a": [
+              "Wie jede Aktivität in der Natur birgt auch das Tauchen gewisse Risiken.",
+              "Eine geeignete Ausbildung, die Einhaltung der Sicherheitsverfahren und eine professionelle Betreuung tragen dazu bei, diese Risiken zu verringern."
+            ]
+          },
+          {
+            "q": "Was passiert, wenn ich unter Wasser in Panik gerate?",
+            "a": [
+              "Ihr Tauchlehrer bleibt an Ihrer Seite, um Sie zu begleiten und Ihnen zu helfen, wieder zur Ruhe zu kommen.",
+              "Falls nötig, kann der Tauchgang abgebrochen und ein kontrollierter Aufstieg durchgeführt werden."
+            ]
+          },
+          {
+            "q": "Besteht die Gefahr, dass mir die Luft ausgeht?",
+            "a": [
+              "Vor jedem Tauchgang überprüfen wir die Ausrüstung und erinnern an die Regeln zur Überwachung des Luftvorrats.",
+              "Während des Tauchgangs wird Ihr Luftverbrauch überwacht, damit der Aufstieg mit einer ausreichenden Reserve eingeplant werden kann."
+            ]
+          },
+          {
+            "q": "Tun die Ohren beim Abtauchen weh?",
+            "a": [
+              "Normalerweise nicht, wenn der Druckausgleich richtig durchgeführt wird.",
+              "Ihr Tauchlehrer erklärt Ihnen die nötigen Techniken und begleitet Sie bei einem langsamen Abstieg.",
+              "Bei Schmerzen oder Schwierigkeiten beim Druckausgleich darf der Abstieg niemals erzwungen werden."
+            ]
+          },
+          {
+            "q": "Kann man mit gesundheitlichen Problemen tauchen?",
+            "a": [
+              "Bei bestimmten gesundheitlichen Beschwerden kann vorab eine ärztliche Beurteilung erforderlich sein.",
+              "Ein Gesundheitsfragebogen hilft festzustellen, ob vor der Aktivität eine ärztliche Untersuchung notwendig ist."
+            ]
+          },
+          {
+            "q": "Kann man mit über 60 oder 70 Jahren tauchen?",
+            "a": [
+              "Ja! Es gibt keine allgemeingültige Altersobergrenze.",
+              "Entscheidend ist, dass Ihr Gesundheitszustand und Ihre körperliche Verfassung mit dem Tauchen vereinbar sind."
+            ]
+          },
+          {
+            "q": "Kann man erkältet tauchen?",
+            "a": [
+              "Vom Tauchen wird abgeraten, wenn die Atemwege verstopft sind oder der Druckausgleich in den Ohren schwerfällt."
+            ]
+          },
+          {
+            "q": "Kann man mit Brille tauchen?",
+            "a": [
+              "Ja. Es gibt Tauchmasken mit optischen Gläsern.",
+              "Kontaktlinsen können mit gewissen Vorsichtsmaßnahmen ebenfalls verwendet werden."
+            ]
+          },
+          {
+            "q": "Wie lange muss ich nach dem Tauchen warten, bevor ich fliegen darf?",
+            "a": [
+              "Zu Ihrer Sicherheit halten wir die folgenden Mindestwartezeiten ein:",
+              {
+                "list": [
+                  "18 Stunden nach dem letzten Tauchgang ohne obligatorischen Dekompressionsstopp, auch wenn ein Sicherheitsstopp durchgeführt wurde.",
+                  "Mindestens 24 Stunden nach einem Tauchgang mit obligatorischen Dekompressionsstopps, mit einer längeren Wartezeit, wenn das Tauchprofil oder die Sicherheitsempfehlungen dies erfordern."
+                ]
+              },
+              "Diese Wartezeiten garantieren keine vollständige Risikofreiheit. Wir empfehlen Ihnen, Ihren letzten Tauchgang ausreichend früh vor Ihrem Rückflug einzuplanen."
+            ]
+          },
+          {
+            "q": "Kann ich einen Tauchgang vorzeitig beenden?",
+            "a": [
+              "Natürlich! Sie können jederzeit signalisieren, dass Sie Ihren Tauchgang abbrechen möchten.",
+              "Ihr Tauchlehrer begleitet Sie bei einem kontrollierten Aufstieg unter Einhaltung der Sicherheitsverfahren.",
+              "Ihr Wohlbefinden und Ihre Sicherheit sind wichtiger als die Dauer des Tauchgangs."
+            ]
+          }
+        ]
+      },
+      "trips": {
+        "title": "Organisation der Ausfahrten",
+        "items": [
+          {
+            "q": "Um wie viel Uhr beginnen die Ausfahrten?",
+            "a": [
+              "Unsere Ausfahrten finden in der Regel am Vormittag statt.",
+              "Die genaue Uhrzeit des Treffpunkts teilen wir Ihnen bei Ihrer Buchung mit."
+            ]
+          },
+          {
+            "q": "Wie viele Taucher nehmen an den Ausfahrten teil?",
+            "a": [
+              "Wir bevorzugen kleine Gruppen, um eine persönliche Betreuung, eine herzliche Atmosphäre und ein angenehmes Erlebnis zu gewährleisten."
+            ]
+          },
+          {
+            "q": "Können Nichttaucher die Taucher begleiten?",
+            "a": [
+              "Ja, sofern auf dem Boot Plätze verfügbar sind.",
+              "Gegen Aufpreis können wir auch Schnorcheln anbieten, damit Begleitpersonen während der Ausfahrt das Meer genießen können, wenn die Bedingungen es erlauben."
+            ]
+          },
+          {
+            "q": "Darf man unter Wasser fotografieren oder filmen?",
+            "a": [
+              "Natürlich! Sie können Ihre Unterwasserkamera verwenden, sofern Sie die Sicherheitsanweisungen beachten und die Meeresumwelt schonen."
+            ]
+          },
+          {
+            "q": "Welche Dokumente muss ich vorlegen?",
+            "a": [
+              "Für Tauchgänge, die zertifizierten Tauchern vorbehalten sind, ist ein Zertifizierungsnachweis erforderlich.",
+              "Ein medizinischer Fragebogen und die entsprechenden Teilnahmeunterlagen können ebenfalls verlangt werden."
+            ]
+          }
+        ]
+      },
+      "booking": {
+        "title": "Buchungen, Zahlungen und Stornierungen",
+        "items": [
+          {
+            "q": "Welche Zahlungsmethoden akzeptieren Sie?",
+            "a": [
+              "Wir akzeptieren Barzahlung und Kartenzahlung direkt im Tauchcenter.",
+              "Für Vorausbuchungen und den Kauf von PADI-Kursen ist auch eine Zahlung per Banküberweisung möglich."
+            ]
+          },
+          {
+            "q": "Wie weit im Voraus muss ich buchen?",
+            "a": [
+              "Sie können Ihre Tauchgänge oder Kurse mehrere Tage, Wochen oder sogar Monate im Voraus buchen.",
+              "Wir bitten lediglich um eine Bestätigung Ihrer Teilnahme 24 Stunden vor der Ausfahrt, damit wir die Organisation von Boot, Ausrüstung und Betreuung abschließen können."
+            ]
+          },
+          {
+            "q": "Welche Stornierungsbedingungen gelten für Einzelbuchungen?",
+            "a": [
+              "Sie können Ihre Buchung kostenlos stornieren, sofern Sie Las Galeras Divers mindestens 24 Stunden vor der geplanten Ausfahrt direkt kontaktieren.",
+              "Diese Frist ermöglicht es uns, unsere Ausfahrten neu zu organisieren und die frei gewordenen Plätze anderen Tauchern anzubieten."
+            ]
+          },
+          {
+            "q": "Welche Stornierungsbedingungen gelten für Gruppen?",
+            "a": [
+              "Für Gruppen ab 6 Personen gelten aufgrund des erforderlichen Organisationsaufwands besondere Bedingungen.",
+              {
+                "list": [
+                  "Stornierung mindestens einen Monat vor dem geplanten Termin: keine Gebühren.",
+                  "Stornierung weniger als einen Monat vor dem geplanten Termin: Stornogebühr in Höhe von 30 % des Gesamtbetrags der Buchung."
+                ]
+              },
+              "Diese Bedingungen werden Ihnen bei der Buchung mitgeteilt."
+            ]
+          },
+          {
+            "q": "Kann eine Ausfahrt von Las Galeras Divers abgesagt werden?",
+            "a": [
+              "Ja. Bei ungünstigen Wetterbedingungen, gefährlicher See oder unvorhergesehenen Umständen, die die Sicherheit beeinträchtigen, können wir eine Ausfahrt ändern, verschieben oder absagen.",
+              "Wir informieren Sie so früh wie möglich, um gemeinsam eine passende Lösung zu finden.",
+              "Die Sicherheit unserer Taucher hat stets oberste Priorität."
+            ]
+          }
+        ]
+      },
+      "why-us": {
+        "title": "Warum Las Galeras Divers wählen?",
+        "items": [
+          {
+            "q": "Warum zum Tauchen nach Las Galeras kommen?",
+            "a": [
+              "Las Galeras liegt auf der Halbinsel Samaná und ist ein authentisches Dorf der Dominikanischen Republik, fernab vom Trubel der großen Touristenzentren.",
+              "Seine Unterwasserwelt bietet eine große Vielfalt an Landschaften: Riffe, Steilwände, Felsformationen, Bögen und Wracks."
+            ]
+          },
+          {
+            "q": "Warum Las Galeras Divers wählen?",
+            "a": [
+              "Bei Las Galeras Divers setzen wir auf kleine Gruppen, eine herzliche Atmosphäre und eine persönliche Betreuung.",
+              "Ob Sie zum ersten Mal tauchen, eine PADI-Zertifizierung erwerben oder neue Tauchplätze erkunden möchten: Wir nehmen uns die Zeit, Sie zu begleiten und Ihr Erlebnis individuell zu gestalten.",
+              "Unser Ziel ist einfach: Ihnen die Unterwasserschätze von Las Galeras in einer herzlichen Atmosphäre näherzubringen, mit der Freude am Tauchen und der Sicherheit als oberste Prioritäten."
+            ]
+          }
+        ]
+      }
+    },
+    "closing": {
+      "title": "Haben Sie noch eine andere Frage?",
+      "text": "Unser Team beantwortet sie Ihnen gerne, vor und während Ihres Aufenthalts.",
+      "welcome": "Bis bald unter Wasser mit Las Galeras Divers!",
+      "contact": "Kontaktieren Sie uns",
+      "pricing": "Unsere Preise ansehen"
+    }
+  },
   "footer": {
     "navigation": "Navigation",
     "ourServices": "Unsere Dienstleistungen",
@@ -382,6 +949,10 @@
     "discover": {
       "title": "Was kann man in Las Galeras und Umgebung unternehmen? Strände, Aktivitäten und Ausflüge nach Samaná | Las Galeras Divers",
       "description": "Was tun in Las Galeras? Traumstrände, Wanderungen, der Wasserfall El Limón, Buckelwale, Bootsausflüge, Quad, Cayo Levantado ... Alle Aktivitäten in Las Galeras und auf der Halbinsel Samaná abseits des Tauchens."
+    },
+    "faq": {
+      "title": "FAQ Tauchen in Las Galeras: Schnuppertauchen, PADI-Kurse, Tauchplätze und Sicherheit | Las Galeras Divers",
+      "description": "Alle Antworten rund ums Tauchen in Las Galeras, Dominikanische Republik: Schnuppertauchen ab 8 Jahren, PADI-Kurse Open Water und Advanced, Tauchgänge für zertifizierte Taucher, Tauchplätze, Meeresfauna, Wetter, Sicherheit, Buchungen und Stornierungen."
     }
   }
 }

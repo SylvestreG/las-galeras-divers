@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { useLanguage } from '../contexts/LanguageContext'
 import { getAssetPath } from '../utils/assets'
 import { pathFor, useRouter } from '../router'
-import { DISCOVER_SLUG, HOME_SLUG } from '../routes'
+import { DISCOVER_SLUG, FAQ_SLUG, HOME_SLUG } from '../routes'
 import LanguageSwitcher from './LanguageSwitcher'
 import './Header.css'
 
@@ -11,6 +11,12 @@ const SECTION_LINKS = [
   { id: 'services', labelKey: 'nav.services' },
   { id: 'pricing', labelKey: 'nav.pricing' },
   { id: 'gallery', labelKey: 'nav.gallery' },
+]
+
+// Dedicated pages, shown after the home sections.
+const PAGE_LINKS = [
+  { slug: DISCOVER_SLUG, labelKey: 'nav.discover' },
+  { slug: FAQ_SLUG, labelKey: 'nav.faq' },
 ]
 
 const Header = () => {
@@ -47,13 +53,11 @@ const Header = () => {
     closeMobileMenu()
   }
 
-  const handleDiscoverClick = (event) => {
+  const handlePageClick = (event, pageSlug) => {
     event.preventDefault()
-    navigate(DISCOVER_SLUG)
+    navigate(pageSlug)
     closeMobileMenu()
   }
-
-  const isDiscoverPage = slug === DISCOVER_SLUG
 
   return (
     <header className={`header ${isScrolled ? 'header-scrolled' : ''}`}>
@@ -87,14 +91,20 @@ const Header = () => {
               {t(labelKey)}
             </a>
           ))}
-          <a
-            href={pathFor(DISCOVER_SLUG)}
-            className={`nav-link ${isDiscoverPage ? 'nav-link-active' : ''}`}
-            aria-current={isDiscoverPage ? 'page' : undefined}
-            onClick={handleDiscoverClick}
-          >
-            {t('nav.discover')}
-          </a>
+          {PAGE_LINKS.map(({ slug: pageSlug, labelKey }) => {
+            const isActive = slug === pageSlug
+            return (
+              <a
+                key={pageSlug}
+                href={pathFor(pageSlug)}
+                className={`nav-link ${isActive ? 'nav-link-active' : ''}`}
+                aria-current={isActive ? 'page' : undefined}
+                onClick={(event) => handlePageClick(event, pageSlug)}
+              >
+                {t(labelKey)}
+              </a>
+            )
+          })}
           <a
             href={pathFor(HOME_SLUG, 'contact')}
             className="nav-link nav-link-cta"

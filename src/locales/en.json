@@ -6,6 +6,7 @@
     "pricing": "Pricing",
     "gallery": "Gallery",
     "discover": "Discover Las Galeras",
+    "faq": "FAQ",
     "testimonials": "Testimonials",
     "contact": "Contact"
   },
@@ -345,6 +346,572 @@
       "button": "Discover our dives"
     }
   },
+  "faq": {
+    "eyebrow": "Frequently asked questions",
+    "title": "Everything you need to know about diving in Las Galeras",
+    "subtitle": "Your questions about scuba diving in Las Galeras, Dominican Republic",
+    "intro": [
+      "Welcome to Las Galeras Divers!",
+      "Whether you want to try scuba diving for the first time, earn a PADI certification or explore the underwater world of Las Galeras, our team is here to guide you.",
+      "Here you will find answers to the most frequently asked questions, so you can prepare for your experience with complete peace of mind."
+    ],
+    "topicsTitle": "Choose a topic",
+    "questionsLabel": "questions",
+    "backToTopics": "Back to topics",
+    "sections": {
+      "discover": {
+        "title": "Discovering scuba diving",
+        "items": [
+          {
+            "q": "From what age can you do a discovery dive?",
+            "a": [
+              "We offer a first introduction to diving from age 8, in a suitable environment, with a maximum depth of 2 meters for children aged 8 and 9.",
+              "From age 10, it is possible to take part in the PADI Discover Scuba Diving program, provided the requirements are met.",
+              "Every experience is tailored to the participant's age, comfort in the water and abilities."
+            ]
+          },
+          {
+            "q": "Do I need to know how to swim to do a discovery dive?",
+            "a": [
+              "You don't need to be a strong swimmer, but it is important to feel reasonably comfortable in the water.",
+              "Your instructor stays with you throughout the experience and adapts the activity to your level of confidence."
+            ]
+          },
+          {
+            "q": "I have never dived before. Can I take part?",
+            "a": [
+              "Of course! The discovery dive is designed specifically for people who want to experience the sensations of scuba diving without any prior training."
+            ]
+          },
+          {
+            "q": "Does a discovery dive give me a certification?",
+            "a": [
+              "No. A discovery dive is not a certification course.",
+              "It lets you explore the underwater world accompanied by a professional, but it does not grant any certification to dive independently.",
+              "To earn an internationally recognized certification, you need to take a course such as the PADI Open Water Diver."
+            ]
+          },
+          {
+            "q": "I have already done several discovery dives. Am I considered a certified diver?",
+            "a": [
+              "No. Even after several discovery dives, you are not considered a certified diver.",
+              "To join the trips reserved for certified divers, a recognized certification is required."
+            ]
+          },
+          {
+            "q": "Can we do a discovery dive as a couple or as a family?",
+            "a": [
+              "Yes! We welcome couples, families and groups of friends. The experience is organized according to each person's age and abilities."
+            ]
+          },
+          {
+            "q": "I'm nervous about breathing underwater. Is that normal?",
+            "a": [
+              "Absolutely! We take the time to explain how the equipment works and to get you gradually used to breathing underwater.",
+              "You go at your own pace, with no pressure."
+            ]
+          },
+          {
+            "q": "Can I do a discovery dive if I'm afraid of the water?",
+            "a": [
+              "It depends on how anxious you feel. We take the time to reassure you and guide you step by step.",
+              "If your fear prevents the activity from being carried out safely, we would rather not continue."
+            ]
+          }
+        ]
+      },
+      "courses": {
+        "title": "PADI levels and courses",
+        "items": [
+          {
+            "q": "What are the different diving levels?",
+            "a": [
+              "Here are the main steps to discover diving and progress toward more advanced certifications.",
+              {
+                "table": {
+                  "headers": [
+                    "Level",
+                    "Minimum age",
+                    "Maximum depth"
+                  ],
+                  "rows": [
+                    [
+                      "First discovery",
+                      "8 years",
+                      "2 m"
+                    ],
+                    [
+                      "Discover Scuba Diving",
+                      "10 years",
+                      "12 m"
+                    ],
+                    [
+                      "Junior Open Water",
+                      "10 years",
+                      "12 to 18 m depending on age"
+                    ],
+                    [
+                      "Open Water Diver",
+                      "15 years",
+                      "18 m"
+                    ],
+                    [
+                      "Junior Advanced",
+                      "12 years",
+                      "21 m"
+                    ],
+                    [
+                      "Advanced Open Water",
+                      "15 years",
+                      "30 m"
+                    ],
+                    [
+                      "Rescue Diver",
+                      "12 years",
+                      "Depending on qualification"
+                    ],
+                    [
+                      "Divemaster",
+                      "18 years",
+                      "Depending on activity and qualification"
+                    ]
+                  ]
+                }
+              },
+              "The depths shown are the limits that apply to each program or certification, subject to training and safety conditions. Specific supervision rules apply to children and teenagers."
+            ]
+          },
+          {
+            "q": "What is the PADI Open Water Diver?",
+            "a": [
+              "The Open Water Diver is the first scuba diving certification.",
+              "The course includes a theory section, practical exercises and four open water dives.",
+              "Once certified, you will be able to dive to 18 meters with a qualified buddy, within the limits of your training and experience."
+            ]
+          },
+          {
+            "q": "How long does the Open Water course take?",
+            "a": [
+              "The course usually takes 2 to 3 days, especially when the PADI eLearning theory has been completed before you arrive.",
+              "The duration can be adapted to your progress and to the weather conditions."
+            ]
+          },
+          {
+            "q": "Can I start the theory before my vacation?",
+            "a": [
+              "Yes, and we actually recommend it!",
+              "With PADI eLearning, you can start the theory part of your course from home, at your own pace.",
+              "That way you get more out of your stay for the practical exercises and the dives at sea."
+            ]
+          },
+          {
+            "q": "What is the Advanced Open Water Diver?",
+            "a": [
+              "The Advanced Open Water Diver lets you improve your skills and discover new techniques through five training dives.",
+              "The program includes a deep dive and a navigation dive, among others.",
+              "For adults, the course gives access to a maximum depth of 30 meters."
+            ]
+          },
+          {
+            "q": "What is the Rescue Diver?",
+            "a": [
+              "The Rescue Diver is a course dedicated to preventing incidents, assisting divers and managing emergency situations.",
+              "It helps you develop confidence, anticipation and the ability to respond.",
+              "Certification and first aid training prerequisites are required."
+            ]
+          },
+          {
+            "q": "What is the Divemaster?",
+            "a": [
+              "The Divemaster is the first PADI professional level.",
+              "This course lets you deepen your knowledge, techniques and supervision skills, within the limits of this qualification."
+            ]
+          },
+          {
+            "q": "How much time should I allow for a PADI course?",
+            "a": [
+              {
+                "list": [
+                  "Open Water Diver: 2 to 3 days.",
+                  "Advanced Open Water: 2 to 3 days.",
+                  "Rescue Diver: 2 to 4 days, not including prerequisites.",
+                  "Divemaster: several weeks depending on the program."
+                ]
+              },
+              "These durations are indicative and may vary depending on each student's progress."
+            ]
+          },
+          {
+            "q": "Can I take a course during my vacation?",
+            "a": [
+              "Of course! We can organize your course around the length of your stay, availability and weather conditions.",
+              "We recommend contacting us before your arrival to plan your program."
+            ]
+          }
+        ]
+      },
+      "certified": {
+        "title": "Dives for certified divers",
+        "items": [
+          {
+            "q": "I'm an Open Water diver. Can I dive in Las Galeras?",
+            "a": [
+              "Of course! Several of our sites are accessible to Open Water divers.",
+              "We choose the dives according to your certification, your experience and the sea conditions."
+            ]
+          },
+          {
+            "q": "I haven't dived in several years. Can I get back into it?",
+            "a": [
+              "Yes! Depending on how long it has been since your last dive and on your experience, we can offer you a refresher.",
+              "The goal is to regain your reflexes and get back to diving with confidence."
+            ]
+          },
+          {
+            "q": "Do you offer refresher sessions?",
+            "a": [
+              "Yes. They let you review the main safety rules, the use of the equipment, buoyancy and the essential skills."
+            ]
+          },
+          {
+            "q": "How long does a dive last?",
+            "a": [
+              "Our dives usually last around 45 minutes.",
+              "This can vary depending on depth, air consumption and the conditions on the day."
+            ]
+          },
+          {
+            "q": "Can I do two dives in the same morning?",
+            "a": [
+              "Yes! We regularly organize trips with two dives, usually on different sites, with an appropriate surface interval."
+            ]
+          },
+          {
+            "q": "Is the equipment provided?",
+            "a": [
+              "Yes, we provide all the equipment you need to dive: tank, regulator, BCD, mask, fins and a suitable wetsuit."
+            ]
+          },
+          {
+            "q": "Can I use my own equipment?",
+            "a": [
+              "Of course! You are welcome to bring your own gear, as long as it is suitable and in good working order."
+            ]
+          },
+          {
+            "q": "Can I go night diving?",
+            "a": [
+              "Night dives may be arranged depending on sea conditions, the participants' experience and the center's scheduling possibilities."
+            ]
+          }
+        ]
+      },
+      "sites": {
+        "title": "Las Galeras dive sites",
+        "items": [
+          {
+            "q": "What types of sites can I discover?",
+            "a": [
+              "Las Galeras offers a wide variety of underwater landscapes: reefs, drop-offs, rock formations, natural arches and wrecks.",
+              "Each site has its own character and offers a different experience."
+            ]
+          },
+          {
+            "q": "Are all the sites accessible to every level?",
+            "a": [
+              "No. Some sites are perfectly suited to beginners, while others require more experience or a more advanced certification.",
+              "We always select the sites according to the participants' level and the conditions on the day."
+            ]
+          },
+          {
+            "q": "Can I explore underwater caves or arches?",
+            "a": [
+              "Some sites feature spectacular arches, cavities and rocky passages.",
+              "Exploring them depends on the layout of the site, your experience and your training. Any penetration into an overhead environment requires the appropriate qualifications and equipment."
+            ]
+          },
+          {
+            "q": "Where can I find out about the different dive sites?",
+            "a": [
+              "We provide a detailed map of the Las Galeras dive sites, showing their features, depths and recommended levels.",
+              "The final choice of sites always depends on weather and sea conditions."
+            ]
+          }
+        ]
+      },
+      "marine-life": {
+        "title": "Marine life",
+        "items": [
+          {
+            "q": "What animals can I see in Las Galeras?",
+            "a": [
+              "The waters of Las Galeras are home to a wide variety of species: tropical fish, moray eels, spiny lobsters, rays, barracudas, angelfish, trunkfish and sometimes turtles.",
+              "The reefs also host various species of coral, sponges and other marine organisms."
+            ]
+          },
+          {
+            "q": "Can I see sharks?",
+            "a": [
+              "Occasional shark sightings are possible, including hammerhead sharks on certain sites.",
+              "These encounters remain exceptional and can never be guaranteed."
+            ]
+          },
+          {
+            "q": "Can I see turtles?",
+            "a": [
+              "Yes, sea turtles are sometimes spotted during our dives.",
+              "As with all wild animals, their presence is unpredictable."
+            ]
+          },
+          {
+            "q": "Can I see whales or manatees?",
+            "a": [
+              "The Samaná region is particularly known for the seasonal presence of humpback whales.",
+              "Manatees can also be found in some coastal areas of the Dominican Republic.",
+              "However, these animals are not part of the usual sightings on our dives."
+            ]
+          },
+          {
+            "q": "Can I touch the fish or the coral?",
+            "a": [
+              "No. To protect the marine environment, we ask you not to touch, move or take any marine animals or organisms."
+            ]
+          },
+          {
+            "q": "How can I identify the fish I see?",
+            "a": [
+              "We offer an illustrated guide to the marine life of Las Galeras, featuring many species of fish, rays, corals and sponges found in our region."
+            ]
+          }
+        ]
+      },
+      "weather": {
+        "title": "Weather and diving conditions",
+        "items": [
+          {
+            "q": "Can I dive all year round in Las Galeras?",
+            "a": [
+              "Yes! Diving is possible all year round, whenever weather and sea conditions allow."
+            ]
+          },
+          {
+            "q": "What is the water temperature?",
+            "a": [
+              "The water temperature is generally pleasant, around 26 to 29°C, with seasonal variations."
+            ]
+          },
+          {
+            "q": "What is the underwater visibility like?",
+            "a": [
+              "Visibility varies depending on the site, swell, currents and weather conditions.",
+              "Some sites offer excellent visibility, while others can be temporarily affected by sand or suspended particles."
+            ]
+          },
+          {
+            "q": "What happens in bad weather?",
+            "a": [
+              "Safety remains our priority.",
+              "Depending on the conditions, we may change sites, postpone the trip or cancel it if the sea does not allow safe diving."
+            ]
+          }
+        ]
+      },
+      "safety": {
+        "title": "Safety and health",
+        "items": [
+          {
+            "q": "Is scuba diving dangerous?",
+            "a": [
+              "Like any activity in a natural environment, diving involves certain risks.",
+              "Proper training, compliance with safety procedures and professional supervision help to reduce these risks."
+            ]
+          },
+          {
+            "q": "What happens if I panic underwater?",
+            "a": [
+              "Your instructor stays by your side to support you and help you calm down.",
+              "If necessary, the dive can be stopped and a controlled ascent will be carried out."
+            ]
+          },
+          {
+            "q": "Could I run out of air?",
+            "a": [
+              "Before every dive, we check the equipment and go over the rules for monitoring your air supply.",
+              "During the dive, your air consumption is monitored so the ascent can be planned with an adequate reserve."
+            ]
+          },
+          {
+            "q": "Do my ears hurt during the descent?",
+            "a": [
+              "Normally not, as long as you equalize correctly.",
+              "Your instructor explains the techniques you need and guides you through a gradual descent.",
+              "You should never force a descent if you feel pain or have difficulty equalizing."
+            ]
+          },
+          {
+            "q": "Can I dive with a health condition?",
+            "a": [
+              "Some medical conditions may require prior medical advice.",
+              "A medical questionnaire helps determine whether a consultation is needed before the activity."
+            ]
+          },
+          {
+            "q": "Can I dive after 60 or 70?",
+            "a": [
+              "Yes! There is no universal upper age limit.",
+              "What matters is being in a state of health and physical condition compatible with diving."
+            ]
+          },
+          {
+            "q": "Can I dive with a cold?",
+            "a": [
+              "Diving is not recommended when your airways are congested or when equalizing your ears is difficult."
+            ]
+          },
+          {
+            "q": "Can I dive if I wear glasses?",
+            "a": [
+              "Yes. Masks with corrective lenses are available.",
+              "Contact lenses can also be worn with certain precautions."
+            ]
+          },
+          {
+            "q": "How long do I need to wait before flying?",
+            "a": [
+              "For your safety, we apply the following minimum intervals:",
+              {
+                "list": [
+                  "18 hours after the last dive without mandatory decompression stops, including when a safety stop was performed.",
+                  "At least 24 hours after a dive that required mandatory decompression stops, with a longer interval if the dive profile or safety recommendations call for it."
+                ]
+              },
+              "These intervals do not guarantee the absence of risk. We advise you to plan your last dive well ahead of your return flight."
+            ]
+          },
+          {
+            "q": "Can I end a dive early?",
+            "a": [
+              "Of course! You can signal at any time that you wish to end your dive.",
+              "Your instructor will accompany you on a controlled ascent, following the safety procedures.",
+              "Your comfort and safety come before the length of the dive."
+            ]
+          }
+        ]
+      },
+      "trips": {
+        "title": "How our dive trips work",
+        "items": [
+          {
+            "q": "What time do the trips start?",
+            "a": [
+              "Our trips are usually organized in the morning.",
+              "The exact meeting time is given to you when you book."
+            ]
+          },
+          {
+            "q": "How many divers take part in a trip?",
+            "a": [
+              "We favor small groups to ensure personalized supervision, a friendly atmosphere and an enjoyable experience."
+            ]
+          },
+          {
+            "q": "Can non-divers come along with the divers?",
+            "a": [
+              "Yes, subject to space available on the boat.",
+              "We can also offer a snorkeling activity as an extra, allowing companions to enjoy the sea during the trip, when conditions allow."
+            ]
+          },
+          {
+            "q": "Can I take photos or videos underwater?",
+            "a": [
+              "Of course! You are welcome to use your underwater camera, as long as you follow the safety instructions and respect the marine environment."
+            ]
+          },
+          {
+            "q": "What documents do I need to bring?",
+            "a": [
+              "For dives reserved for certified divers, proof of certification is required.",
+              "A medical questionnaire and the appropriate participation forms may also be requested."
+            ]
+          }
+        ]
+      },
+      "booking": {
+        "title": "Bookings, payments and cancellations",
+        "items": [
+          {
+            "q": "What payment methods do you accept?",
+            "a": [
+              "We accept cash and card payments directly at the dive center.",
+              "For advance bookings and PADI course purchases, payment by bank transfer is also possible."
+            ]
+          },
+          {
+            "q": "How far in advance should I book?",
+            "a": [
+              "You can book your dives or courses several days, weeks or even months in advance.",
+              "We simply ask you to confirm your participation 24 hours before the trip, so we can finalize the boat, equipment and supervision arrangements."
+            ]
+          },
+          {
+            "q": "What are the cancellation conditions for individual bookings?",
+            "a": [
+              "You can cancel your booking free of charge, provided you contact Las Galeras Divers directly at least 24 hours before the scheduled trip.",
+              "This notice allows us to reorganize our trips and offer the available spots to other divers."
+            ]
+          },
+          {
+            "q": "What are the cancellation conditions for groups?",
+            "a": [
+              "For groups of 6 people or more, special conditions apply because of the organization involved.",
+              {
+                "list": [
+                  "Cancellation at least one month before the scheduled date: no charge.",
+                  "Cancellation less than one month before the scheduled date: cancellation fee of 30% of the total booking amount."
+                ]
+              },
+              "These conditions are communicated at the time of booking."
+            ]
+          },
+          {
+            "q": "Can a trip be canceled by Las Galeras Divers?",
+            "a": [
+              "Yes. In the event of unfavorable weather, dangerous sea conditions or unforeseen circumstances that compromise safety, we may change, postpone or cancel a trip.",
+              "We will let you know as soon as possible so that we can find a suitable solution together.",
+              "The safety of our divers always remains our priority."
+            ]
+          }
+        ]
+      },
+      "why-us": {
+        "title": "Why choose Las Galeras Divers?",
+        "items": [
+          {
+            "q": "Why come diving in Las Galeras?",
+            "a": [
+              "Located on the Samaná peninsula, Las Galeras is an authentic village in the Dominican Republic, far from the bustle of the big tourist resorts.",
+              "Its waters offer a wide variety of underwater landscapes: reefs, drop-offs, rock formations, arches and wrecks."
+            ]
+          },
+          {
+            "q": "Why choose Las Galeras Divers?",
+            "a": [
+              "At Las Galeras Divers, we favor small groups, a friendly atmosphere and personalized supervision.",
+              "Whether you want to try diving for the first time, earn a PADI certification or explore new sites, we take the time to guide you and tailor your experience.",
+              "Our goal is simple: to show you the underwater treasures of Las Galeras in a warm atmosphere, with the joy of diving and safety as our priorities."
+            ]
+          }
+        ]
+      }
+    },
+    "closing": {
+      "title": "Have another question?",
+      "text": "Our team will be happy to answer, before and during your stay.",
+      "welcome": "See you soon underwater with Las Galeras Divers!",
+      "contact": "Contact Us",
+      "pricing": "View Pricing"
+    }
+  },
   "footer": {
     "navigation": "Navigation",
     "ourServices": "Our Services",
@@ -382,7 +949,10 @@
     "discover": {
       "title": "What to do in Las Galeras and around? Beaches, activities and visiting Samaná | Las Galeras Divers",
       "description": "What to do in Las Galeras? Dream beaches, hiking, El Limón waterfall, humpback whales, boat trips, quad tours, Cayo Levantado... All the activities in Las Galeras and the Samaná peninsula, beyond scuba diving."
+    },
+    "faq": {
+      "title": "Diving FAQ Las Galeras: discovery dives, PADI courses, dive sites and safety | Las Galeras Divers",
+      "description": "All the answers about scuba diving in Las Galeras, Dominican Republic: discovery dives from age 8, PADI Open Water and Advanced courses, fun dives for certified divers, dive sites, marine life, weather, safety, bookings and cancellations."
     }
   }
 }
-

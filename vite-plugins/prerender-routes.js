@@ -46,11 +46,17 @@ export function applyRouteMeta(html, route) {
     output = replaceTag(output, /(<meta property="twitter:image" content=")[^"]*(")/, image, 'twitter:image')
   }
 
+  if (route.jsonLd) {
+    // '<' is escaped so that no '</script>' can appear inside the JSON.
+    const json = JSON.stringify(route.jsonLd).replace(/</g, '\\u003c')
+    output = replaceTag(output, /()(<\/head>)/, `    <script type="application/ld+json">${json}</script>\n  `, '</head>')
+  }
+
   return output
 }
 
 /**
- * @param {Array<{slug: string, url: string, title: string, description: string, image?: string}>} routes
+ * @param {Array<{slug: string, url: string, title: string, description: string, image?: string, jsonLd?: object}>} routes
  */
 export function prerenderRoutesPlugin(routes) {
   let outDir

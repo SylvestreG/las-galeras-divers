@@ -2,7 +2,7 @@ import React from 'react'
 import { useLanguage } from '../contexts/LanguageContext'
 import { getAssetPath } from '../utils/assets'
 import { pathFor, useRouter } from '../router'
-import { DISCOVER_SLUG, HOME_SLUG } from '../routes'
+import { DISCOVER_SLUG, FAQ_SLUG, HOME_SLUG } from '../routes'
 import config from '../config.json'
 import './Footer.css'
 
@@ -18,9 +18,9 @@ const Footer = () => {
     goToSection(sectionId)
   }
 
-  const handleDiscoverClick = (event) => {
+  const handlePageClick = (event, pageSlug) => {
     event.preventDefault()
-    navigate(DISCOVER_SLUG)
+    navigate(pageSlug)
   }
 
   return (
@@ -59,7 +59,8 @@ const Footer = () => {
                 <li><a href={pathFor(HOME_SLUG, 'pricing')} onClick={(event) => handleSectionClick(event, 'pricing')}>{t('nav.pricing')}</a></li>
                 <li><a href={pathFor(HOME_SLUG, 'gallery')} onClick={(event) => handleSectionClick(event, 'gallery')}>{t('nav.gallery')}</a></li>
                 <li><a href={pathFor(HOME_SLUG, 'testimonials')} onClick={(event) => handleSectionClick(event, 'testimonials')}>{t('nav.testimonials')}</a></li>
-                <li><a href={pathFor(DISCOVER_SLUG)} onClick={handleDiscoverClick}>{t('nav.discover')}</a></li>
+                <li><a href={pathFor(DISCOVER_SLUG)} onClick={(event) => handlePageClick(event, DISCOVER_SLUG)}>{t('nav.discover')}</a></li>
+                <li><a href={pathFor(FAQ_SLUG)} onClick={(event) => handlePageClick(event, FAQ_SLUG)}>{t('nav.faq')}</a></li>
                 <li><a href={pathFor(HOME_SLUG, 'contact')} onClick={(event) => handleSectionClick(event, 'contact')}>{t('nav.contact')}</a></li>
               </ul>
             </div>

@@ -1,11 +1,11 @@
 import React, { createContext, useCallback, useContext, useEffect, useMemo, useState } from 'react'
-import { DISCOVER_SLUG, HOME_SLUG } from './routes'
+import { HOME_SLUG, SUBPAGE_SLUGS } from './routes'
 
 /**
  * Minimal path-based router (no dependency).
  *
- * Pages are identified by a "slug": '' for the home page and
- * DISCOVER_SLUG for the "Découvrir Las Galeras" page. Section anchors of the
+ * Pages are identified by a "slug": '' for the home page, or one of
+ * SUBPAGE_SLUGS ("Découvrir Las Galeras", FAQ). Section anchors of the
  * home page (#about, #services, ...) keep working from any page.
  */
 
@@ -57,7 +57,7 @@ export const RouterProvider = ({ children }) => {
     }
   }, [])
 
-  const isHome = slug !== DISCOVER_SLUG
+  const isHome = !SUBPAGE_SLUGS.includes(slug)
 
   // Scroll to a home page section, navigating back home first if needed.
   const goToSection = useCallback(

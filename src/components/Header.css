@@ -184,7 +184,7 @@
   }
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1180px) {
   .header-nav {
     gap: 0.75rem;
   }
@@ -211,7 +211,7 @@
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1100px) {
   .mobile-menu-toggle {
     display: flex;
   }
