@@ -1,6 +1,8 @@
 import React from 'react'
 import { useLanguage } from '../contexts/LanguageContext'
 import { getAssetPath } from '../utils/assets'
+import { pathFor, useRouter } from '../router'
+import { DISCOVER_SLUG, HOME_SLUG } from '../routes'
 import config from '../config.json'
 import './Footer.css'
 
@@ -9,11 +11,16 @@ const Footer = () => {
   const { siteInfo, socialMedia } = config
   const currentYear = new Date().getFullYear()
 
-  const scrollToSection = (sectionId) => {
-    const element = document.getElementById(sectionId)
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' })
-    }
+  const { navigate, goToSection } = useRouter()
+
+  const handleSectionClick = (event, sectionId) => {
+    event.preventDefault()
+    goToSection(sectionId)
+  }
+
+  const handleDiscoverClick = (event) => {
+    event.preventDefault()
+    navigate(DISCOVER_SLUG)
   }
 
   return (
@@ -46,25 +53,26 @@ const Footer = () => {
             <div className="footer-column">
               <h4 className="footer-title">{t('footer.navigation')}</h4>
               <ul className="footer-links">
-                <li><a href="#hero" onClick={() => scrollToSection('hero')}>{t('nav.home')}</a></li>
-                <li><a href="#about" onClick={() => scrollToSection('about')}>{t('nav.about')}</a></li>
-                <li><a href="#services" onClick={() => scrollToSection('services')}>{t('nav.services')}</a></li>
-                <li><a href="#pricing" onClick={() => scrollToSection('pricing')}>{t('nav.pricing')}</a></li>
-                <li><a href="#gallery" onClick={() => scrollToSection('gallery')}>{t('nav.gallery')}</a></li>
-                <li><a href="#testimonials" onClick={() => scrollToSection('testimonials')}>{t('nav.testimonials')}</a></li>
-                <li><a href="#contact" onClick={() => scrollToSection('contact')}>{t('nav.contact')}</a></li>
+                <li><a href={pathFor(HOME_SLUG, 'hero')} onClick={(event) => handleSectionClick(event, 'hero')}>{t('nav.home')}</a></li>
+                <li><a href={pathFor(HOME_SLUG, 'about')} onClick={(event) => handleSectionClick(event, 'about')}>{t('nav.about')}</a></li>
+                <li><a href={pathFor(HOME_SLUG, 'services')} onClick={(event) => handleSectionClick(event, 'services')}>{t('nav.services')}</a></li>
+                <li><a href={pathFor(HOME_SLUG, 'pricing')} onClick={(event) => handleSectionClick(event, 'pricing')}>{t('nav.pricing')}</a></li>
+                <li><a href={pathFor(HOME_SLUG, 'gallery')} onClick={(event) => handleSectionClick(event, 'gallery')}>{t('nav.gallery')}</a></li>
+                <li><a href={pathFor(HOME_SLUG, 'testimonials')} onClick={(event) => handleSectionClick(event, 'testimonials')}>{t('nav.testimonials')}</a></li>
+                <li><a href={pathFor(DISCOVER_SLUG)} onClick={handleDiscoverClick}>{t('nav.discover')}</a></li>
+                <li><a href={pathFor(HOME_SLUG, 'contact')} onClick={(event) => handleSectionClick(event, 'contact')}>{t('nav.contact')}</a></li>
               </ul>
             </div>
 
             <div className="footer-column">
               <h4 className="footer-title">{t('footer.ourServices')}</h4>
               <ul className="footer-links">
-                <li><a href="#services" onClick={() => scrollToSection('services')}>{t('footer.baptism')}</a></li>
-                <li><a href="#services" onClick={() => scrollToSection('services')}>{t('footer.training')}</a></li>
-                <li><a href="#services" onClick={() => scrollToSection('services')}>{t('footer.funDive')}</a></li>
-                <li><a href="#services" onClick={() => scrollToSection('services')}>{t('footer.nightDive')}</a></li>
-                <li><a href="#pricing" onClick={() => scrollToSection('pricing')}>{t('footer.openWater')}</a></li>
-                <li><a href="#pricing" onClick={() => scrollToSection('pricing')}>{t('footer.advanced')}</a></li>
+                <li><a href={pathFor(HOME_SLUG, 'services')} onClick={(event) => handleSectionClick(event, 'services')}>{t('footer.baptism')}</a></li>
+                <li><a href={pathFor(HOME_SLUG, 'services')} onClick={(event) => handleSectionClick(event, 'services')}>{t('footer.training')}</a></li>
+                <li><a href={pathFor(HOME_SLUG, 'services')} onClick={(event) => handleSectionClick(event, 'services')}>{t('footer.funDive')}</a></li>
+                <li><a href={pathFor(HOME_SLUG, 'services')} onClick={(event) => handleSectionClick(event, 'services')}>{t('footer.nightDive')}</a></li>
+                <li><a href={pathFor(HOME_SLUG, 'pricing')} onClick={(event) => handleSectionClick(event, 'pricing')}>{t('footer.openWater')}</a></li>
+                <li><a href={pathFor(HOME_SLUG, 'pricing')} onClick={(event) => handleSectionClick(event, 'pricing')}>{t('footer.advanced')}</a></li>
               </ul>
             </div>
 

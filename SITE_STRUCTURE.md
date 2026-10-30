@@ -356,3 +356,35 @@ LIVE! 🎉
 
 **Structure complète et modulaire, prête pour le déploiement !** ✨
 
+
+---
+
+## 🏝️ Page « Découvrir Las Galeras » (`/que-faire-a-las-galeras/`)
+
+Deuxième page du site, accessible depuis le menu et le pied de page (« Découvrir Las Galeras »). Le routage est assuré par `src/router.jsx` (mini-routeur basé sur `history.pushState`, sans dépendance) ; `src/App.jsx` affiche `HomePage` ou `DiscoverPage` selon l'URL. Les liens de sections (`/#about`, `/#contact`, …) fonctionnent depuis n'importe quelle page.
+
+```
+┌─────────────────────────────────────────┐
+│ Hero : « Que faire à Las Galeras        │
+│ et ses environs ? » (photo de plage)    │
+├─────────────────────────────────────────┤
+│ Introduction (3 paragraphes)            │
+├─────────────────────────────────────────┤
+│ Des plages de rêve                      │
+│ 5 cartes : Rincón, Frontón, Madama,     │
+│ Colorada, La Playita                    │
+├─────────────────────────────────────────┤
+│ Activités : 12 cartes (randonnée,       │
+│ escalade, El Limón, cheval, quad,       │
+│ baleines, bateau, pêche, tyroliennes,   │
+│ Samaná & Cayo Levantado, Saint-Domingue,│
+│ gastronomie)                            │
+├─────────────────────────────────────────┤
+│ Conclusion « il y en a pour tous        │
+│ les goûts » + lien vers nos plongées    │
+└─────────────────────────────────────────┘
+```
+
+- Contenu : `discover` dans `src/locales/{fr,en,es}.json` ; structure dans `src/data/discoverSections.js`.
+- Photos : `public/assets/discover-<slug>.webp`, détectées au build par `vite-plugins/discover-images.js`.
+- SEO : titre/description/canonique par page (`src/hooks/usePageMeta.js`) et version statique générée dans `dist/que-faire-a-las-galeras/index.html` (`vite-plugins/prerender-routes.js`) ; entrée dans `public/sitemap.xml`.

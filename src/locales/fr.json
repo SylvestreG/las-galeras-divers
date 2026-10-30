@@ -5,6 +5,7 @@
     "services": "Services",
     "pricing": "Tarifs",
     "gallery": "Galerie",
+    "discover": "Découvrir Las Galeras",
     "testimonials": "Témoignages",
     "contact": "Contact"
   },
@@ -196,6 +197,154 @@
     "mapSubtext": "Votre Base de Plongée",
     "mapAlt": "Plan de localisation Las Galeras Divers"
   },
+  "discover": {
+    "eyebrow": "Découvrir Las Galeras",
+    "title": "Que faire à Las Galeras et ses environs ?",
+    "tagline": "Bien plus que de la plongée !",
+    "intro": [
+      "Situé à l'extrémité de la magnifique péninsule de Samaná, en République dominicaine, Las Galeras est un petit village de pêcheurs authentique, entouré de plages paradisiaques, de cocotiers, de falaises spectaculaires et d'une nature tropicale luxuriante.",
+      "Si Las Galeras est une destination privilégiée pour la plongée sous-marine, elle offre également une multitude d'activités et de découvertes pour tous les goûts.",
+      "Que vous soyez plongeur, accompagnant non plongeur, en couple, en famille ou entre amis, chacun trouvera de quoi profiter pleinement de son séjour."
+    ],
+    "beaches": {
+      "label": "Plages de Las Galeras",
+      "title": "Des plages de rêve",
+      "intro": "Las Galeras et ses environs abritent certaines des plus belles plages de République dominicaine. Parmi les plus connues :",
+      "items": {
+        "playa-rincon": {
+          "name": "Playa Rincón",
+          "description": "Une immense plage de sable blanc bordée de cocotiers, idéale pour la baignade et la détente."
+        },
+        "playa-fronton": {
+          "name": "Playa Frontón",
+          "description": "Une plage spectaculaire dominée par d'impressionnantes falaises, accessible par bateau ou randonnée."
+        },
+        "playa-madama": {
+          "name": "Playa Madama",
+          "description": "Une petite crique sauvage entourée de végétation tropicale."
+        },
+        "playa-colorada": {
+          "name": "Playa Colorada",
+          "description": "Une plage naturelle et paisible, parfaite pour une escapade."
+        },
+        "la-playita": {
+          "name": "La Playita",
+          "description": "Une jolie plage proche du village, idéale pour profiter des eaux turquoise."
+        }
+      },
+      "outro": [
+        "Et ce ne sont que quelques exemples ! De nombreuses autres plages, criques sauvages et petits coins de paradis restent à découvrir le long de la côte.",
+        "À vous de partir à leur découverte et de trouver votre plage préférée !"
+      ]
+    },
+    "activities": {
+      "label": "Activités à Las Galeras",
+      "title": "Nature, aventure et excursions dans la péninsule de Samaná",
+      "subtitle": "De la randonnée à l'observation des baleines, de quoi visiter Samaná et ses environs pendant vos journées hors de l'eau",
+      "items": {
+        "hiking": {
+          "title": "Randonnées et découverte de la nature",
+          "text": [
+            "La région de Las Galeras est un véritable paradis pour les amoureux de la marche et des grands espaces.",
+            "De nombreux sentiers permettent de découvrir des paysages exceptionnels entre forêt tropicale, plages sauvages, collines verdoyantes et falaises surplombant l'océan.",
+            "Les randonnées vers Playa Frontón, Playa Madama ou Playa Colorada permettent notamment d'accéder à des endroits préservés et de profiter de magnifiques panoramas."
+          ]
+        },
+        "climbing": {
+          "title": "Escalade et aventure",
+          "text": [
+            "Les amateurs de sport et de sensations fortes pourront également découvrir les possibilités d'escalade offertes par les formations rocheuses de la région.",
+            "Une activité originale pour apprécier autrement les paysages spectaculaires de Las Galeras, avec un équipement et un encadrement adaptés."
+          ]
+        },
+        "el-limon": {
+          "title": "La cascade El Limón",
+          "text": [
+            "Située dans la péninsule de Samaná, la célèbre cascade El Limón est l'une des excursions incontournables de la région.",
+            "Accessible par des sentiers traversant une végétation tropicale luxuriante, elle offre un spectacle impressionnant avec sa chute d'eau d'environ 40 mètres.",
+            "Une magnifique excursion à réaliser à pied, avec également des formules de promenade à cheval selon les prestataires."
+          ]
+        },
+        "horse-riding": {
+          "title": "Balades à cheval",
+          "text": [
+            "Découvrez les paysages dominicains autrement grâce à une promenade à cheval.",
+            "Entre plages, cocoteraies, chemins de campagne et petits villages, ces balades permettent de profiter de la nature à un rythme tranquille."
+          ]
+        },
+        "quad-buggy": {
+          "title": "Excursions en quad et buggy",
+          "text": [
+            "Envie d'aventure et de découverte ? Partez explorer les paysages de la péninsule de Samaná à bord d'un quad ou d'un buggy !",
+            "Entre chemins tropicaux, cocoteraies, plantations, villages typiques et magnifiques panoramas, ces excursions permettent de découvrir une autre facette de la République dominicaine.",
+            "Une activité idéale pour les amateurs de sensations, les couples, les familles et les groupes d'amis."
+          ]
+        },
+        "whales": {
+          "title": "Observation des baleines à bosse",
+          "text": [
+            "Chaque année, principalement de janvier à mars, les baleines à bosse viennent dans les eaux de la baie de Samaná pour se reproduire et mettre bas.",
+            "Une excursion en bateau permet d'observer ces impressionnants mammifères marins dans leur environnement naturel.",
+            "Un spectacle exceptionnel et l'une des expériences les plus mémorables de la région."
+          ]
+        },
+        "boat-trips": {
+          "title": "Excursions en bateau",
+          "text": [
+            "Les excursions en bateau permettent de découvrir la côte sauvage de Las Galeras, ses falaises, ses criques isolées et ses plages parfois difficiles d'accès par la terre.",
+            "C'est également une belle occasion de profiter de la mer et des paysages de la péninsule."
+          ]
+        },
+        "fishing": {
+          "title": "Pêche en mer",
+          "text": [
+            "Las Galeras est historiquement un village de pêcheurs.",
+            "Les amateurs de pêche peuvent découvrir les eaux de la région lors de sorties en mer et profiter d'une activité profondément liée à la culture locale."
+          ]
+        },
+        "ziplines": {
+          "title": "Tyroliennes et aventure à El Valle",
+          "text": [
+            "Pour les amateurs de sensations fortes, la région d'El Valle propose des activités d'aventure, notamment des parcours de tyroliennes.",
+            "Une occasion de découvrir la végétation tropicale sous un angle différent."
+          ]
+        },
+        "samana-cayo-levantado": {
+          "title": "Découverte de Samaná et Cayo Levantado",
+          "text": [
+            "Une visite de la ville de Samaná permet de découvrir son front de mer, son ambiance locale et ses paysages.",
+            "À proximité, Cayo Levantado, également surnommée l'île Bacardi, est une petite île tropicale réputée pour ses plages de sable blanc et ses eaux turquoise.",
+            "Une belle excursion pour profiter d'une journée de détente."
+          ]
+        },
+        "santo-domingo": {
+          "title": "Saint-Domingue et son patrimoine historique",
+          "text": [
+            "Pour ceux qui souhaitent découvrir une autre facette de la République dominicaine, une excursion à Saint-Domingue permet de visiter la capitale du pays.",
+            "Sa célèbre zone coloniale, inscrite au patrimoine mondial de l'UNESCO, abrite de nombreux monuments historiques, dont la cathédrale Santa María la Menor.",
+            "Une excursion plus éloignée, idéale à prévoir sur une journée complète lors d'un séjour prolongé."
+          ]
+        },
+        "gastronomy": {
+          "title": "Gastronomie et douceur de vivre",
+          "text": [
+            "Découvrir Las Galeras, c'est aussi prendre le temps de savourer la vie dominicaine.",
+            "Restaurants locaux, poissons frais, langoustes, spécialités créoles, fruits tropicaux et petits établissements en bord de mer font partie du charme du village.",
+            "Profitez également de ses commerces, de ses habitants accueillants et de son ambiance paisible."
+          ]
+        }
+      }
+    },
+    "closing": {
+      "title": "À Las Galeras, il y en a pour tous les goûts !",
+      "text": [
+        "Pendant que certains explorent les fonds marins, d'autres peuvent profiter des plages, partir en randonnée, vivre une aventure en pleine nature ou simplement se détendre à l'ombre des cocotiers.",
+        "Las Galeras est bien plus qu'une destination de plongée : c'est un endroit où chacun peut vivre ses vacances à son rythme, entre mer, nature, aventure et découvertes."
+      ],
+      "welcome": "Bienvenue à Las Galeras et profitez pleinement de votre séjour !",
+      "button": "Découvrir nos plongées"
+    }
+  },
   "footer": {
     "navigation": "Navigation",
     "ourServices": "Nos Services",
@@ -224,6 +373,16 @@
     "googleReviews": "Avis Google",
     "previousImage": "Image précédente",
     "nextImage": "Image suivante"
+  },
+  "seo": {
+    "home": {
+      "title": "Las Galeras Divers | Centre de Plongée PADI à Samaná, République Dominicaine",
+      "description": "Centre de plongée francophone PADI à Las Galeras. Formations Open Water, baptêmes dès 8 ans, fun dives et snorkeling. Explorez les récifs de Samaná avec nos instructeurs certifiés."
+    },
+    "discover": {
+      "title": "Que faire à Las Galeras et ses environs ? Plages, activités et visite de Samaná | Las Galeras Divers",
+      "description": "Que faire à Las Galeras ? Plages de rêve, randonnées, cascade El Limón, baleines à bosse, excursions en bateau, quad, Cayo Levantado... Toutes les activités à Las Galeras et dans la péninsule de Samaná, en dehors de la plongée."
+    }
   }
 }
 

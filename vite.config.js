@@ -1,9 +1,31 @@
+import fs from 'fs'
+import { fileURLToPath } from 'url'
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import { galleryImagesPlugin } from './vite-plugins/gallery-images.js'
+import { discoverImagesPlugin } from './vite-plugins/discover-images.js'
+import { prerenderRoutesPlugin } from './vite-plugins/prerender-routes.js'
+import { canonicalUrl, DISCOVER_SLUG, SITE_URL } from './src/routes.js'
+
+// French is the site's default language: it provides the static metadata of
+// the pre-rendered pages (the app switches language in the browser).
+const fr = JSON.parse(fs.readFileSync(fileURLToPath(new URL('./src/locales/fr.json', import.meta.url)), 'utf8'))
 
 export default defineConfig({
-  plugins: [react(), galleryImagesPlugin()],
+  plugins: [
+    react(),
+    galleryImagesPlugin(),
+    discoverImagesPlugin(),
+    prerenderRoutesPlugin([
+      {
+        slug: DISCOVER_SLUG,
+        url: canonicalUrl(DISCOVER_SLUG),
+        title: fr.seo.discover.title,
+        description: fr.seo.discover.description,
+        image: `${SITE_URL}/assets/gallery-5.jpg`,
+      },
+    ]),
+  ],
   base: '/',
   build: {
     outDir: 'dist',
@@ -11,4 +33,3 @@ export default defineConfig({
     emptyOutDir: true,
   }
 })
-

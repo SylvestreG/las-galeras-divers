@@ -1,27 +1,20 @@
 import React from 'react'
 import Header from './components/Header'
-import Hero from './components/Hero'
-import About from './components/About'
-import Services from './components/Services'
-import Pricing from './components/Pricing'
-import Gallery from './components/Gallery'
-import Testimonials from './components/Testimonials'
-import Contact from './components/Contact'
 import Footer from './components/Footer'
+import HomePage from './pages/HomePage'
+import DiscoverPage from './pages/DiscoverPage'
+import { useRouter } from './router'
+import { DISCOVER_SLUG } from './routes'
 import './App.css'
 
 function App() {
+  const { slug } = useRouter()
+
   return (
     <div className="App">
       <Header />
       <main>
-        <Hero />
-        <About />
-        <Services />
-        <Pricing />
-        <Gallery />
-        <Testimonials />
-        <Contact />
+        {slug === DISCOVER_SLUG ? <DiscoverPage /> : <HomePage />}
       </main>
       <Footer />
     </div>
@@ -29,4 +22,3 @@ function App() {
 }
 
 export default App
-

@@ -116,6 +116,7 @@
   gap: 0.5rem;
 }
 
+.footer-links li a,
 .footer-links li button,
 .footer-links li span {
   background: none;
@@ -130,6 +131,7 @@
   display: block;
 }
 
+.footer-links li a:hover,
 .footer-links li button:hover {
   color: var(--primary-orange);
   padding-left: 0.5rem;

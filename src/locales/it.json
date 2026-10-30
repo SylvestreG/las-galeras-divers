@@ -5,6 +5,7 @@
     "services": "Servizi",
     "pricing": "Prezzi",
     "gallery": "Galleria",
+    "discover": "Scopri Las Galeras",
     "testimonials": "Testimonianze",
     "contact": "Contatti"
   },
@@ -196,6 +197,154 @@
     "mapSubtext": "La Tua Base Subacquea",
     "mapAlt": "Mappa di localizzazione Las Galeras Divers"
   },
+  "discover": {
+    "eyebrow": "Scopri Las Galeras",
+    "title": "Cosa fare a Las Galeras e dintorni?",
+    "tagline": "Molto più che immersioni!",
+    "intro": [
+      "Situata all'estremità della splendida penisola di Samaná, nella Repubblica Dominicana, Las Galeras è un piccolo e autentico villaggio di pescatori, circondato da spiagge paradisiache, palme da cocco, scogliere spettacolari e una rigogliosa natura tropicale.",
+      "Se Las Galeras è una destinazione privilegiata per le immersioni subacquee, offre anche una moltitudine di attività e scoperte per tutti i gusti.",
+      "Che siate subacquei, accompagnatori non subacquei, in coppia, in famiglia o tra amici, ognuno troverà il modo di godersi appieno il soggiorno."
+    ],
+    "beaches": {
+      "label": "Spiagge di Las Galeras",
+      "title": "Spiagge da sogno",
+      "intro": "Las Galeras e i suoi dintorni ospitano alcune delle più belle spiagge della Repubblica Dominicana. Tra le più conosciute:",
+      "items": {
+        "playa-rincon": {
+          "name": "Playa Rincón",
+          "description": "Un'immensa spiaggia di sabbia bianca orlata di palme da cocco, ideale per il bagno e il relax."
+        },
+        "playa-fronton": {
+          "name": "Playa Frontón",
+          "description": "Una spiaggia spettacolare dominata da imponenti scogliere, raggiungibile in barca o a piedi."
+        },
+        "playa-madama": {
+          "name": "Playa Madama",
+          "description": "Una piccola cala selvaggia circondata da vegetazione tropicale."
+        },
+        "playa-colorada": {
+          "name": "Playa Colorada",
+          "description": "Una spiaggia naturale e tranquilla, perfetta per una fuga dal mondo."
+        },
+        "la-playita": {
+          "name": "La Playita",
+          "description": "Una graziosa spiaggia vicino al villaggio, ideale per godersi le acque turchesi."
+        }
+      },
+      "outro": [
+        "E questi sono solo alcuni esempi! Molte altre spiagge, cale selvagge e piccoli angoli di paradiso restano da scoprire lungo la costa.",
+        "A voi il piacere di esplorarle e di trovare la vostra spiaggia preferita!"
+      ]
+    },
+    "activities": {
+      "label": "Attività a Las Galeras",
+      "title": "Natura, avventura ed escursioni nella penisola di Samaná",
+      "subtitle": "Dal trekking all'osservazione delle balene, tante idee per visitare Samaná e dintorni nelle giornate fuori dall'acqua",
+      "items": {
+        "hiking": {
+          "title": "Escursioni a piedi e scoperta della natura",
+          "text": [
+            "La regione di Las Galeras è un vero paradiso per gli amanti delle camminate e dei grandi spazi.",
+            "Numerosi sentieri permettono di scoprire paesaggi eccezionali tra foresta tropicale, spiagge selvagge, colline verdeggianti e scogliere a picco sull'oceano.",
+            "Le escursioni verso Playa Frontón, Playa Madama o Playa Colorada consentono in particolare di raggiungere luoghi incontaminati e di godere di magnifici panorami."
+          ]
+        },
+        "climbing": {
+          "title": "Arrampicata e avventura",
+          "text": [
+            "Gli amanti dello sport e delle emozioni forti potranno anche scoprire le possibilità di arrampicata offerte dalle formazioni rocciose della regione.",
+            "Un'attività originale per apprezzare in modo diverso i paesaggi spettacolari di Las Galeras, con attrezzatura e accompagnamento adeguati."
+          ]
+        },
+        "el-limon": {
+          "title": "La cascata El Limón",
+          "text": [
+            "Situata nella penisola di Samaná, la celebre cascata El Limón è una delle escursioni imperdibili della regione.",
+            "Raggiungibile tramite sentieri che attraversano una rigogliosa vegetazione tropicale, offre uno spettacolo impressionante con il suo salto d'acqua di circa 40 metri.",
+            "Una magnifica escursione da fare a piedi, con anche formule a cavallo a seconda degli operatori."
+          ]
+        },
+        "horse-riding": {
+          "title": "Passeggiate a cavallo",
+          "text": [
+            "Scoprite i paesaggi dominicani in modo diverso grazie a una passeggiata a cavallo.",
+            "Tra spiagge, palmeti, sentieri di campagna e piccoli villaggi, queste passeggiate permettono di godersi la natura a un ritmo tranquillo."
+          ]
+        },
+        "quad-buggy": {
+          "title": "Escursioni in quad e buggy",
+          "text": [
+            "Voglia di avventura e di scoperta? Partite alla scoperta dei paesaggi della penisola di Samaná a bordo di un quad o di un buggy!",
+            "Tra sentieri tropicali, palmeti, piantagioni, villaggi tipici e magnifici panorami, queste escursioni permettono di scoprire un altro volto della Repubblica Dominicana.",
+            "Un'attività ideale per gli amanti delle emozioni, le coppie, le famiglie e i gruppi di amici."
+          ]
+        },
+        "whales": {
+          "title": "Osservazione delle megattere",
+          "text": [
+            "Ogni anno, soprattutto da gennaio a marzo, le megattere arrivano nelle acque della baia di Samaná per riprodursi e partorire.",
+            "Un'escursione in barca permette di osservare questi impressionanti mammiferi marini nel loro ambiente naturale.",
+            "Uno spettacolo eccezionale e una delle esperienze più memorabili della regione."
+          ]
+        },
+        "boat-trips": {
+          "title": "Escursioni in barca",
+          "text": [
+            "Le escursioni in barca permettono di scoprire la costa selvaggia di Las Galeras, le sue scogliere, le sue cale isolate e le sue spiagge, a volte difficili da raggiungere via terra.",
+            "È anche una bella occasione per godersi il mare e i paesaggi della penisola."
+          ]
+        },
+        "fishing": {
+          "title": "Pesca in mare",
+          "text": [
+            "Las Galeras è storicamente un villaggio di pescatori.",
+            "Gli appassionati di pesca possono scoprire le acque della regione durante uscite in mare e vivere un'attività profondamente legata alla cultura locale."
+          ]
+        },
+        "ziplines": {
+          "title": "Zipline e avventura a El Valle",
+          "text": [
+            "Per gli amanti delle emozioni forti, la zona di El Valle propone attività avventurose, in particolare percorsi di zipline.",
+            "Un'occasione per scoprire la vegetazione tropicale da un punto di vista diverso."
+          ]
+        },
+        "samana-cayo-levantado": {
+          "title": "Alla scoperta di Samaná e Cayo Levantado",
+          "text": [
+            "Una visita alla città di Samaná permette di scoprire il suo lungomare, la sua atmosfera locale e i suoi paesaggi.",
+            "Nelle vicinanze, Cayo Levantado, soprannominata anche isola Bacardi, è una piccola isola tropicale rinomata per le sue spiagge di sabbia bianca e le sue acque turchesi.",
+            "Una bella escursione per godersi una giornata di relax."
+          ]
+        },
+        "santo-domingo": {
+          "title": "Santo Domingo e il suo patrimonio storico",
+          "text": [
+            "Per chi desidera scoprire un altro volto della Repubblica Dominicana, un'escursione a Santo Domingo permette di visitare la capitale del paese.",
+            "La sua celebre zona coloniale, patrimonio mondiale dell'UNESCO, ospita numerosi monumenti storici, tra cui la cattedrale Santa María la Menor.",
+            "Un'escursione più lontana, ideale da programmare su una giornata intera durante un soggiorno prolungato."
+          ]
+        },
+        "gastronomy": {
+          "title": "Gastronomia e dolce vita",
+          "text": [
+            "Scoprire Las Galeras significa anche prendersi il tempo di assaporare la vita dominicana.",
+            "Ristoranti locali, pesce fresco, aragoste, specialità creole, frutta tropicale e piccoli locali in riva al mare fanno parte del fascino del villaggio.",
+            "Approfittate anche dei suoi negozi, dei suoi abitanti accoglienti e della sua atmosfera tranquilla."
+          ]
+        }
+      }
+    },
+    "closing": {
+      "title": "A Las Galeras ce n'è per tutti i gusti!",
+      "text": [
+        "Mentre alcuni esplorano i fondali marini, altri possono godersi le spiagge, partire per un'escursione, vivere un'avventura nella natura o semplicemente rilassarsi all'ombra delle palme da cocco.",
+        "Las Galeras è molto più di una destinazione per le immersioni: è un luogo dove ognuno può vivere le proprie vacanze al proprio ritmo, tra mare, natura, avventura e scoperte."
+      ],
+      "welcome": "Benvenuti a Las Galeras, godetevi appieno il vostro soggiorno!",
+      "button": "Scopri le nostre immersioni"
+    }
+  },
   "footer": {
     "navigation": "Navigazione",
     "ourServices": "I Nostri Servizi",
@@ -224,6 +373,15 @@
     "googleReviews": "Recensioni Google",
     "previousImage": "Immagine precedente",
     "nextImage": "Immagine successiva"
+  },
+  "seo": {
+    "home": {
+      "title": "Las Galeras Divers | Centro Immersioni PADI a Samaná, Repubblica Dominicana",
+      "description": "Centro immersioni PADI francofono a Las Galeras. Corsi Open Water, battesimi del mare dagli 8 anni, fun dive e snorkeling. Esplora le barriere coralline di Samaná con i nostri istruttori certificati."
+    },
+    "discover": {
+      "title": "Cosa fare a Las Galeras e dintorni? Spiagge, attività e visita di Samaná | Las Galeras Divers",
+      "description": "Cosa fare a Las Galeras? Spiagge da sogno, escursioni a piedi, cascata El Limón, megattere, gite in barca, quad, Cayo Levantado... Tutte le attività a Las Galeras e nella penisola di Samaná, oltre alle immersioni."
+    }
   }
 }
-

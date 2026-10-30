@@ -6,6 +6,7 @@ import de from '../locales/de.json'
 import it from '../locales/it.json'
 
 const translations = { fr, en, es, de, it }
+const FALLBACK_LANGUAGE = 'fr'
 
 const LanguageContext = createContext()
 
@@ -16,6 +17,8 @@ export const useLanguage = () => {
   }
   return context
 }
+
+const lookup = (lang, keys) => keys.reduce((value, key) => value?.[key], translations[lang])
 
 export const LanguageProvider = ({ children }) => {
   const [language, setLanguage] = useState(() => {
@@ -31,15 +34,17 @@ export const LanguageProvider = ({ children }) => {
     document.documentElement.lang = language
   }, [language])
 
+  // Returns the translation (string or array) for a dotted key.
+  // Falls back to French when a key is missing in the current language,
+  // then to the key itself.
   const t = (key) => {
     const keys = key.split('.')
-    let value = translations[language]
-    
-    for (const k of keys) {
-      value = value?.[k]
+    const value = lookup(language, keys)
+    if (value !== undefined && value !== '') {
+      return value
     }
-    
-    return value || key
+    const fallback = lookup(FALLBACK_LANGUAGE, keys)
+    return fallback !== undefined && fallback !== '' ? fallback : key
   }
 
   const changeLanguage = (lang) => {
@@ -54,4 +59,3 @@ export const LanguageProvider = ({ children }) => {
     </LanguageContext.Provider>
   )
 }
-

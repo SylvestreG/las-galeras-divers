@@ -5,7 +5,7 @@
   <!-- Homepage - French (default) -->
   <url>
     <loc>https://www.las-galeras-divers.com/</loc>
-    <lastmod>2025-11-10</lastmod>
+    <lastmod>2026-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.las-galeras-divers.com/" />
@@ -14,6 +14,20 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.las-galeras-divers.com/" />
     <xhtml:link rel="alternate" hreflang="it" href="https://www.las-galeras-divers.com/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.las-galeras-divers.com/" />
+  </url>
+  
+  <!-- Discover Las Galeras: things to do around Las Galeras and Samaná -->
+  <url>
+    <loc>https://www.las-galeras-divers.com/que-faire-a-las-galeras/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.las-galeras-divers.com/que-faire-a-las-galeras/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.las-galeras-divers.com/que-faire-a-las-galeras/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.las-galeras-divers.com/que-faire-a-las-galeras/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.las-galeras-divers.com/que-faire-a-las-galeras/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.las-galeras-divers.com/que-faire-a-las-galeras/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.las-galeras-divers.com/que-faire-a-las-galeras/" />
   </url>
   
   <!-- About Section -->

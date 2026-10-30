@@ -5,6 +5,7 @@
     "services": "Servicios",
     "pricing": "Precios",
     "gallery": "Galería",
+    "discover": "Descubrir Las Galeras",
     "testimonials": "Testimonios",
     "contact": "Contacto"
   },
@@ -196,6 +197,154 @@
     "mapSubtext": "Tu Base de Buceo",
     "mapAlt": "Mapa de ubicación Las Galeras Divers"
   },
+  "discover": {
+    "eyebrow": "Descubrir Las Galeras",
+    "title": "¿Qué hacer en Las Galeras y sus alrededores?",
+    "tagline": "¡Mucho más que buceo!",
+    "intro": [
+      "Situado en el extremo de la magnífica península de Samaná, en la República Dominicana, Las Galeras es un pequeño y auténtico pueblo de pescadores, rodeado de playas paradisíacas, cocoteros, acantilados espectaculares y una exuberante naturaleza tropical.",
+      "Si bien Las Galeras es un destino privilegiado para el buceo, también ofrece multitud de actividades y descubrimientos para todos los gustos.",
+      "Ya sea buceador, acompañante no buceador, en pareja, en familia o entre amigos, cada uno encontrará cómo disfrutar plenamente de su estancia."
+    ],
+    "beaches": {
+      "label": "Playas de Las Galeras",
+      "title": "Playas de ensueño",
+      "intro": "Las Galeras y sus alrededores albergan algunas de las playas más bellas de la República Dominicana. Entre las más conocidas:",
+      "items": {
+        "playa-rincon": {
+          "name": "Playa Rincón",
+          "description": "Una inmensa playa de arena blanca bordeada de cocoteros, ideal para el baño y el descanso."
+        },
+        "playa-fronton": {
+          "name": "Playa Frontón",
+          "description": "Una playa espectacular dominada por impresionantes acantilados, accesible en barco o a pie."
+        },
+        "playa-madama": {
+          "name": "Playa Madama",
+          "description": "Una pequeña cala salvaje rodeada de vegetación tropical."
+        },
+        "playa-colorada": {
+          "name": "Playa Colorada",
+          "description": "Una playa natural y tranquila, perfecta para una escapada."
+        },
+        "la-playita": {
+          "name": "La Playita",
+          "description": "Una bonita playa cerca del pueblo, ideal para disfrutar de las aguas turquesas."
+        }
+      },
+      "outro": [
+        "¡Y estos son solo algunos ejemplos! Muchas otras playas, calas salvajes y pequeños rincones de paraíso esperan ser descubiertos a lo largo de la costa.",
+        "¡Le toca a usted salir a descubrirlas y encontrar su playa favorita!"
+      ]
+    },
+    "activities": {
+      "label": "Actividades en Las Galeras",
+      "title": "Naturaleza, aventura y excursiones en la península de Samaná",
+      "subtitle": "Del senderismo a la observación de ballenas, muchas maneras de visitar Samaná y sus alrededores durante sus días fuera del agua",
+      "items": {
+        "hiking": {
+          "title": "Senderismo y descubrimiento de la naturaleza",
+          "text": [
+            "La región de Las Galeras es un auténtico paraíso para los amantes de la caminata y los grandes espacios.",
+            "Numerosos senderos permiten descubrir paisajes excepcionales entre bosque tropical, playas salvajes, colinas verdes y acantilados sobre el océano.",
+            "Las caminatas hacia Playa Frontón, Playa Madama o Playa Colorada permiten, en particular, acceder a lugares preservados y disfrutar de magníficos panoramas."
+          ]
+        },
+        "climbing": {
+          "title": "Escalada y aventura",
+          "text": [
+            "Los aficionados al deporte y a las emociones fuertes también podrán descubrir las posibilidades de escalada que ofrecen las formaciones rocosas de la región.",
+            "Una actividad original para apreciar de otra manera los espectaculares paisajes de Las Galeras, con el equipo y la supervisión adecuados."
+          ]
+        },
+        "el-limon": {
+          "title": "La cascada El Limón",
+          "text": [
+            "Situada en la península de Samaná, la famosa cascada El Limón es una de las excursiones imprescindibles de la región.",
+            "Accesible por senderos que atraviesan una exuberante vegetación tropical, ofrece un espectáculo impresionante con su caída de agua de unos 40 metros.",
+            "Una magnífica excursión para hacer a pie, con opciones de paseo a caballo según los proveedores."
+          ]
+        },
+        "horse-riding": {
+          "title": "Paseos a caballo",
+          "text": [
+            "Descubra los paisajes dominicanos de otra manera gracias a un paseo a caballo.",
+            "Entre playas, cocotales, caminos rurales y pequeños pueblos, estos paseos permiten disfrutar de la naturaleza a un ritmo tranquilo."
+          ]
+        },
+        "quad-buggy": {
+          "title": "Excursiones en quad y buggy",
+          "text": [
+            "¿Ganas de aventura y descubrimiento? ¡Salga a explorar los paisajes de la península de Samaná a bordo de un quad o un buggy!",
+            "Entre caminos tropicales, cocotales, plantaciones, pueblos típicos y magníficos panoramas, estas excursiones permiten descubrir otra faceta de la República Dominicana.",
+            "Una actividad ideal para los amantes de las emociones, las parejas, las familias y los grupos de amigos."
+          ]
+        },
+        "whales": {
+          "title": "Observación de ballenas jorobadas",
+          "text": [
+            "Cada año, principalmente de enero a marzo, las ballenas jorobadas llegan a las aguas de la bahía de Samaná para reproducirse y dar a luz.",
+            "Una excursión en barco permite observar a estos impresionantes mamíferos marinos en su entorno natural.",
+            "Un espectáculo excepcional y una de las experiencias más memorables de la región."
+          ]
+        },
+        "boat-trips": {
+          "title": "Excursiones en barco",
+          "text": [
+            "Las excursiones en barco permiten descubrir la costa salvaje de Las Galeras, sus acantilados, sus calas aisladas y sus playas, a veces de difícil acceso por tierra.",
+            "También es una bonita ocasión para disfrutar del mar y de los paisajes de la península."
+          ]
+        },
+        "fishing": {
+          "title": "Pesca en el mar",
+          "text": [
+            "Las Galeras es históricamente un pueblo de pescadores.",
+            "Los aficionados a la pesca pueden descubrir las aguas de la región en salidas al mar y disfrutar de una actividad profundamente ligada a la cultura local."
+          ]
+        },
+        "ziplines": {
+          "title": "Tirolinas y aventura en El Valle",
+          "text": [
+            "Para los amantes de las emociones fuertes, la zona de El Valle propone actividades de aventura, en particular recorridos de tirolinas.",
+            "Una ocasión para descubrir la vegetación tropical desde otro ángulo."
+          ]
+        },
+        "samana-cayo-levantado": {
+          "title": "Descubrir Samaná y Cayo Levantado",
+          "text": [
+            "Una visita a la ciudad de Samaná permite descubrir su malecón, su ambiente local y sus paisajes.",
+            "Muy cerca, Cayo Levantado, también apodado la isla Bacardí, es una pequeña isla tropical famosa por sus playas de arena blanca y sus aguas turquesas.",
+            "Una bonita excursión para disfrutar de un día de relax."
+          ]
+        },
+        "santo-domingo": {
+          "title": "Santo Domingo y su patrimonio histórico",
+          "text": [
+            "Para quienes deseen descubrir otra faceta de la República Dominicana, una excursión a Santo Domingo permite visitar la capital del país.",
+            "Su célebre Zona Colonial, declarada Patrimonio Mundial por la UNESCO, alberga numerosos monumentos históricos, entre ellos la catedral Santa María la Menor.",
+            "Una excursión más lejana, ideal para planificar en un día completo durante una estancia prolongada."
+          ]
+        },
+        "gastronomy": {
+          "title": "Gastronomía y dulzura de vivir",
+          "text": [
+            "Descubrir Las Galeras es también tomarse el tiempo de saborear la vida dominicana.",
+            "Restaurantes locales, pescado fresco, langosta, especialidades criollas, frutas tropicales y pequeños establecimientos a orillas del mar forman parte del encanto del pueblo.",
+            "Disfrute también de sus comercios, de sus habitantes acogedores y de su ambiente apacible."
+          ]
+        }
+      }
+    },
+    "closing": {
+      "title": "¡En Las Galeras hay para todos los gustos!",
+      "text": [
+        "Mientras unos exploran los fondos marinos, otros pueden disfrutar de las playas, salir de excursión, vivir una aventura en plena naturaleza o simplemente relajarse a la sombra de los cocoteros.",
+        "Las Galeras es mucho más que un destino de buceo: es un lugar donde cada uno puede vivir sus vacaciones a su ritmo, entre mar, naturaleza, aventura y descubrimientos."
+      ],
+      "welcome": "¡Bienvenido a Las Galeras y disfrute plenamente de su estancia!",
+      "button": "Descubrir nuestras inmersiones"
+    }
+  },
   "footer": {
     "navigation": "Navegación",
     "ourServices": "Nuestros Servicios",
@@ -224,6 +373,16 @@
     "googleReviews": "Reseñas de Google",
     "previousImage": "Imagen anterior",
     "nextImage": "Imagen siguiente"
+  },
+  "seo": {
+    "home": {
+      "title": "Las Galeras Divers | Centro de Buceo PADI en Samaná, República Dominicana",
+      "description": "Centro de buceo PADI francófono en Las Galeras. Cursos Open Water, bautismos desde los 8 años, fun dives y snorkel. Explore los arrecifes de Samaná con nuestros instructores certificados."
+    },
+    "discover": {
+      "title": "¿Qué hacer en Las Galeras y sus alrededores? Playas, actividades y visita a Samaná | Las Galeras Divers",
+      "description": "¿Qué hacer en Las Galeras? Playas de ensueño, senderismo, cascada El Limón, ballenas jorobadas, excursiones en barco, quad, Cayo Levantado... Todas las actividades en Las Galeras y en la península de Samaná, más allá del buceo."
+    }
   }
 }
 

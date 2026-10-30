@@ -1,9 +1,20 @@
 # 🔍 Mots-clés SEO - Las Galeras Divers
 
 ## 📊 Statistiques
-- **Nombre total de mots-clés** : 67
+- **Nombre total de mots-clés** : 71
 - **Langues couvertes** : Français, English, Español
-- **Catégories** : 7
+- **Catégories** : 8
+
+---
+
+## 🏝️ Découvrir Las Galeras / Tourisme (4 mots-clés)
+
+Page dédiée : `/que-faire-a-las-galeras/` (menu « Découvrir Las Galeras »). Expressions intégrées dans le titre, la description, les intertitres et les textes de la page.
+
+- **Que faire à Las Galeras** (titre H1 et balise title)
+- Activités à Las Galeras
+- Visiter Samaná
+- Plages de Las Galeras
 
 ---
 

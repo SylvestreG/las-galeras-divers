@@ -20,7 +20,14 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem var(--spacing-md);
+  column-gap: 1rem;
   max-height: 80px;
+}
+
+/* Wider than the content column so the six nav entries fit in every language (ES/DE are the longest).
+   Doubled selector: .container (index.css) is bundled after this file and would otherwise win. */
+.header .header-container {
+  max-width: 1400px;
 }
 
 .header-logo {
@@ -53,6 +60,7 @@
   font-size: 1.25rem;
   color: var(--dark-blue);
   line-height: 1.2;
+  white-space: nowrap;
 }
 
 .logo-subtitle {
@@ -61,6 +69,7 @@
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.5px;
+  white-space: nowrap;
 }
 
 .header-nav {
@@ -79,6 +88,7 @@
   cursor: pointer;
   padding: 0.5rem 0;
   position: relative;
+  white-space: nowrap;
   transition: color var(--transition-fast);
 }
 
@@ -98,6 +108,14 @@
 }
 
 .nav-link:hover::after {
+  width: 100%;
+}
+
+.nav-link-active {
+  color: var(--primary-orange);
+}
+
+.nav-link-active::after {
   width: 100%;
 }
 
@@ -152,7 +170,48 @@
   transform: translateY(-10.5px) rotate(-45deg);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1280px) {
+  .header-nav {
+    gap: 1rem;
+  }
+
+  .nav-link {
+    font-size: 0.9rem;
+  }
+
+  .nav-link-cta {
+    padding: 0.6rem 1.1rem;
+  }
+}
+
+@media (max-width: 1100px) {
+  .header-nav {
+    gap: 0.75rem;
+  }
+
+  .nav-link {
+    font-size: 0.85rem;
+  }
+
+  .nav-link-cta {
+    padding: 0.5rem 0.9rem;
+  }
+
+  .logo-img {
+    width: 44px;
+    height: 44px;
+  }
+
+  .logo-name {
+    font-size: 1.1rem;
+  }
+
+  .logo-subtitle {
+    font-size: 0.6rem;
+  }
+}
+
+@media (max-width: 1024px) {
   .mobile-menu-toggle {
     display: flex;
   }
@@ -193,7 +252,9 @@
 
   .nav-link {
     padding: 1rem;
+    font-size: 1rem;
     text-align: center;
+    white-space: normal;
     border-bottom: 1px solid var(--light-blue);
   }
 

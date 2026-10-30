@@ -303,3 +303,12 @@ Pour les questions sur le centre de plongée :
 
 **Plongez au Cœur d'un Paradis Préservé** 🌊🐠🤿
 
+
+## 🏝️ Page « Découvrir Las Galeras »
+
+La page `/que-faire-a-las-galeras/` (entrée de menu « Découvrir Las Galeras ») présente les plages, activités et excursions de Las Galeras et de la péninsule de Samaná, en dehors de la plongée. Elle est purement informative : pas de tarifs, pas de réservation.
+
+- **Textes** : clé `discover` (et `seo.discover` pour le titre/description) dans `src/locales/fr.json`, `en.json`, `es.json`, `de.json` et `it.json` (les cinq langues sont traduites).
+- **Structure** : liste des plages et activités dans `src/data/discoverSections.js`, composant `src/pages/DiscoverPage.jsx`.
+- **Photos** : déposer un fichier `public/assets/discover-<slug>.webp` et il est utilisé automatiquement au prochain build (comme la galerie). Slugs disponibles : `hero`, `playa-rincon`, `playa-fronton`, `playa-madama`, `playa-colorada`, `la-playita`, `hiking`, `climbing`, `el-limon`, `horse-riding`, `quad-buggy`, `whales`, `boat-trips`, `fishing`, `ziplines`, `samana-cayo-levantado`, `santo-domingo`, `gastronomy`. Sans photo, une vignette colorée avec une icône est affichée. `npm run convert-webp` convertit les JPG/PNG déposés dans `public/assets/` en WebP.
+- **SEO** : au build, la page est écrite en statique dans `dist/que-faire-a-las-galeras/index.html` avec son propre titre, sa description, ses balises Open Graph et son URL canonique (`vite-plugins/prerender-routes.js`). Elle est déclarée dans `public/sitemap.xml`.
