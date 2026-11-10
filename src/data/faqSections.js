@@ -9,7 +9,7 @@
  *   (/faq-plongee-las-galeras/#safety) and the prefix of each question anchor
  *   (#safety-q9 = 9th question of the "safety" section).
  */
-export const FAQ_HERO_IMAGE = '/assets/gallery-4.webp'
+export const FAQ_HERO_IMAGE = '/assets/faq-hero.webp'
 
 export const FAQ_SECTIONS = [
   { slug: 'discover', icon: '🤿' },

@@ -30,7 +30,7 @@ export default defineConfig({
         url: canonicalUrl(FAQ_SLUG),
         title: fr.seo.faq.title,
         description: fr.seo.faq.description,
-        image: `${SITE_URL}/assets/gallery-4.jpg`,
+        image: `${SITE_URL}/assets/faq-hero.jpg`,
         jsonLd: buildFaqJsonLd(fr.faq),
       },
     ]),
