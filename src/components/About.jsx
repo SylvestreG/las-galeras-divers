@@ -18,8 +18,8 @@ const About = () => {
 
         <div className="about-content">
           <div className="about-images">
-            <div className="about-image about-image-news">
-              <img src={getAssetPath('/assets/news.webp')} alt={t('about.newsImageAlt')} className="img-cover" />
+            <div className="about-image about-image-map">
+              <img src={getAssetPath('/assets/carte.webp')} alt={t('about.mapImageAlt')} className="img-cover" />
             </div>
             <div className="about-image about-image-team">
               <img src={getAssetPath('/assets/about-main.webp')} alt={t('about.imageAlt')} className="img-cover" />
